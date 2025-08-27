@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test TD Sticky</title>
+  <style>
+    .container {
+      width: 500px;
+      height: 400px;
+      overflow: auto;
+      border: 2px solid red;
+      position: relative;
+    }
+    
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      min-width: 1000px; /* Force horizontal scroll */
+    }
+    
+    .sticky-section {
+      position: sticky !important;
+      left: 0px !important;
+      background: #e6e6e6 !important;
+      z-index: 10 !important;
+    }
+    
+    td, th {
+      border: 1px solid #999;
+      padding: 8px;
+      min-width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Test Sticky TD Element</h2>
+  
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th colspan="10" style="position: sticky; top: 0; background: #ccc; z-index: 20;">Header</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="10" class="sticky-section">
+            Section Header - Should stick when scrolling horizontally
+          </td>
+        </tr>
+        <tr>
+          <td>Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+          <td>Cell 4</td>
+          <td>Cell 5</td>
+          <td>Cell 6</td>
+          <td>Cell 7</td>
+          <td>Cell 8</td>
+          <td>Cell 9</td>
+          <td>Cell 10</td>
+        </tr>
+        <tr>
+          <td colspan="10" class="sticky-section">
+            Another Section - Should also stick
+          </td>
+        </tr>
+        <tr>
+          <td>Cell 1</td>
+          <td>Cell 2</td>
+          <td>Cell 3</td>
+          <td>Cell 4</td>
+          <td>Cell 5</td>
+          <td>Cell 6</td>
+          <td>Cell 7</td>
+          <td>Cell 8</td>
+          <td>Cell 9</td>
+          <td>Cell 10</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <script>
+    // Check if sticky is working
+    const stickyElement = document.querySelector('.sticky-section');
+    const computed = window.getComputedStyle(stickyElement);
+    console.log('Position:', computed.position);
+    console.log('Left:', computed.left);
+    console.log('Z-index:', computed.zIndex);
+    
+    // Check container
+    const container = document.querySelector('.container');
+    const containerComputed = window.getComputedStyle(container);
+    console.log('Container overflow:', containerComputed.overflow);
+  </script>
+</body>
+</html>

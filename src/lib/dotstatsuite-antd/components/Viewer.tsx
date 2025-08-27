@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { ViewerProps } from '../types';
 import Loading from './basic/Loading';
 import NoData from './basic/NoData';
-import SDMXTableHTML from './table/SDMXTableHTML';
+import SDMXTableAutoFreeze from './table/SDMXTableAutoFreeze';
 // import Chart from './chart/Chart'; // Will implement later with D3
 
 interface ViewerWrapperProps extends ViewerProps {
@@ -33,7 +33,7 @@ const ViewContent: React.FC<ViewerWrapperProps> = ({
     if (!tableProps?.data?.observations?.length) {
       return <NoData message="No data available" />;
     }
-    return <SDMXTableHTML {...tableProps} />;
+    return <SDMXTableAutoFreeze {...tableProps} />;
   }
 
   if (type === 'chart') {

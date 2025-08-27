@@ -100,7 +100,7 @@ export const COMPONENT_MAP = {
   'TableHtml5': {
     from: '@sis-cc/dotstatsuite-visions',
     to: '@/lib/dotstatsuite-antd/components/table',
-    component: 'SDMXTableHTML',
+    component: 'SDMXTableAutoFreeze',
     propsMap: {},
     needsCustomImplementation: true
   },

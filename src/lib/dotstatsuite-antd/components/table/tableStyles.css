@@ -1,0 +1,262 @@
+/* SDMX Table Styles - Based on UI Specification */
+
+/* ===== Table Container ===== */
+.sdmx-table-container {
+  width: 100%;
+  max-height: 600px;
+  overflow: auto;
+  position: relative;
+  background-color: #fff;
+}
+
+.sdmx-table {
+  outline: 1px solid transparent;
+  transform: translateZ(0);
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 12px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: auto;
+  min-width: 100%;
+  border-left: thin solid #9e9e9e;
+  border-top: thin solid #9e9e9e;
+}
+
+/* ===== Headers ===== */
+.sdmx-thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/* Column heading - Dimension name (e.g., "Thời gian")
+   Background: Primary
+   Color: Neutral lighten-5 */
+.column-dim-name {
+  background-color: #01579b; /* Xanh dương giống hình */
+  color: #ffffff;
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  position: sticky;
+  left: 0;
+  z-index: 11;
+}
+
+/* Column heading - Dimension value (e.g., "2023")
+   Background: Primary
+   Color: Neutral lighten-5 */
+.column-dim-value {
+  background-color: #01579b; /* Xanh dương giống hình */
+  color: #ffffff;
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/* Row heading - Dimension name (e.g., "Địa bàn hành chính")
+   Background: Default - Light
+   Color: TXT - dark */
+.row-dim-name {
+  background-color: #e1f5fe; /* Xanh rất nhạt - Light cyan */
+  color: #333333; /* TXT - dark */
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  position: sticky;
+  z-index: 1;
+}
+
+/* Row heading - Dimension value (e.g., "Tổng số", "Thành thị")
+   Background: Default - Light
+   Color: TXT - dark */
+.row-dim-value {
+  background-color: #e1f5fe; /* Xanh rất nhạt - Light cyan */
+  color: #333333; /* TXT - dark */
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal;
+  font-size: 12px;
+  position: sticky;
+  z-index: 1;
+}
+
+/* Row heading - Dimension value blank
+   Background: Neutral lighten-3
+   Color: TXT - dark */
+.row-dim-value-blank {
+  background-color: #eeeeee; /* Neutral lighten-3 */
+  color: #333333; /* TXT - dark */
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+/* Column heading (Group) Row section
+   Background: Default - Dark
+   Color: TXT - dark */
+.section-header {
+  background-color: #4a90e2; /* Xanh đậm - Dark blue */
+  color: #ffffff; /* White text for better contrast on dark background */
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.section-header .dimension-name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.section-header .dimension-value {
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 4px;
+}
+
+/* Default content cell
+   Background: Neutral lighten-5
+   Color: TXT - dark */
+.data-cell {
+  background-color: #fafafa; /* Neutral lighten-5 */
+  color: #333333; /* TXT - dark */
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: right;
+  font-weight: normal;
+  font-size: 12px;
+  white-space: pre-wrap;
+  transition: all 0.2s;
+}
+
+/* Default content cell hover/active
+   Background: Neutral lighten-3
+   Color: TXT - dark (if microdata available color: primary) */
+.data-cell:hover {
+  background-color: #eeeeee; /* Neutral lighten-3 */
+  box-shadow: inset 0 0 0 2px #2196f3;
+  cursor: pointer;
+}
+
+.data-cell.active {
+  background-color: #eeeeee; /* Neutral lighten-3 */
+  color: #2196f3; /* primary color when active */
+  box-shadow: inset 0 0 0 2px #2196f3;
+}
+
+/* Default content cell row hover
+   Background: Neutral lighten-3
+   Color: TXT - dark */
+.data-row-hover .data-cell {
+  background-color: #eeeeee; /* Neutral lighten-3 */
+}
+
+/* ===== Special Cells ===== */
+.unit-cell {
+  background-color: #e1f5fe; /* Xanh rất nhạt - same as row headers */
+  color: #333333;
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  position: sticky;
+  z-index: 1;
+}
+
+.symbols-cell {
+  background-color: #eeeeee; /* Neutral lighten-3 */
+  color: #333333;
+  border: inherit;
+  border-bottom: thin solid #9e9e9e;
+  border-right: thin solid #9e9e9e;
+  padding: 4px 8px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 12px;
+  position: sticky;
+  z-index: 1;
+  width: 30px;
+}
+
+/* ===== Sticky Positioning ===== */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.sticky-column {
+  position: sticky;
+  z-index: 1;
+}
+
+.sticky-header-section {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+/* ===== Table Cell Adjustments ===== */
+th, td {
+  box-sizing: border-box;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+/* Footnotes
+   padding: 0px 2px;
+   font-size: 12px;
+   font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   vertical-align: super;
+   line-height: 0;
+   font-weight: bold;
+   color: TXT - light; */
+.footnote {
+  padding: 0px 2px;
+  font-size: 12px;
+  font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: super;
+  line-height: 0;
+  font-weight: bold;
+  color: #999999; /* TXT - light */
+}
