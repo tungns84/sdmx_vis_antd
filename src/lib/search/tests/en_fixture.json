@@ -1,0 +1,3352 @@
+{
+  "numFound": 21,
+  "start": 0,
+  "dataflows": [
+    {
+      "dimensions": [
+        "Reference area",
+        "Commodity",
+        "Measure",
+        "Unit of measure",
+        "Time period"
+      ],
+      "name": "OECD-FAO Agricultural Outlook 2021-2030",
+      "description": "The Agricultural Outlook has been prepared as a joint report by the Organisation for Economic Co-operation and Development (OECD) and the Food and Agriculture Organization (FAO) of the United Nations. The report provides a ten year forward looking, assessment of trends and prospects in the major temperate-zone agricultural commodity markets of biofuels, cereals, oilseeds and oilseed products, sugar, meat, fish and sea food, dairy products, cotton, roots and tubers and pulses. It is published annually, in the middle of the second quarter, as part of a continuing effort to promote informed discussion of emerging market and policy issues. The data used to develop the projections underlying the assessment are those available as of January 2020. The projections and assessments provided in the report are the result of close co-operation between the OECD and FAO Secretariats and national experts with a jointly developed modelling system, based on the AGLINK-COSIMO model, used to facilitate consistency in the projections. The data series for the projections are drawn from OECD and FAO databases.  For the most part information in these databases has been taken from national statistical sources. For further details on particular series, enquiries should be directed to the OECD and FAO Secretariats Generally for the period 1990-2030, the following countries/regions are covered : Canada, United States, European Union (Refers to all current European Union member States except the United Kingdom), United Kingdom, Norway, Switzerland, Russia, Ukraine, Australia, New Zealand, Japan, South Africa, Egypt, Ethiopia, Nigeria, Argentina, Brazil, Chile, Colombia, Mexico, Paraguay, China, Kazakhstan, India, Indonesia, Iran, Korea, Malaysia, Pakistan, Philippines, Saudi Arabia, Thailand, Turkey, Viet Nam as well as a number of aggregate regions:  Asia, Africa, Europe, Latin America, North America, Oceania, OECD, BRICS, Developing, Developped and World totals",
+      "dataflowId": "DSD_AGR@OUTLOOK_2021_2030",
+      "version": "1.0",
+      "agencyId": "OECD.TAD.ATM",
+      "indexationDate": "2023-02-28T14:33:40.860Z",
+      "id": "ds:qa:stable:DSD_AGR@OUTLOOK_2021_2030",
+      "datasourceId": "ds:qa:stable",
+      "score": 29.19663
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Measure",
+        "Unit of measure",
+        "Measure principle",
+        "Accounting entry",
+        "Entity type",
+        "Counterpart area",
+        "Economic activity",
+        "Time period"
+      ],
+      "name": "FDI flows by industry, BMD4",
+      "dataflowId": "FDI_DSD@FDI_FLOW_IND",
+      "version": "1.0",
+      "agencyId": "OECD.DAF.INV",
+      "indexationDate": "2023-02-28T14:33:11.967Z",
+      "id": "ds:qa:stable:FDI_DSD@FDI_FLOW_IND",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.5545284
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Measure",
+        "Activity",
+        "Sex",
+        "Unit of measure",
+        "Time period"
+      ],
+      "name": "Employment in tourism",
+      "dataflowId": "DF_TOURISM_EMP",
+      "version": "1.1",
+      "agencyId": "OECD.CFE",
+      "indexationDate": "2023-02-28T14:33:02.240Z",
+      "id": "ds:qa:stable:DF_TOURISM_EMP",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.5269244
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Measure",
+        "Activity",
+        "Sex",
+        "Unit of measure",
+        "Time period"
+      ],
+      "name": "Enterprises and employment in tourism",
+      "dataflowId": "DF_TOURISM_ENT_EMP",
+      "version": "1.1",
+      "agencyId": "OECD.CFE",
+      "indexationDate": "2023-02-28T14:33:03.731Z",
+      "id": "ds:qa:stable:DF_TOURISM_ENT_EMP",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.5269244
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Measure",
+        "Activity",
+        "Sex",
+        "Unit of measure",
+        "Time period"
+      ],
+      "name": "Enterprises in tourism",
+      "dataflowId": "DF_TOURISM_ENT",
+      "version": "1.1",
+      "agencyId": "OECD.CFE",
+      "indexationDate": "2023-02-28T14:33:02.970Z",
+      "id": "ds:qa:stable:DF_TOURISM_ENT",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.5269244
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Measure",
+        "Activity",
+        "Sex",
+        "Unit of measure",
+        "Time period"
+      ],
+      "name": "Key tourism indicators",
+      "dataflowId": "DF_TOURISM_KEY_IND_PC",
+      "version": "1.1",
+      "agencyId": "OECD.CFE",
+      "indexationDate": "2023-02-28T14:33:04.483Z",
+      "id": "ds:qa:stable:DF_TOURISM_KEY_IND_PC",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.5269244
+    },
+    {
+      "dimensions": [
+        "Country",
+        "Transaction",
+        "Measure",
+        "Year"
+      ],
+      "name": "1. Gross domestic product (GDP)",
+      "dataflowId": "SNA_TABLE1",
+      "version": "1.0",
+      "agencyId": "OECD",
+      "indexationDate": "2023-02-28T14:33:00.625Z",
+      "id": "ds:qa:stable:SNA_TABLE1",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.28404403
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Activity",
+        "Time period"
+      ],
+      "name": "Enterprises and employment in tourism",
+      "description": "Data on enterprises and employment in tourism industry.",
+      "dataflowId": "ENT_EMP@TOURISM_KEY",
+      "version": "1.0",
+      "agencyId": "OECD.CFE",
+      "indexationDate": "2023-02-28T14:32:29.440Z",
+      "id": "ds:staging:SIS-CC-stable:ENT_EMP@TOURISM_KEY",
+      "datasourceId": "ds:staging:SIS-CC-stable",
+      "score": 0.27495217
+    },
+    {
+      "dimensions": [
+        "Reference area",
+        "Activity",
+        "Time period"
+      ],
+      "name": "Enterprises in tourism",
+      "description": "An establishment is an enterprise, or part of an enterprise, that is situated in a single location and in which only a single productive activity is carried out or in which the principal productive activity accounts for most of the value added",
+      "dataflowId": "ENT@TOURISM_KEY",
+      "version": "1.0",
+      "agencyId": "OECD.CFE",
+      "indexationDate": "2023-02-28T14:32:28.830Z",
+      "id": "ds:staging:SIS-CC-stable:ENT@TOURISM_KEY",
+      "datasourceId": "ds:staging:SIS-CC-stable",
+      "score": 0.27495217
+    },
+    {
+      "dimensions": [
+        "Country",
+        "Pollutant",
+        "Variable",
+        "Year"
+      ],
+      "name": "Emissions of air pollutants",
+      "dataflowId": "DF_AIR_EMISSIONS",
+      "version": "2.1",
+      "agencyId": "OECD",
+      "indexationDate": "2023-02-28T14:32:57.131Z",
+      "id": "ds:qa:stable:DF_AIR_EMISSIONS",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.26993313
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "Composite user-defined unit of measure example",
+      "dataflowId": "NAMAIN_UOM3",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:33:35.215Z",
+      "id": "ds:qa:stable:NAMAIN_UOM3",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "NAMAIN_ALL - UoM 5",
+      "dataflowId": "NAMAIN_ALL",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:32:33.805Z",
+      "id": "ds:staging:SIS-CC-stable:NAMAIN_ALL",
+      "datasourceId": "ds:staging:SIS-CC-stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "Table 0101 - Quarterly Gross value added at basic prices and gross domestic product at market prices (UoM Case 3)",
+      "dataflowId": "NAMAIN_T0101_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:33:21.975Z",
+      "id": "ds:qa:stable:NAMAIN_T0101_Q",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Activity classification",
+        "Prices",
+        "Time period"
+      ],
+      "name": "Table 0101 - Quarterly Gross value added at basic prices and gross domestic product at market prices (UoM Case 3)",
+      "dataflowId": "NAMAIN_T0101_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:32:35.684Z",
+      "id": "ds:staging:SIS-CC-stable:NAMAIN_T0101_Q",
+      "datasourceId": "ds:staging:SIS-CC-stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "Table 0102 - Quarterly GDP identity from the expenditure side (UoM Case 5)",
+      "dataflowId": "NAMAIN_T0102_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:33:26.365Z",
+      "id": "ds:qa:stable:NAMAIN_T0102_Q",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "Table 0103 - Quarterly GDP identity from the income side (UoM case 2)",
+      "dataflowId": "NAMAIN_T0103_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:33:28.577Z",
+      "id": "ds:qa:stable:NAMAIN_T0103_Q",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Activity classification",
+        "Time period"
+      ],
+      "name": "Table 0103 - Quarterly GDP identity from the income side (UoM case 2)",
+      "dataflowId": "NAMAIN_T0103_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:32:41.664Z",
+      "id": "ds:staging:SIS-CC-stable:NAMAIN_T0103_Q",
+      "datasourceId": "ds:staging:SIS-CC-stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "Table 0107 - Quarterly Disposable income, saving, net lending / borrowing (UoM Case 3)",
+      "dataflowId": "NAMAIN_T0107_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:33:30.783Z",
+      "id": "ds:qa:stable:NAMAIN_T0107_Q",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Frequency",
+        "Adjustment indicator",
+        "Reference area",
+        "Counterpart area",
+        "Reporting institutional sector",
+        "Accounting Entry",
+        "Stocks, Transactions, Other Flows",
+        "Instrument and Assets Classification",
+        "Activity classification",
+        "Expenditure (COFOG, COICOP, COPP or COPNI)",
+        "Unit",
+        "Prices",
+        "Transformation",
+        "Table identifier",
+        "Time period"
+      ],
+      "name": "Table 0110 - Quarterly Population and employment (UoM Case 4)",
+      "dataflowId": "NAMAIN_T0110_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:33:33.026Z",
+      "id": "ds:qa:stable:NAMAIN_T0110_Q",
+      "datasourceId": "ds:qa:stable",
+      "score": 0.20885642
+    },
+    {
+      "dimensions": [
+        "Stocks, Transactions, Other Flows",
+        "Activity classification",
+        "Time period"
+      ],
+      "name": "Table 0111 - Quarterly Employment by industry (UoM Case 1)",
+      "dataflowId": "NAMAIN_T0111_Q",
+      "version": "3.0",
+      "agencyId": "OECD.SDD",
+      "indexationDate": "2023-02-28T14:32:45.424Z",
+      "id": "ds:staging:SIS-CC-stable:NAMAIN_T0111_Q",
+      "datasourceId": "ds:staging:SIS-CC-stable",
+      "score": 0.20885642
+    }
+  ],
+  "facets": {
+    "STATEC Topics": {
+      "buckets": [
+        {
+          "val": "0|Territory and environment#TEREN#",
+          "count": 1
+        },
+        {
+          "val": "1|Territory and environment#TEREN#|Territory#TER#",
+          "count": 1
+        }
+      ]
+    },
+    "datasourceId": {
+      "buckets": [
+        {
+          "val": "ds:qa:stable",
+          "count": 14
+        },
+        {
+          "val": "ds:staging:SIS-CC-stable",
+          "count": 7
+        }
+      ]
+    },
+    "Frequency": {
+      "buckets": [
+        {
+          "val": "0|Annual#A#",
+          "count": 10,
+          "order": 20
+        },
+        {
+          "val": "0|Quarterly#Q#",
+          "count": 10
+        }
+      ]
+    },
+    "Specifications": {
+      "buckets": [
+        {
+          "val": "0|Total area#L01#",
+          "count": 1
+        },
+        {
+          "val": "1|Total area#L01#|Agricultural and wooded area#SL01#",
+          "count": 1
+        },
+        {
+          "val": "1|Total area#L01#|Built-up area#SL02#",
+          "count": 1
+        },
+        {
+          "val": "1|Total area#L01#|Road-net and railway network#SL04#",
+          "count": 1
+        },
+        {
+          "val": "1|Total area#L01#|Watercourses and sheets of water#SL05#",
+          "count": 1
+        },
+        {
+          "val": "1|Total area#L01#|of which: Industrial area and other#SL03#",
+          "count": 1
+        }
+      ]
+    },
+    "Development indicators": {
+      "buckets": [
+        {
+          "val": "0|Sustainable Development Goals#SDG#",
+          "count": 1,
+          "order": 10
+        }
+      ]
+    },
+    "Topic": {
+      "buckets": [
+        {
+          "val": "0|Economy#ECO#",
+          "count": 17,
+          "order": 3
+        },
+        {
+          "val": "1|Economy#ECO#|GDP and spending#ECO_GDP#",
+          "count": 6,
+          "order": 3
+        },
+        {
+          "val": "1|Economy#ECO#|Productivity#ECO_PRO#",
+          "count": 3,
+          "order": 9
+        },
+        {
+          "val": "0|Agriculture#AGR#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "0|Environment#ENV#",
+          "count": 1,
+          "order": 6
+        },
+        {
+          "val": "0|Finance#FIN#",
+          "count": 1,
+          "order": 7
+        },
+        {
+          "val": "0|Jobs#JOB#",
+          "count": 1,
+          "order": 11
+        },
+        {
+          "val": "1|Economy#ECO#|National income#ECO_INC#",
+          "count": 1,
+          "order": 7
+        },
+        {
+          "val": "1|Environment#ENV#|Air and climate#ENV_AC#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "1|Jobs#JOB#|Employment#JOB_EMP#",
+          "count": 1,
+          "order": 3
+        }
+      ]
+    },
+    "Country": {
+      "buckets": [
+        {
+          "val": "0|Australia#AUS#",
+          "count": 2,
+          "order": 10
+        },
+        {
+          "val": "0|Belgium#BEL#",
+          "count": 2,
+          "order": 30
+        },
+        {
+          "val": "0|Austria#AUT#",
+          "count": 1,
+          "order": 20
+        },
+        {
+          "val": "0|Canada#CAN#",
+          "count": 1,
+          "order": 40
+        },
+        {
+          "val": "0|Chile#CHL#",
+          "count": 1,
+          "order": 50
+        },
+        {
+          "val": "0|Colombia#COL#",
+          "count": 1,
+          "order": 60
+        },
+        {
+          "val": "0|Costa Rica#CRI#",
+          "count": 1,
+          "order": 70
+        },
+        {
+          "val": "0|Czech Republic#CZE#",
+          "count": 1,
+          "order": 80
+        },
+        {
+          "val": "0|Denmark#DNK#",
+          "count": 1,
+          "order": 90
+        },
+        {
+          "val": "0|Estonia#EST#",
+          "count": 1,
+          "order": 100
+        },
+        {
+          "val": "0|Finland#FIN#",
+          "count": 1,
+          "order": 110
+        },
+        {
+          "val": "0|France#FRA#",
+          "count": 1,
+          "order": 120
+        },
+        {
+          "val": "0|Germany#DEU#",
+          "count": 1,
+          "order": 130
+        },
+        {
+          "val": "0|Greece#GRC#",
+          "count": 1,
+          "order": 140
+        },
+        {
+          "val": "0|Hungary#HUN#",
+          "count": 1,
+          "order": 150
+        },
+        {
+          "val": "0|Iceland#ISL#",
+          "count": 1,
+          "order": 160
+        },
+        {
+          "val": "0|Ireland#IRL#",
+          "count": 1,
+          "order": 170
+        },
+        {
+          "val": "0|Israel#ISR#",
+          "count": 1,
+          "order": 180
+        },
+        {
+          "val": "0|Italy#ITA#",
+          "count": 1,
+          "order": 190
+        },
+        {
+          "val": "0|Japan#JPN#",
+          "count": 1,
+          "order": 200
+        },
+        {
+          "val": "0|Korea#KOR#",
+          "count": 1,
+          "order": 210
+        },
+        {
+          "val": "0|Latvia#LVA#",
+          "count": 1,
+          "order": 220
+        },
+        {
+          "val": "0|Lithuania#LTU#",
+          "count": 1,
+          "order": 230
+        },
+        {
+          "val": "0|Luxembourg#LUX#",
+          "count": 1,
+          "order": 240
+        },
+        {
+          "val": "0|Mexico#MEX#",
+          "count": 1,
+          "order": 250
+        },
+        {
+          "val": "0|Netherlands#NLD#",
+          "count": 1,
+          "order": 260
+        },
+        {
+          "val": "0|New Zealand#NZL#",
+          "count": 1,
+          "order": 270
+        },
+        {
+          "val": "0|Norway#NOR#",
+          "count": 1,
+          "order": 280
+        },
+        {
+          "val": "0|OECD - Europe#OECDE#",
+          "count": 1,
+          "order": 110
+        },
+        {
+          "val": "0|OECD - Total#OECD#",
+          "count": 1,
+          "order": 115
+        },
+        {
+          "val": "0|Poland#POL#",
+          "count": 1,
+          "order": 290
+        },
+        {
+          "val": "0|Portugal#PRT#",
+          "count": 1,
+          "order": 300
+        },
+        {
+          "val": "0|Russia#RUS#",
+          "count": 1,
+          "order": 2420
+        },
+        {
+          "val": "0|Slovak Republic#SVK#",
+          "count": 1,
+          "order": 310
+        },
+        {
+          "val": "0|Slovenia#SVN#",
+          "count": 1,
+          "order": 320
+        },
+        {
+          "val": "0|Spain#ESP#",
+          "count": 1,
+          "order": 330
+        },
+        {
+          "val": "0|Sweden#SWE#",
+          "count": 1,
+          "order": 340
+        },
+        {
+          "val": "0|Switzerland#CHE#",
+          "count": 1,
+          "order": 350
+        },
+        {
+          "val": "0|Turkey#TUR#",
+          "count": 1,
+          "order": 450
+        },
+        {
+          "val": "0|United Kingdom#GBR#",
+          "count": 1,
+          "order": 370
+        },
+        {
+          "val": "0|United States#USA#",
+          "count": 1,
+          "order": 380
+        }
+      ]
+    },
+    "Measure": {
+      "buckets": [
+        {
+          "val": "0|Enterprises#ENT#",
+          "count": 6
+        },
+        {
+          "val": "0|Employment#EMP#",
+          "count": 4
+        },
+        {
+          "val": "0|Share of GDP (direct)#GDP#",
+          "count": 4
+        },
+        {
+          "val": "0|Share of employment (direct)#EMP_SH#",
+          "count": 4
+        },
+        {
+          "val": "0|Current prices#C#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "0|Current prices, constant exchange rates, OECD base year#VXCOB#",
+          "count": 1,
+          "order": 6
+        },
+        {
+          "val": "0|Current prices, current PPPs#CPC#",
+          "count": 1,
+          "order": 9
+        },
+        {
+          "val": "0|Current prices, current exchange rates#CXC#",
+          "count": 1,
+          "order": 5
+        },
+        {
+          "val": "0|FDI financial flows - Total#T_FA_F#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "0|Human consumption#FO_PC#",
+          "count": 1,
+          "order": 230
+        },
+        {
+          "val": "1|Balance#BLNC#|Biodiesel production from commodity#QP_BD#",
+          "count": 1,
+          "order": 40
+        },
+        {
+          "val": "1|Balance#BLNC#|Consumption#QC#",
+          "count": 1,
+          "order": 60
+        },
+        {
+          "val": "1|Balance#BLNC#|Ending stocks#ST#",
+          "count": 1,
+          "order": 80
+        },
+        {
+          "val": "1|Balance#BLNC#|Ethanol production from commodity#QP_ET#",
+          "count": 1,
+          "order": 30
+        },
+        {
+          "val": "1|Balance#BLNC#|Exports#EX#",
+          "count": 1,
+          "order": 70
+        },
+        {
+          "val": "1|Balance#BLNC#|Imports#IM#",
+          "count": 1,
+          "order": 50
+        },
+        {
+          "val": "1|Balance#BLNC#|Production#QP#",
+          "count": 1,
+          "order": 20
+        },
+        {
+          "val": "1|FDI financial flows - Total#T_FA_F#|FDI financial flows - Debt#T_FA_FL#",
+          "count": 1,
+          "order": 7
+        },
+        {
+          "val": "1|FDI financial flows - Total#T_FA_F#|FDI financial flows - Equity (excluding reinvestment of earnings)#T_FA_F5A#",
+          "count": 1,
+          "order": 2
+        },
+        {
+          "val": "1|FDI financial flows - Total#T_FA_F#|FDI financial flows - Reinvestment of earnings#T_FA_F5B#",
+          "count": 1,
+          "order": 6
+        },
+        {
+          "val": "1|Indicators#IND#|Direct GHG emission#ECOE_TOT#",
+          "count": 1,
+          "order": 250
+        },
+        {
+          "val": "1|Indicators#IND#|Food fat availability#FO_DFS_FAT#",
+          "count": 1,
+          "order": 280
+        },
+        {
+          "val": "1|Indicators#IND#|Food protein availability#FO_DFS_PROT#",
+          "count": 1,
+          "order": 270
+        },
+        {
+          "val": "1|Indicators#IND#|Total calorie availability#FO_DES_TOT#",
+          "count": 1,
+          "order": 260
+        },
+        {
+          "val": "1|Prices#PRCS#|Producer price#PP#",
+          "count": 1,
+          "order": 210
+        },
+        {
+          "val": "1|Prices#PRCS#|World price#WP#",
+          "count": 1,
+          "order": 200
+        },
+        {
+          "val": "1|Specific#SPCFC#|Area harvested#AH#",
+          "count": 1,
+          "order": 110
+        },
+        {
+          "val": "1|Specific#SPCFC#|Biofuel use#BF#",
+          "count": 1,
+          "order": 160
+        },
+        {
+          "val": "1|Specific#SPCFC#|Cow inventory#CI#",
+          "count": 1,
+          "order": 120
+        },
+        {
+          "val": "1|Specific#SPCFC#|Crush#CR#",
+          "count": 1,
+          "order": 130
+        },
+        {
+          "val": "1|Specific#SPCFC#|Feed#FE#",
+          "count": 1,
+          "order": 140
+        },
+        {
+          "val": "1|Specific#SPCFC#|Food#FO#",
+          "count": 1,
+          "order": 150
+        },
+        {
+          "val": "1|Specific#SPCFC#|Other use#OU#",
+          "count": 1,
+          "order": 170
+        },
+        {
+          "val": "1|Specific#SPCFC#|Yield#YLD#",
+          "count": 1,
+          "order": 180
+        }
+      ]
+    },
+    "Frequency of observation": {
+      "buckets": [
+        {
+          "val": "0|Annual#A#",
+          "count": 4,
+          "order": 20
+        }
+      ]
+    },
+    "Reference area": {
+      "buckets": [
+        {
+          "val": "0|Australia#AU#",
+          "count": 16
+        },
+        {
+          "val": "0|Belgium#BE#",
+          "count": 15
+        },
+        {
+          "val": "0|France#FR#",
+          "count": 15
+        },
+        {
+          "val": "0|Germany#DE#",
+          "count": 15
+        },
+        {
+          "val": "0|United States#US#",
+          "count": 9
+        },
+        {
+          "val": "0|Argentina#AR#",
+          "count": 6
+        },
+        {
+          "val": "0|Austria#AT#",
+          "count": 6
+        },
+        {
+          "val": "0|Brazil#BR#",
+          "count": 6
+        },
+        {
+          "val": "0|Bulgaria#BG#",
+          "count": 6
+        },
+        {
+          "val": "0|Canada#CA#",
+          "count": 6
+        },
+        {
+          "val": "0|Chile#CL#",
+          "count": 6
+        },
+        {
+          "val": "0|China#CN#",
+          "count": 6
+        },
+        {
+          "val": "0|Colombia#CO#",
+          "count": 6
+        },
+        {
+          "val": "0|Costa Rica#CR#",
+          "count": 6
+        },
+        {
+          "val": "0|Croatia#HR#",
+          "count": 6
+        },
+        {
+          "val": "0|Czechia#CZ#",
+          "count": 6
+        },
+        {
+          "val": "0|Denmark#DK#",
+          "count": 6
+        },
+        {
+          "val": "0|Egypt#EG#",
+          "count": 6
+        },
+        {
+          "val": "0|Estonia#EE#",
+          "count": 6
+        },
+        {
+          "val": "0|Finland#FI#",
+          "count": 6
+        },
+        {
+          "val": "0|Greece#GR#",
+          "count": 6
+        },
+        {
+          "val": "0|Hungary#HU#",
+          "count": 6
+        },
+        {
+          "val": "0|Iceland#IS#",
+          "count": 6
+        },
+        {
+          "val": "0|India#IN#",
+          "count": 6
+        },
+        {
+          "val": "0|Indonesia#ID#",
+          "count": 6
+        },
+        {
+          "val": "0|Ireland#IE#",
+          "count": 6
+        },
+        {
+          "val": "0|Israel#IL#",
+          "count": 6
+        },
+        {
+          "val": "0|Italy#IT#",
+          "count": 6
+        },
+        {
+          "val": "0|Japan#JP#",
+          "count": 6
+        },
+        {
+          "val": "0|Korea, Republic of#KR#",
+          "count": 6
+        },
+        {
+          "val": "0|Latvia#LV#",
+          "count": 6
+        },
+        {
+          "val": "0|Lithuania#LT#",
+          "count": 6
+        },
+        {
+          "val": "0|Luxembourg#LU#",
+          "count": 6
+        },
+        {
+          "val": "0|Malta#MT#",
+          "count": 6
+        },
+        {
+          "val": "0|Mexico#MX#",
+          "count": 6
+        },
+        {
+          "val": "0|Morocco#MA#",
+          "count": 6
+        },
+        {
+          "val": "0|Netherlands#NL#",
+          "count": 6
+        },
+        {
+          "val": "0|New Zealand#NZ#",
+          "count": 6
+        },
+        {
+          "val": "0|Norway#NO#",
+          "count": 6
+        },
+        {
+          "val": "0|Philippines#PH#",
+          "count": 6
+        },
+        {
+          "val": "0|Poland#PL#",
+          "count": 6
+        },
+        {
+          "val": "0|Portugal#PT#",
+          "count": 6
+        },
+        {
+          "val": "0|Romania#RO#",
+          "count": 6
+        },
+        {
+          "val": "0|Russian Federation#RU#",
+          "count": 6
+        },
+        {
+          "val": "0|Slovakia#SK#",
+          "count": 6
+        },
+        {
+          "val": "0|Slovenia#SI#",
+          "count": 6
+        },
+        {
+          "val": "0|South Africa#ZA#",
+          "count": 6
+        },
+        {
+          "val": "0|Spain#ES#",
+          "count": 6
+        },
+        {
+          "val": "0|Sweden#SE#",
+          "count": 6
+        },
+        {
+          "val": "0|Switzerland#CH#",
+          "count": 6,
+          "order": 1
+        },
+        {
+          "val": "0|Turkey#TR#",
+          "count": 6
+        },
+        {
+          "val": "0|United Kingdom of Great Britain and Northern Ireland#GB#",
+          "count": 6
+        },
+        {
+          "val": "0|United States of America#US#",
+          "count": 6
+        },
+        {
+          "val": "1|Belgium#BE#|Flanders#BE2#",
+          "count": 6
+        },
+        {
+          "val": "1|Belgium#BE#|Region of Brussels-Capital#BE1#",
+          "count": 6
+        },
+        {
+          "val": "1|Belgium#BE#|Wallonia#BE3#",
+          "count": 6
+        },
+        {
+          "val": "0|North Macedonia#MK#",
+          "count": 4
+        },
+        {
+          "val": "0|Puerto Rico#PR#",
+          "count": 4
+        },
+        {
+          "val": "0|Israel#ISR#",
+          "count": 2,
+          "order": 180
+        },
+        {
+          "val": "0|Kazakhstan#KZ#",
+          "count": 2
+        },
+        {
+          "val": "0|Korea#KOR#",
+          "count": 2,
+          "order": 210
+        },
+        {
+          "val": "0|Peru#PE#",
+          "count": 2
+        },
+        {
+          "val": "0|Serbia#RS#",
+          "count": 2
+        },
+        {
+          "val": "0|Africa#F#",
+          "count": 1,
+          "order": 4120
+        },
+        {
+          "val": "0|Asia#S#",
+          "count": 1,
+          "order": 4300
+        },
+        {
+          "val": "0|Australia#AUS#",
+          "count": 1,
+          "order": 10
+        },
+        {
+          "val": "0|Canada#CAN#",
+          "count": 1,
+          "order": 40
+        },
+        {
+          "val": "0|Chile#CHL#",
+          "count": 1,
+          "order": 50
+        },
+        {
+          "val": "0|Colombia#COL#",
+          "count": 1,
+          "order": 60
+        },
+        {
+          "val": "0|Developed countries#DPDC#",
+          "count": 1,
+          "order": 3630
+        },
+        {
+          "val": "0|Developing countries#DPGC#",
+          "count": 1,
+          "order": 3620
+        },
+        {
+          "val": "0|Europe#E#",
+          "count": 1,
+          "order": 4050
+        },
+        {
+          "val": "0|European Union#EU#",
+          "count": 1,
+          "order": 600
+        },
+        {
+          "val": "0|Japan#JPN#",
+          "count": 1,
+          "order": 200
+        },
+        {
+          "val": "0|Latin America#A8#",
+          "count": 1,
+          "order": 4000
+        },
+        {
+          "val": "0|Mexico#MEX#",
+          "count": 1,
+          "order": 250
+        },
+        {
+          "val": "0|New Zealand#NZL#",
+          "count": 1,
+          "order": 270
+        },
+        {
+          "val": "0|Northern America#A2#",
+          "count": 1,
+          "order": 3940
+        },
+        {
+          "val": "0|Norway#NOR#",
+          "count": 1,
+          "order": 280
+        },
+        {
+          "val": "0|OECD#OECD#",
+          "count": 1,
+          "order": 790
+        },
+        {
+          "val": "0|Oceania#O#",
+          "count": 1,
+          "order": 4230
+        },
+        {
+          "val": "0|Switzerland#CHE#",
+          "count": 1,
+          "order": 350
+        },
+        {
+          "val": "0|Türkiye#TUR#",
+          "count": 1,
+          "order": 360
+        },
+        {
+          "val": "0|United Kingdom#GBR#",
+          "count": 1,
+          "order": 370
+        },
+        {
+          "val": "0|United States#USA#",
+          "count": 1,
+          "order": 380
+        },
+        {
+          "val": "0|World#W#",
+          "count": 1,
+          "order": 4410
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Argentina#ARG#",
+          "count": 1,
+          "order": 1140
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Brazil#BRA#",
+          "count": 1,
+          "order": 1330
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|China (People’s Republic of)#CHN#",
+          "count": 1,
+          "order": 1460
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Egypt#EGY#",
+          "count": 1,
+          "order": 1630
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Ethiopia#ETH#",
+          "count": 1,
+          "order": 1680
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|India#IND#",
+          "count": 1,
+          "order": 1930
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Indonesia#IDN#",
+          "count": 1,
+          "order": 1940
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Iran#IRN#",
+          "count": 1,
+          "order": 1950
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Kazakhstan#KAZ#",
+          "count": 1,
+          "order": 2010
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Malaysia#MYS#",
+          "count": 1,
+          "order": 2160
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Nigeria#NGA#",
+          "count": 1,
+          "order": 2400
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Pakistan#PAK#",
+          "count": 1,
+          "order": 2460
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Paraguay#PRY#",
+          "count": 1,
+          "order": 2510
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Peru#PER#",
+          "count": 1,
+          "order": 2520
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Philippines#PHL#",
+          "count": 1,
+          "order": 2530
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Russia#RUS#",
+          "count": 1,
+          "order": 2590
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Saudi Arabia#SAU#",
+          "count": 1,
+          "order": 2710
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|South Africa#ZAF#",
+          "count": 1,
+          "order": 2800
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Thailand#THA#",
+          "count": 1,
+          "order": 2910
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Ukraine#UKR#",
+          "count": 1,
+          "order": 3020
+        },
+        {
+          "val": "1|Non-OECD economies#WXOECD#|Viet Nam#VNM#",
+          "count": 1,
+          "order": 3100
+        }
+      ]
+    },
+    "Transformation": {
+      "buckets": [
+        {
+          "val": "0|Non transformed data#N#",
+          "count": 10,
+          "order": 9
+        },
+        {
+          "val": "0|Annual levels#LA#",
+          "count": 7
+        },
+        {
+          "val": "0|Growth rate , flow over stock over 4 periods#F4#",
+          "count": 7
+        },
+        {
+          "val": "0|Growth rate, flow over stock, period on period#F1#",
+          "count": 7
+        }
+      ]
+    },
+    "Unit of measure": {
+      "buckets": [
+        {
+          "val": "0|Number#NUMBER#",
+          "count": 6
+        },
+        {
+          "val": "0|Percentage of GDP#GDP_PERC#",
+          "count": 4
+        },
+        {
+          "val": "0|Percentage of employment in industry#EMP_PERC_IND#",
+          "count": 4
+        },
+        {
+          "val": "0|Percentage of total employment#EMP_PERC#",
+          "count": 4
+        },
+        {
+          "val": "0|Persons#PERSONS#",
+          "count": 4
+        },
+        {
+          "val": "0|Animals#ANM#",
+          "count": 1,
+          "order": 410
+        },
+        {
+          "val": "0|Grams per person per day#G_PS_D#",
+          "count": 1
+        },
+        {
+          "val": "0|Hectare#HA#",
+          "count": 1
+        },
+        {
+          "val": "0|Kilocalories per person per day#KCAL_PS_D#",
+          "count": 1,
+          "order": 4000
+        },
+        {
+          "val": "0|Kilograms per person#KG_PS#",
+          "count": 1
+        },
+        {
+          "val": "0|Litre#L#",
+          "count": 1
+        },
+        {
+          "val": "0|National currency per hectolitre#XDC_HL#",
+          "count": 1,
+          "order": 3030
+        },
+        {
+          "val": "0|National currency per tonne#XDC_T#",
+          "count": 1,
+          "order": 3080
+        },
+        {
+          "val": "0|Reported currency#RC#",
+          "count": 1,
+          "order": 2550
+        },
+        {
+          "val": "0|Tonne#T#",
+          "count": 1
+        },
+        {
+          "val": "0|Tonnes of CO2E#T_CO2E#",
+          "count": 1
+        },
+        {
+          "val": "0|Tonnes per animal#T_ANM#",
+          "count": 1,
+          "order": 4390
+        },
+        {
+          "val": "0|Tonnes per hectare#T_HA#",
+          "count": 1,
+          "order": 4460
+        },
+        {
+          "val": "0|US dollars per barrel#USD_BBL_US#",
+          "count": 1,
+          "order": 2560
+        },
+        {
+          "val": "0|US dollars per hectolitre#USD_HL#",
+          "count": 1,
+          "order": 2620
+        },
+        {
+          "val": "0|US dollars per tonne#USD_T#",
+          "count": 1,
+          "order": 2670
+        },
+        {
+          "val": "0|US dollars, exchange rate converted#USD_EXC#",
+          "count": 1,
+          "order": 2740
+        }
+      ]
+    },
+    "Activity": {
+      "buckets": [
+        {
+          "val": "0|Other service activities#S#",
+          "count": 4
+        },
+        {
+          "val": "0|Other#_O#",
+          "count": 4
+        },
+        {
+          "val": "0|Total#_T#",
+          "count": 4,
+          "order": 3
+        },
+        {
+          "val": "0|Tourism#AGG_TOURISM#",
+          "count": 4
+        },
+        {
+          "val": "0|Transportation and storage#H#",
+          "count": 4
+        },
+        {
+          "val": "1|Accommodation and food service activities#I#|Accommodation#I55#",
+          "count": 4
+        },
+        {
+          "val": "1|Accommodation and food service activities#I#|Food and beverage service activities#I56#",
+          "count": 4
+        },
+        {
+          "val": "1|Administrative and support service activities#N#|Travel agency, tour operator, reservation service and related activities#N79#",
+          "count": 4
+        },
+        {
+          "val": "1|Arts, entertainment and recreation#R#|Libraries, archives, museums and other cultural activities#R91#",
+          "count": 4
+        },
+        {
+          "val": "1|Arts, entertainment and recreation#R#|Sports activities and amusement and recreation activities#R93#",
+          "count": 4
+        },
+        {
+          "val": "1|Transportation and storage#H#|Water transport#H50#",
+          "count": 4
+        },
+        {
+          "val": "2|Accommodation and food service activities#I#|Accommodation#I55#|Short term accommodation activities#I551#",
+          "count": 4
+        },
+        {
+          "val": "2|Administrative and support service activities#N#|Rental and leasing activities#N77#|Renting and leasing of motor vehicles#N771#",
+          "count": 4
+        },
+        {
+          "val": "2|Transportation and storage#H#|Air transport#H51#|Passenger air transport#H511#",
+          "count": 4
+        },
+        {
+          "val": "2|Transportation and storage#H#|Land transport and transport via pipelines#H49#|Other land transport#H492#",
+          "count": 4
+        },
+        {
+          "val": "2|Transportation and storage#H#|Land transport and transport via pipelines#H49#|Transport via railways#H491#",
+          "count": 4
+        },
+        {
+          "val": "2|Transportation and storage#H#|Warehousing and support activities for transportation#H52#|Support activities for transportation#H522#",
+          "count": 4
+        },
+        {
+          "val": "2|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#|Retail trade, except of motor vehicles and motorcycles#G47#|Retail sale of cultural and recreation goods in specialized stores#G476#",
+          "count": 4
+        },
+        {
+          "val": "0|Tourism#AGG_TOUR#",
+          "count": 2
+        },
+        {
+          "val": "1|Tourism#AGG_TOUR#|Other industries#_O#",
+          "count": 2
+        },
+        {
+          "val": "1|Tourism#AGG_TOUR#|Tourism industries#IND#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Accommodation services for visitors#ACCOM_SVCS#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Cultural industry#CULTURE#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Food and beverage serving industries#FOOD_BEV#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Other country-specific tourism industries#OTHER_COUNTRY_SPEC#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Passenger transport supporting services#SUPPORT_SVC#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Passenger transport#TRANSPORT#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Retail trade of country-specific tourism charasteristic goods#RETAIL#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Sports and recreation industry#SPORTS_REC#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Transport equipment rental#EQUIP_RENTAL#",
+          "count": 2
+        },
+        {
+          "val": "2|Tourism#AGG_TOUR#|Tourism industries#IND#|Travel agencies and other reservation services industry#TRVL_AGENT#",
+          "count": 2
+        },
+        {
+          "val": "3|Tourism#AGG_TOUR#|Tourism industries#IND#|Accommodation services for visitors#ACCOM_SVCS#|Hotels and similar establishments#ACCOM_SVCS_HOTELS#",
+          "count": 2
+        },
+        {
+          "val": "3|Tourism#AGG_TOUR#|Tourism industries#IND#|Passenger transport#TRANSPORT#|Air passenger transport#TRANSPORT_AIR#",
+          "count": 2
+        },
+        {
+          "val": "3|Tourism#AGG_TOUR#|Tourism industries#IND#|Passenger transport#TRANSPORT#|Railways passenger transport#TRANSPORT_RAIL#",
+          "count": 2
+        },
+        {
+          "val": "3|Tourism#AGG_TOUR#|Tourism industries#IND#|Passenger transport#TRANSPORT#|Road passenger transport#TRANSPORT_ROAD#",
+          "count": 2
+        },
+        {
+          "val": "3|Tourism#AGG_TOUR#|Tourism industries#IND#|Passenger transport#TRANSPORT#|Water passenger transport#TRANSPORT_WATER#",
+          "count": 2
+        }
+      ]
+    },
+    "Activity classification": {
+      "buckets": [
+        {
+          "val": "0|Agriculture, forestry and fishing#A#",
+          "count": 10,
+          "order": 4
+        },
+        {
+          "val": "0|Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies#RTU#",
+          "count": 10,
+          "order": 179
+        },
+        {
+          "val": "0|Construction#F#",
+          "count": 10,
+          "order": 73
+        },
+        {
+          "val": "0|Financial and insurance activities#K#",
+          "count": 10,
+          "order": 114
+        },
+        {
+          "val": "0|Industry (except construction)#BTE#",
+          "count": 10,
+          "order": 18
+        },
+        {
+          "val": "0|Information and communication#J#",
+          "count": 10,
+          "order": 102
+        },
+        {
+          "val": "0|Professional, scientific and technical activities; administrative and support service activities#M_N#",
+          "count": 10,
+          "order": 127
+        },
+        {
+          "val": "0|Public administration, defence, education, human health and social work activities#OTQ#",
+          "count": 10,
+          "order": 158
+        },
+        {
+          "val": "0|Real estate activities#L#",
+          "count": 10,
+          "order": 123
+        },
+        {
+          "val": "0|Total - All activities#_T#",
+          "count": 10,
+          "order": 10
+        },
+        {
+          "val": "0|Wholesale and retail trade, transport, accommodation and food service activities#GTI#",
+          "count": 10,
+          "order": 83
+        },
+        {
+          "val": "1|Industry (except construction)#BTE#|Manufacturing#C#",
+          "count": 10,
+          "order": 23
+        },
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 9,
+          "order": 3000
+        }
+      ]
+    },
+    "Accounting Entry": {
+      "buckets": [
+        {
+          "val": "0|Balance (Credits minus Debits)#B#",
+          "count": 9
+        },
+        {
+          "val": "0|Credit (Resources)#C#",
+          "count": 9
+        },
+        {
+          "val": "0|Debit (Uses)#D#",
+          "count": 9
+        },
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 8,
+          "order": 3000
+        }
+      ]
+    },
+    "Counterpart area": {
+      "buckets": [
+        {
+          "val": "0|Domestic (home or reference area)#W2#",
+          "count": 10
+        },
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 7,
+          "order": 3000
+        },
+        {
+          "val": "0|Rest of the World#W1#",
+          "count": 7
+        },
+        {
+          "val": "0|United States#US#",
+          "count": 7
+        },
+        {
+          "val": "0|World (all areas, including reference area, including IO)#W0#",
+          "count": 7
+        },
+        {
+          "val": "0|ASEAN#ASEAN#",
+          "count": 1,
+          "order": 3360
+        },
+        {
+          "val": "0|Africa#F#",
+          "count": 1,
+          "order": 4120
+        },
+        {
+          "val": "0|Asia#S#",
+          "count": 1,
+          "order": 4300
+        },
+        {
+          "val": "0|Central America and the Caribbean#A5#",
+          "count": 1,
+          "order": 3970
+        },
+        {
+          "val": "0|Europe#E#",
+          "count": 1,
+          "order": 4050
+        },
+        {
+          "val": "0|European Union (15 countries)#EU15#",
+          "count": 1,
+          "order": 620
+        },
+        {
+          "val": "0|European Union (25 countries)#EU25#",
+          "count": 1,
+          "order": 630
+        },
+        {
+          "val": "0|European Union (27 countries from 01/02/2020)#EU27_2020#",
+          "count": 1,
+          "order": 660
+        },
+        {
+          "val": "0|European Union (27 countries)#EU27#",
+          "count": 1,
+          "order": 640
+        },
+        {
+          "val": "0|European Union (28 countries)#EU28#",
+          "count": 1,
+          "order": 650
+        },
+        {
+          "val": "0|G20 OECD countries#G20OECD#",
+          "count": 1,
+          "order": 440
+        },
+        {
+          "val": "0|G20 excl. European Union#G20XEU#",
+          "count": 1,
+          "order": 430
+        },
+        {
+          "val": "0|G20 non-OECD economies#G20XOECD#",
+          "count": 1,
+          "order": 450
+        },
+        {
+          "val": "0|Middle East and North Africa#F98#",
+          "count": 1,
+          "order": 4200
+        },
+        {
+          "val": "0|Northern America#A2#",
+          "count": 1,
+          "order": 3940
+        },
+        {
+          "val": "0|ODA recipient countries - Africa#ODAF#",
+          "count": 1,
+          "order": 3550
+        },
+        {
+          "val": "0|ODA recipient countries - America#ODAA#",
+          "count": 1,
+          "order": 3540
+        },
+        {
+          "val": "0|ODA recipient countries - Europe#ODAE#",
+          "count": 1,
+          "order": 3560
+        },
+        {
+          "val": "0|ODA recipient countries - Oceania#ODAO#",
+          "count": 1,
+          "order": 3570
+        },
+        {
+          "val": "0|ODA recipient countries#ODA#",
+          "count": 1,
+          "order": 3530
+        },
+        {
+          "val": "0|ODA recipients countries - Asia#ODAS#",
+          "count": 1,
+          "order": 3580
+        },
+        {
+          "val": "0|OECD (evolving composition)#OECD00#",
+          "count": 1,
+          "order": 800
+        },
+        {
+          "val": "0|Oceania#O#",
+          "count": 1,
+          "order": 4230
+        },
+        {
+          "val": "0|South America#A7#",
+          "count": 1,
+          "order": 3990
+        },
+        {
+          "val": "0|World#W#",
+          "count": 1,
+          "order": 4410
+        }
+      ]
+    },
+    "Prices": {
+      "buckets": [
+        {
+          "val": "0|Current prices#V#",
+          "count": 9,
+          "order": 1
+        },
+        {
+          "val": "0|Chain linked volume#L#",
+          "count": 8,
+          "order": 5
+        },
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 8,
+          "order": 3000
+        },
+        {
+          "val": "0|Chain linked volume (rebased)#LR#",
+          "count": 7,
+          "order": 6
+        },
+        {
+          "val": "0|Deflator (index)#D#",
+          "count": 7
+        },
+        {
+          "val": "0|Deflator (rebased)#DR#",
+          "count": 7,
+          "order": 10
+        }
+      ]
+    },
+    "Table identifier": {
+      "buckets": [
+        {
+          "val": "0|Table 0101 - Gross value added at basic prices and gross domestic product at market prices#T0101#",
+          "count": 8
+        },
+        {
+          "val": "0|Table 0103 - GDP identity from the income side#T0103#",
+          "count": 8
+        },
+        {
+          "val": "0|Table 0102 - GDP identity from the expenditure side#T0102#",
+          "count": 7
+        },
+        {
+          "val": "0|Table 0107 - Disposable income, saving, net lending / borrowing#T0107#",
+          "count": 7
+        },
+        {
+          "val": "0|Table 0111 - Employment by industry#T0111#",
+          "count": 2
+        },
+        {
+          "val": "0|Table 0110 - Population and employment#T0110#",
+          "count": 1
+        }
+      ]
+    },
+    "Stocks, Transactions, Other Flows": {
+      "buckets": [
+        {
+          "val": "0|Gross domestic product at market prices#B1GQ#",
+          "count": 9,
+          "order": 1
+        },
+        {
+          "val": "0|Compensation of employees#D1#",
+          "count": 8
+        },
+        {
+          "val": "0|Employers' social contributions#D12#",
+          "count": 8
+        },
+        {
+          "val": "0|Operating surplus and mixed income, gross#B2A3G#",
+          "count": 8
+        },
+        {
+          "val": "0|Statistical discrepancy (income approach)#YA2#",
+          "count": 8
+        },
+        {
+          "val": "0|Subsidies#D3#",
+          "count": 8
+        },
+        {
+          "val": "0|Taxes on production and imports less subsidies#D2X3#",
+          "count": 8
+        },
+        {
+          "val": "0|Taxes on production and imports#D2#",
+          "count": 8
+        },
+        {
+          "val": "0|Wages and salaries#D11#",
+          "count": 8
+        },
+        {
+          "val": "1|Gross domestic product at market prices#B1GQ#|Statistical discrepancy (production approach)#YA1#",
+          "count": 8,
+          "order": 6
+        },
+        {
+          "val": "1|Gross domestic product at market prices#B1GQ#|Taxes less subsidies on products#D21X31#",
+          "count": 8,
+          "order": 3
+        },
+        {
+          "val": "1|Gross domestic product at market prices#B1GQ#|Value added, gross#B1G#",
+          "count": 8,
+          "order": 2
+        },
+        {
+          "val": "2|Gross domestic product at market prices#B1GQ#|Taxes less subsidies on products#D21X31#|Subsidies on products#D31#",
+          "count": 8,
+          "order": 5
+        },
+        {
+          "val": "2|Gross domestic product at market prices#B1GQ#|Taxes less subsidies on products#D21X31#|Taxes on products#D21#",
+          "count": 8,
+          "order": 4
+        },
+        {
+          "val": "0|Acquisitions less disposals of non-produced assets#NP#",
+          "count": 7
+        },
+        {
+          "val": "0|Acquisitions less disposals of valuables#P53#",
+          "count": 7
+        },
+        {
+          "val": "0|Actual individual consumption#P41#",
+          "count": 7
+        },
+        {
+          "val": "0|Balance of primary incomes, gross / National income, gross#B5G#",
+          "count": 7
+        },
+        {
+          "val": "0|Balance of primary incomes, net / National income, net#B5N#",
+          "count": 7
+        },
+        {
+          "val": "0|Capital transfers#D9#",
+          "count": 7
+        },
+        {
+          "val": "0|Changes in inventories and acquisition less disposals of valuables#P5M#",
+          "count": 7
+        },
+        {
+          "val": "0|Changes in inventories#P52#",
+          "count": 7
+        },
+        {
+          "val": "0|Collective consumption expenditure#P32#",
+          "count": 7
+        },
+        {
+          "val": "0|Consumption of fixed capital#P51C#",
+          "count": 7
+        },
+        {
+          "val": "0|Disposable income, net#B6N#",
+          "count": 7
+        },
+        {
+          "val": "0|Exports of goods and services#P6#",
+          "count": 7
+        },
+        {
+          "val": "0|Exports of goods#P61#",
+          "count": 7
+        },
+        {
+          "val": "0|Exports of services#P62#",
+          "count": 7
+        },
+        {
+          "val": "0|External balance of goods and services#B11#",
+          "count": 7
+        },
+        {
+          "val": "0|Final consumption expenditure#P3#",
+          "count": 7
+        },
+        {
+          "val": "0|Gross capital formation#P5#",
+          "count": 7
+        },
+        {
+          "val": "0|Gross fixed capital formation#P51G#",
+          "count": 7
+        },
+        {
+          "val": "0|Imports of goods and services#P7#",
+          "count": 7
+        },
+        {
+          "val": "0|Imports of goods#P71#",
+          "count": 7
+        },
+        {
+          "val": "0|Imports of services#P72#",
+          "count": 7
+        },
+        {
+          "val": "0|Individual consumption expenditure#P31#",
+          "count": 7
+        },
+        {
+          "val": "0|Net lending(+) / net borrowing (-)#B9#",
+          "count": 7
+        },
+        {
+          "val": "0|Primary income#IN1#",
+          "count": 7
+        },
+        {
+          "val": "0|Saving, net#B8N#",
+          "count": 7
+        },
+        {
+          "val": "0|Secondary income: current transfers#IN21#",
+          "count": 7
+        },
+        {
+          "val": "0|Statistical discrepancy (expenditure approach)#YA0#",
+          "count": 7
+        },
+        {
+          "val": "0|Employees#SAL#",
+          "count": 2
+        },
+        {
+          "val": "0|Self employed#SELF#",
+          "count": 2
+        },
+        {
+          "val": "0|Total employment#EMP#",
+          "count": 2
+        },
+        {
+          "val": "0|Total population#POP#",
+          "count": 1
+        }
+      ]
+    },
+    "Instrument and Assets Classification": {
+      "buckets": [
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 10,
+          "order": 3000
+        },
+        {
+          "val": "0|Cultivated biological resources (gross)#N115G#",
+          "count": 7
+        },
+        {
+          "val": "0|Currency#F21#",
+          "count": 7
+        },
+        {
+          "val": "0|Dwellings (gross)#N111G#",
+          "count": 7
+        },
+        {
+          "val": "0|Fixed assets by type of asset (gross)#N11G#",
+          "count": 7
+        },
+        {
+          "val": "0|ICT equipment (gross)#N1132G#",
+          "count": 7
+        },
+        {
+          "val": "0|Intellectual property products (gross)#N117G#",
+          "count": 7
+        },
+        {
+          "val": "0|Inventories by type of inventory (gross)#N12G#",
+          "count": 7
+        },
+        {
+          "val": "0|Inventories by type of inventory and valuables (gross)#N1MG#",
+          "count": 7
+        },
+        {
+          "val": "0|Machinery and equipment and weapons systems (gross)#N11MG#",
+          "count": 7
+        },
+        {
+          "val": "0|Other buildings and structures (gross)#N112G#",
+          "count": 7
+        },
+        {
+          "val": "0|Other machinery and equipment and weapons systems (gross)#N11OG#",
+          "count": 7
+        },
+        {
+          "val": "0|Produced non-financial assets (gross)#N1G#",
+          "count": 7
+        },
+        {
+          "val": "0|Transport equipment (gross)#N1131G#",
+          "count": 7
+        },
+        {
+          "val": "0|Valuables (gross)#N13G#",
+          "count": 7
+        }
+      ]
+    },
+    "Unit": {
+      "buckets": [
+        {
+          "val": "0|National currency#XDC#",
+          "count": 9
+        },
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 7,
+          "order": 3000
+        },
+        {
+          "val": "0|Per capita, US $, PPP converted#PU_R_POP#",
+          "count": 7
+        },
+        {
+          "val": "0|Purchasing power parities: currency of area per currency of counterpart area#XXPP#",
+          "count": 7
+        },
+        {
+          "val": "0|US dollar, converted using purchasing power parities#PU#",
+          "count": 7
+        },
+        {
+          "val": "0|Persons#PS#",
+          "count": 2
+        }
+      ]
+    },
+    "Counterpart institutional sector": {
+      "buckets": [
+        {
+          "val": "0|Total economy#S1#",
+          "count": 10,
+          "order": 10
+        }
+      ]
+    },
+    "Expenditure (COFOG, COICOP, COPP or COPNI)": {
+      "buckets": [
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 10,
+          "order": 3000
+        },
+        {
+          "val": "0|Total#_T#",
+          "count": 7,
+          "order": 3
+        }
+      ]
+    },
+    "Adjustment indicator": {
+      "buckets": [
+        {
+          "val": "0|Neither seasonally adjusted nor calendar adjusted data#N#",
+          "count": 10
+        },
+        {
+          "val": "0|Calendar and seasonally adjusted data#Y#",
+          "count": 9
+        }
+      ]
+    },
+    "Reporting institutional sector": {
+      "buckets": [
+        {
+          "val": "0|Total economy#S1#",
+          "count": 10,
+          "order": 10
+        },
+        {
+          "val": "0|General government#S13#",
+          "count": 7
+        },
+        {
+          "val": "0|General government, households and non profit institutions serving households#S1L#",
+          "count": 7
+        },
+        {
+          "val": "0|Households and non profit institutions serving households (NPISH)#S1M#",
+          "count": 7
+        },
+        {
+          "val": "0|Households#S14#",
+          "count": 7
+        },
+        {
+          "val": "0|Non profit institutions serving households#S15#",
+          "count": 7
+        },
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 7,
+          "order": 3000
+        }
+      ]
+    },
+    "Variable": {
+      "buckets": [
+        {
+          "val": "0|Total emissions per capita#TOT_CAP#",
+          "count": 1
+        },
+        {
+          "val": "0|Total emissions per unit of GDP, Kg per 1000\n\t\t\t\t\t\tUSD#TOT_GDP#",
+          "count": 1
+        },
+        {
+          "val": "0|Total emissions, Index 1990 = 100#INDEX_1990#",
+          "count": 1
+        },
+        {
+          "val": "0|Total emissions, Index 2000 = 100#INDEX_2000#",
+          "count": 1
+        },
+        {
+          "val": "0|Total man-made emissions#TOT#",
+          "count": 1
+        },
+        {
+          "val": "1|Total man-made emissions#TOT#|Total Mobile Sources#MOB_TOT#",
+          "count": 1
+        },
+        {
+          "val": "1|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Mobile Sources#MOB_TOT#|Other Mobile Sources#MOB_OTHER#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Mobile Sources#MOB_TOT#|Road Transport#MOB_ROAD#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Agriculture#MISC_AGR#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Combustion#STAT_COMB#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Industrial processes and product use#STAT_IND_PROC#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Miscellaneous#MISC#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Power stations#STAT_POW#",
+          "count": 1
+        },
+        {
+          "val": "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Waste#MISC_WASTE#",
+          "count": 1
+        },
+        {
+          "val": "3|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Combustion#STAT_COMB#|Industrial combustion#STAT_COMB_IND#",
+          "count": 1
+        },
+        {
+          "val": "3|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|Combustion#STAT_COMB#|Other combustion#STAT_COMB_OTHER#",
+          "count": 1
+        }
+      ]
+    },
+    "Pollutant": {
+      "buckets": [
+        {
+          "val": "0|Carbon Monoxide#CO#",
+          "count": 1
+        },
+        {
+          "val": "0|Nitrogen Oxides#NOX#",
+          "count": 1
+        },
+        {
+          "val": "0|Non-methane Volatile Organic Compounds#NMVOC#",
+          "count": 1
+        },
+        {
+          "val": "0|Particulates (PM10)#PM10#",
+          "count": 1
+        },
+        {
+          "val": "0|Particulates (PM2.5)#PM2-5#",
+          "count": 1
+        },
+        {
+          "val": "0|Sulphur Oxides#SOX#",
+          "count": 1
+        }
+      ]
+    },
+    "Transaction": {
+      "buckets": [
+        {
+          "val": "1|1--Gross domestic product#GDP#|Gross domestic product (expenditure approach)#B1_GE#",
+          "count": 1,
+          "order": 2
+        },
+        {
+          "val": "1|1--Gross domestic product#GDP#|Gross domestic product (income approach)#B1_GI#",
+          "count": 1,
+          "order": 3
+        },
+        {
+          "val": "1|1--Gross domestic product#GDP#|Gross domestic product (output approach)#B1_GA#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "2|1--Gross domestic product#GDP#|Gross domestic product (expenditure approach)#B1_GE#|External balance of goods and services#B11#",
+          "count": 1,
+          "order": 4
+        },
+        {
+          "val": "2|1--Gross domestic product#GDP#|Gross domestic product (income approach)#B1_GI#|Compensation of employees#D1#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "3|1--Gross domestic product#GDP#|Gross domestic product (income approach)#B1_GI#|Compensation of employees#D1#|Wages and salaries#D11#",
+          "count": 1,
+          "order": 17
+        },
+        {
+          "val": "4|1--Gross domestic product#GDP#|Gross domestic product (income approach)#B1_GI#|Compensation of employees#D1#|Wages and salaries#D11#|Agriculture, forestry and fishing (ISIC rev4)#D11VA#",
+          "count": 1,
+          "order": 7
+        },
+        {
+          "val": "4|1--Gross domestic product#GDP#|Gross domestic product (income approach)#B1_GI#|Compensation of employees#D1#|Wages and salaries#D11#|Industry, including energy (ISIC rev4)#D11VB_E#",
+          "count": 1,
+          "order": 8
+        }
+      ]
+    },
+    "Sex": {
+      "buckets": [
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 4,
+          "order": 3000
+        }
+      ]
+    },
+    "FDI component": {
+      "buckets": [
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 1,
+          "order": 3000
+        }
+      ]
+    },
+    "Accounting entry": {
+      "buckets": [
+        {
+          "val": "0|Assets#A#",
+          "count": 1,
+          "order": 2
+        },
+        {
+          "val": "0|Liabilities#L#",
+          "count": 1,
+          "order": 3
+        },
+        {
+          "val": "0|Net#NET#",
+          "count": 1,
+          "order": 1
+        }
+      ]
+    },
+    "Entity type": {
+      "buckets": [
+        {
+          "val": "0|All resident units#ALL#",
+          "count": 1,
+          "order": 1
+        },
+        {
+          "val": "0|Resident Operating Units (Non-SPEs)#ROU#",
+          "count": 1,
+          "order": 3
+        },
+        {
+          "val": "0|Resident SPEs#RSP#",
+          "count": 1,
+          "order": 2
+        }
+      ]
+    },
+    "Reference sector": {
+      "buckets": [
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 1,
+          "order": 3000
+        }
+      ]
+    },
+    "Counterpart level": {
+      "buckets": [
+        {
+          "val": "0|Not applicable#_Z#",
+          "count": 1,
+          "order": 3000
+        }
+      ]
+    },
+    "Measure principle": {
+      "buckets": [
+        {
+          "val": "0|Directional principle: Inward#DI#",
+          "count": 1,
+          "order": 2
+        },
+        {
+          "val": "0|Directional principle: Outward#DO#",
+          "count": 1,
+          "order": 3
+        }
+      ]
+    },
+    "Economic activity": {
+      "buckets": [
+        {
+          "val": "0|Total - All activities#_T#",
+          "count": 1,
+          "order": 10
+        },
+        {
+          "val": "1|Total - All activities#_T#|Accommodation and food service activities#I#",
+          "count": 1,
+          "order": 4740
+        },
+        {
+          "val": "1|Total - All activities#_T#|Activities other than financial and insurance#ATUXFPRV#",
+          "count": 1,
+          "order": 7780
+        },
+        {
+          "val": "1|Total - All activities#_T#|Administrative and support service activities#N#",
+          "count": 1,
+          "order": 6090
+        },
+        {
+          "val": "1|Total - All activities#_T#|Agriculture, forestry and fishing#A#",
+          "count": 1,
+          "order": 20
+        },
+        {
+          "val": "1|Total - All activities#_T#|Arts, entertainment and recreation#R#",
+          "count": 1,
+          "order": 7100
+        },
+        {
+          "val": "1|Total - All activities#_T#|Construction#F#",
+          "count": 1,
+          "order": 3470
+        },
+        {
+          "val": "1|Total - All activities#_T#|Financial and insurance activities#K#",
+          "count": 1,
+          "order": 5330
+        },
+        {
+          "val": "1|Total - All activities#_T#|Human health and social work activities#Q#",
+          "count": 1,
+          "order": 6880
+        },
+        {
+          "val": "1|Total - All activities#_T#|Information and communication#J#",
+          "count": 1,
+          "order": 4900
+        },
+        {
+          "val": "1|Total - All activities#_T#|Manufacturing#C#",
+          "count": 1,
+          "order": 870
+        },
+        {
+          "val": "1|Total - All activities#_T#|Mining and quarrying#B#",
+          "count": 1,
+          "order": 570
+        },
+        {
+          "val": "1|Total - All activities#_T#|Other service activities#S#",
+          "count": 1,
+          "order": 7300
+        },
+        {
+          "val": "1|Total - All activities#_T#|Other#_O#",
+          "count": 1,
+          "order": 9200
+        },
+        {
+          "val": "1|Total - All activities#_T#|Private real estate activities#PRV_RE#",
+          "count": 1,
+          "order": 9080
+        },
+        {
+          "val": "1|Total - All activities#_T#|Professional, scientific and technical activities#M#",
+          "count": 1,
+          "order": 5730
+        },
+        {
+          "val": "1|Total - All activities#_T#|Public administration; activities of households and of extraterritorial organisations#O_T_U#",
+          "count": 1,
+          "order": 8620
+        },
+        {
+          "val": "1|Total - All activities#_T#|Real estate activities#L#",
+          "count": 1,
+          "order": 5650
+        },
+        {
+          "val": "1|Total - All activities#_T#|Services#GTU#",
+          "count": 1,
+          "order": 8340
+        },
+        {
+          "val": "1|Total - All activities#_T#|Total Primary sector#A_B#",
+          "count": 1,
+          "order": 7710
+        },
+        {
+          "val": "1|Total - All activities#_T#|Transport and storage except postal and courier activities#HX53#",
+          "count": 1,
+          "order": 8370
+        },
+        {
+          "val": "1|Total - All activities#_T#|Transportation and storage#H#",
+          "count": 1,
+          "order": 4370
+        },
+        {
+          "val": "1|Total - All activities#_T#|Unspecified#_X#",
+          "count": 1,
+          "order": 9220
+        },
+        {
+          "val": "1|Total - All activities#_T#|Water supply; sewerage, waste management and remediation activities#E#",
+          "count": 1,
+          "order": 3280
+        },
+        {
+          "val": "1|Total - All activities#_T#|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#",
+          "count": 1,
+          "order": 3700
+        },
+        {
+          "val": "2|Total - All activities#_T#|Administrative and support service activities#N#|Employment, travel agency, security and investigation, service and landscape, office administrative and support activities#N78T82#",
+          "count": 1,
+          "order": 8590
+        },
+        {
+          "val": "2|Total - All activities#_T#|Administrative and support service activities#N#|Rental and leasing activities#N77#",
+          "count": 1,
+          "order": 6100
+        },
+        {
+          "val": "2|Total - All activities#_T#|Administrative and support service activities#N#|Travel agency, tour operator, reservation service and related activities#N79#",
+          "count": 1,
+          "order": 6280
+        },
+        {
+          "val": "2|Total - All activities#_T#|Arts, entertainment and recreation#R#|Creative, arts and entertainment activities#R90#",
+          "count": 1,
+          "order": 7110
+        },
+        {
+          "val": "2|Total - All activities#_T#|Arts, entertainment and recreation#R#|Gambling and betting activities; sporting and other recreational activities#R92_93#",
+          "count": 1,
+          "order": 8740
+        },
+        {
+          "val": "2|Total - All activities#_T#|Arts, entertainment and recreation#R#|Libraries, archives, museums and other cultural activities#R91#",
+          "count": 1,
+          "order": 7140
+        },
+        {
+          "val": "2|Total - All activities#_T#|Education#P#|Education#P85#",
+          "count": 1,
+          "order": 6740
+        },
+        {
+          "val": "2|Total - All activities#_T#|Electricity, gas, steam and air conditioning supply#D#|Electricity, gas, steam and air conditioning supply#D35#",
+          "count": 1,
+          "order": 3210
+        },
+        {
+          "val": "2|Total - All activities#_T#|Financial and insurance activities#K#|Activities auxiliary to financial service and insurance activities#K66#",
+          "count": 1,
+          "order": 5540
+        },
+        {
+          "val": "2|Total - All activities#_T#|Financial and insurance activities#K#|Financial service activities, except insurance and pension funding#K64#",
+          "count": 1,
+          "order": 5340
+        },
+        {
+          "val": "2|Total - All activities#_T#|Financial and insurance activities#K#|Insurance, reinsurance and pension funding, except compulsory social security#K65#",
+          "count": 1,
+          "order": 5460
+        },
+        {
+          "val": "2|Total - All activities#_T#|Information and communication#J#|Motion picture, video, television programme production; programming and broadcasting activities#J59_60#",
+          "count": 1,
+          "order": 8430
+        },
+        {
+          "val": "2|Total - All activities#_T#|Information and communication#J#|Publishing, computer programming and consultancy, information service activities#J58_62_63#",
+          "count": 1,
+          "order": 8400
+        },
+        {
+          "val": "2|Total - All activities#_T#|Information and communication#J#|Telecommunications#J61#",
+          "count": 1,
+          "order": 5120
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of basic metals and fabricated metal products, except machinery and equipment#C24_25#",
+          "count": 1,
+          "order": 8130
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of basic pharmaceutical products and pharmaceutical preparations#C21#",
+          "count": 1,
+          "order": 1800
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of chemicals and chemical products#C20#",
+          "count": 1,
+          "order": 1680
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of coke and refined petroleum products#C19#",
+          "count": 1,
+          "order": 1630
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of communication equipment and consumer electronics#C263_264#",
+          "count": 1,
+          "order": 8160
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of computer, electronic and optical products#C26#",
+          "count": 1,
+          "order": 2200
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of food products; beverages and tobacco products#C10T12#",
+          "count": 1,
+          "order": 7990
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks; manufacture of irradiation, electromedical and electrotherapeutic equipment#C265_266#",
+          "count": 1,
+          "order": 8170
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of machinery and equipment n.e.c.#C28#",
+          "count": 1,
+          "order": 2530
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of metal and machinery products, except electrical equipment#C24T28X27#",
+          "count": 1,
+          "order": 8140
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of motor vehicles, trailers and semi-trailers#C29#",
+          "count": 1,
+          "order": 2720
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of motor vehicles, trailers, semi-trailers and of other transport equipment#C29_30#",
+          "count": 1,
+          "order": 8200
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of other transport equipment#C30#",
+          "count": 1,
+          "order": 2790
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of petroleum, chemical, pharmaceutical, rubber and plastic products#C19T22#",
+          "count": 1,
+          "order": 8080
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of rubber and plastics products#C22#",
+          "count": 1,
+          "order": 1830
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of textiles and wearing apparel#C13_14#",
+          "count": 1,
+          "order": 8010
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of textiles, wearing apparel, wood and paper products; printing and reproduction#C13T18X15#",
+          "count": 1,
+          "order": 8030
+        },
+        {
+          "val": "2|Total - All activities#_T#|Manufacturing#C#|Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials; manufacture of paper and paper products; printing and reproduction of recorded media#C16T18#",
+          "count": 1,
+          "order": 8050
+        },
+        {
+          "val": "2|Total - All activities#_T#|Mining and quarrying#B#|Extraction of crude petroleum and natural gas; mining support service activities#B06_09#",
+          "count": 1,
+          "order": 7800
+        },
+        {
+          "val": "2|Total - All activities#_T#|Other service activities#S#|Activities of membership organizations#S94#",
+          "count": 1,
+          "order": 7310
+        },
+        {
+          "val": "2|Total - All activities#_T#|Other service activities#S#|Repair of computers, personal and household goods; other personal service activities#S95_96#",
+          "count": 1,
+          "order": 8770
+        },
+        {
+          "val": "2|Total - All activities#_T#|Professional, scientific and technical activities#M#|Activities of head offices; management consultancy activities#M70#",
+          "count": 1,
+          "order": 5790
+        },
+        {
+          "val": "2|Total - All activities#_T#|Professional, scientific and technical activities#M#|Advertising and market research#M73#",
+          "count": 1,
+          "order": 5940
+        },
+        {
+          "val": "2|Total - All activities#_T#|Professional, scientific and technical activities#M#|Architectural and engineering activities; technical testing and analysis#M71#",
+          "count": 1,
+          "order": 5840
+        },
+        {
+          "val": "2|Total - All activities#_T#|Professional, scientific and technical activities#M#|Legal and accounting activities#M69#",
+          "count": 1,
+          "order": 5740
+        },
+        {
+          "val": "2|Total - All activities#_T#|Professional, scientific and technical activities#M#|Other professional, scientific and technical activities; veterinary activities#M74_75#",
+          "count": 1,
+          "order": 8570
+        },
+        {
+          "val": "2|Total - All activities#_T#|Professional, scientific and technical activities#M#|Scientific research and development#M72#",
+          "count": 1,
+          "order": 5890
+        },
+        {
+          "val": "2|Total - All activities#_T#|Transportation and storage#H#|Air transport#H51#",
+          "count": 1,
+          "order": 4550
+        },
+        {
+          "val": "2|Total - All activities#_T#|Transportation and storage#H#|Land transport and transport via pipelines#H49#",
+          "count": 1,
+          "order": 4380
+        },
+        {
+          "val": "2|Total - All activities#_T#|Transportation and storage#H#|Postal and courier activities#H53#",
+          "count": 1,
+          "order": 4690
+        },
+        {
+          "val": "2|Total - All activities#_T#|Transportation and storage#H#|Warehousing and support activities for transportation#H52#",
+          "count": 1,
+          "order": 4600
+        },
+        {
+          "val": "2|Total - All activities#_T#|Transportation and storage#H#|Water transport#H50#",
+          "count": 1,
+          "order": 4480
+        },
+        {
+          "val": "2|Total - All activities#_T#|Water supply; sewerage, waste management and remediation activities#E#|Sewerage, waste management, remediation activities#E37T39#",
+          "count": 1,
+          "order": 8240
+        },
+        {
+          "val": "2|Total - All activities#_T#|Water supply; sewerage, waste management and remediation activities#E#|Water collection, treatment and supply#E36#",
+          "count": 1,
+          "order": 3290
+        },
+        {
+          "val": "2|Total - All activities#_T#|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#|Retail trade, except of motor vehicles and motorcycles#G47#",
+          "count": 1,
+          "order": 4020
+        },
+        {
+          "val": "2|Total - All activities#_T#|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#|Wholesale and retail trade and repair of motor vehicles and motorcycles#G45#",
+          "count": 1,
+          "order": 3710
+        },
+        {
+          "val": "2|Total - All activities#_T#|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#|Wholesale trade, except of motor vehicles and motorcycles#G46#",
+          "count": 1,
+          "order": 3800
+        },
+        {
+          "val": "3|Total - All activities#_T#|Financial and insurance activities#K#|Financial service activities, except insurance and pension funding#K64#|Activities of holding companies#K642#",
+          "count": 1,
+          "order": 5380
+        },
+        {
+          "val": "3|Total - All activities#_T#|Financial and insurance activities#K#|Financial service activities, except insurance and pension funding#K64#|Monetary intermediation#K641#",
+          "count": 1,
+          "order": 5350
+        },
+        {
+          "val": "3|Total - All activities#_T#|Financial and insurance activities#K#|Financial service activities, except insurance and pension funding#K64#|Trusts, funds and similar financial entities#K643#",
+          "count": 1,
+          "order": 5400
+        },
+        {
+          "val": "3|Total - All activities#_T#|Manufacturing#C#|Manufacture of computer, electronic and optical products#C26#|Manufacture of computers and peripheral equipment#C262#",
+          "count": 1,
+          "order": 2230
+        },
+        {
+          "val": "3|Total - All activities#_T#|Manufacturing#C#|Manufacture of other transport equipment#C30#|Manufacture of air and spacecraft and related machinery#C303#",
+          "count": 1,
+          "order": 2850
+        },
+        {
+          "val": "3|Total - All activities#_T#|Professional, scientific and technical activities#M#|Activities of head offices; management consultancy activities#M70#|Activities of head offices#M701#",
+          "count": 1,
+          "order": 5800
+        },
+        {
+          "val": "3|Total - All activities#_T#|Professional, scientific and technical activities#M#|Activities of head offices; management consultancy activities#M70#|Management consultancy activities#M702#",
+          "count": 1,
+          "order": 5820
+        },
+        {
+          "val": "3|Total - All activities#_T#|Professional, scientific and technical activities#M#|Advertising and market research#M73#|Advertising#M731#",
+          "count": 1,
+          "order": 5950
+        },
+        {
+          "val": "3|Total - All activities#_T#|Professional, scientific and technical activities#M#|Advertising and market research#M73#|Market research and public opinion polling#M732#",
+          "count": 1,
+          "order": 5970
+        },
+        {
+          "val": "3|Total - All activities#_T#|Professional, scientific and technical activities#M#|Legal and accounting activities#M69#|Accounting, bookkeeping and auditing activities; tax consultancy#M692#",
+          "count": 1,
+          "order": 5770
+        },
+        {
+          "val": "3|Total - All activities#_T#|Professional, scientific and technical activities#M#|Legal and accounting activities#M69#|Legal activities#M691#",
+          "count": 1,
+          "order": 5750
+        }
+      ]
+    },
+    "Commodity": {
+      "buckets": [
+        {
+          "val": "0|Cotton#CT#",
+          "count": 1,
+          "order": 440
+        },
+        {
+          "val": "0|Eggs#EG#",
+          "count": 1,
+          "order": 250
+        },
+        {
+          "val": "0|Pulses#PS#",
+          "count": 1,
+          "order": 460
+        },
+        {
+          "val": "0|Roots and tubers#RT#",
+          "count": 1,
+          "order": 450
+        },
+        {
+          "val": "1|Biofuel#BFL#|Biodiesel#BD#",
+          "count": 1,
+          "order": 370
+        },
+        {
+          "val": "1|Biofuel#BFL#|Ethanol#ET#",
+          "count": 1,
+          "order": 360
+        },
+        {
+          "val": "1|Cereals#CRLS#|Distiller's dry grains#DDG#",
+          "count": 1,
+          "order": 60
+        },
+        {
+          "val": "1|Cereals#CRLS#|Maize#MA#",
+          "count": 1,
+          "order": 30
+        },
+        {
+          "val": "1|Cereals#CRLS#|Other coarse grains#OCG#",
+          "count": 1,
+          "order": 40
+        },
+        {
+          "val": "1|Cereals#CRLS#|Rice#RI#",
+          "count": 1,
+          "order": 50
+        },
+        {
+          "val": "1|Cereals#CRLS#|Wheat#WT#",
+          "count": 1,
+          "order": 20
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Butter#BT#",
+          "count": 1,
+          "order": 290
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Casein#CA#",
+          "count": 1,
+          "order": 340
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Cheese#CH#",
+          "count": 1,
+          "order": 300
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Fresh dairy products#FDP#",
+          "count": 1,
+          "order": 280
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Milk#MK#",
+          "count": 1,
+          "order": 270
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Skim milk powder#SMP#",
+          "count": 1,
+          "order": 310
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Whey powder#WYP#",
+          "count": 1,
+          "order": 330
+        },
+        {
+          "val": "1|Dairy (dairy products)#DRY#|Whole milk powder#WMP#",
+          "count": 1,
+          "order": 320
+        },
+        {
+          "val": "1|Fisheries#FSHR#|Fish from aquaculture#FHA#",
+          "count": 1,
+          "order": 410
+        },
+        {
+          "val": "1|Fisheries#FSHR#|Fish from capture#FHC#",
+          "count": 1,
+          "order": 400
+        },
+        {
+          "val": "1|Fisheries#FSHR#|Fish meal#FM#",
+          "count": 1,
+          "order": 420
+        },
+        {
+          "val": "1|Fisheries#FSHR#|Fish oil#FL#",
+          "count": 1,
+          "order": 430
+        },
+        {
+          "val": "1|Fisheries#FSHR#|Fish#FH#",
+          "count": 1,
+          "order": 390
+        },
+        {
+          "val": "1|Indicators#IND#|Agricultural sector#AGR#",
+          "count": 1,
+          "order": 510
+        },
+        {
+          "val": "1|Indicators#IND#|Total#TOT#",
+          "count": 1,
+          "order": 520
+        },
+        {
+          "val": "1|Meats#MAT#|Beef and veal#BV#",
+          "count": 1,
+          "order": 210
+        },
+        {
+          "val": "1|Meats#MAT#|Pigmeat#PK#",
+          "count": 1,
+          "order": 220
+        },
+        {
+          "val": "1|Meats#MAT#|Poultry meat#PT#",
+          "count": 1,
+          "order": 230
+        },
+        {
+          "val": "1|Meats#MAT#|Sheepmeat#SH#",
+          "count": 1,
+          "order": 240
+        },
+        {
+          "val": "1|Oilseeds#OLSDD#|Other oilseeds#OOS#",
+          "count": 1,
+          "order": 90
+        },
+        {
+          "val": "1|Oilseeds#OLSDD#|Protein meals#PM#",
+          "count": 1,
+          "order": 100
+        },
+        {
+          "val": "1|Oilseeds#OLSDD#|Soybean#SB#",
+          "count": 1,
+          "order": 80
+        },
+        {
+          "val": "1|Oilseeds#OLSDD#|Vegetable oils#VL#",
+          "count": 1,
+          "order": 110
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|High fructose corn syrup#HFCS#",
+          "count": 1,
+          "order": 160
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|Molasses#MOL#",
+          "count": 1,
+          "order": 190
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|Raw sugar#SUR#",
+          "count": 1,
+          "order": 140
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|Sugar beet#SBE#",
+          "count": 1,
+          "order": 170
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|Sugar cane#SCA#",
+          "count": 1,
+          "order": 180
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|Sugar#SU#",
+          "count": 1,
+          "order": 130
+        },
+        {
+          "val": "1|Sugar (sweeteners or sugar products or sugars)#SGR#|White sugar#SUW#",
+          "count": 1,
+          "order": 150
+        },
+        {
+          "val": "1|World input prices#W_IP#|Fertilizer#FT#",
+          "count": 1,
+          "order": 480
+        },
+        {
+          "val": "1|World input prices#W_IP#|Oil#OIL#",
+          "count": 1,
+          "order": 490
+        }
+      ]
+    }
+  },
+  "highlighting": {
+    "ds:qa:stable:DSD_AGR@OUTLOOK_2021_2030": {
+      "Topic": [
+        "0|<em>Agriculture</em>#AGR#"
+      ],
+      "description": [
+        "-operation and Development (OECD) and the <em>Food</em> and <em>Agriculture</em> Organization (FAO) of the United Nations. The"
+      ],
+      "name": [
+        "OECD-FAO <em>Agricultural</em> Outlook 2021-2030"
+      ],
+      "Measure": [
+        "1|Specific#SPCFC#|<em>Food</em>#FO#"
+      ],
+      "Commodity": [
+        "1|Indicators#IND#|<em>Agricultural</em> sector#AGR#"
+      ]
+    },
+    "ds:qa:stable:FDI_DSD@FDI_FLOW_IND": {
+      "Economic activity": [
+        "1|Total - All activities#_T#|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:qa:stable:DF_TOURISM_EMP": {
+      "Activity": [
+        "1|Accommodation and <em>food</em> service activities#I#|Accommodation#I55#"
+      ]
+    },
+    "ds:qa:stable:DF_TOURISM_ENT_EMP": {
+      "Activity": [
+        "1|Accommodation and <em>food</em> service activities#I#|Accommodation#I55#"
+      ]
+    },
+    "ds:qa:stable:DF_TOURISM_ENT": {
+      "Activity": [
+        "1|Accommodation and <em>food</em> service activities#I#|Accommodation#I55#"
+      ]
+    },
+    "ds:qa:stable:DF_TOURISM_KEY_IND_PC": {
+      "Activity": [
+        "1|Accommodation and <em>food</em> service activities#I#|Accommodation#I55#"
+      ]
+    },
+    "ds:qa:stable:SNA_TABLE1": {
+      "Transaction": [
+        " employees#D1#|Wages and salaries#D11#|<em>Agriculture</em>, forestry and fishing (ISIC rev4)#D11VA#"
+      ]
+    },
+    "ds:staging:SIS-CC-stable:ENT_EMP@TOURISM_KEY": {
+      "Activity": [
+        "2|Tourism#AGG_TOUR#|Tourism industries#IND#|<em>Food</em> and beverage serving industries#FOOD_BEV#"
+      ]
+    },
+    "ds:staging:SIS-CC-stable:ENT@TOURISM_KEY": {
+      "Activity": [
+        "2|Tourism#AGG_TOUR#|Tourism industries#IND#|<em>Food</em> and beverage serving industries#FOOD_BEV#"
+      ]
+    },
+    "ds:qa:stable:DF_AIR_EMISSIONS": {
+      "Variable": [
+        "2|Total man-made emissions#TOT#|Total Stationary Sources#STAT_TOT#|<em>Agriculture</em>#MISC_AGR#"
+      ]
+    },
+    "ds:qa:stable:NAMAIN_UOM3": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:staging:SIS-CC-stable:NAMAIN_ALL": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:qa:stable:NAMAIN_T0101_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:staging:SIS-CC-stable:NAMAIN_T0101_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:qa:stable:NAMAIN_T0102_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:qa:stable:NAMAIN_T0103_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:staging:SIS-CC-stable:NAMAIN_T0103_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:qa:stable:NAMAIN_T0107_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:qa:stable:NAMAIN_T0110_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    },
+    "ds:staging:SIS-CC-stable:NAMAIN_T0111_Q": {
+      "Activity classification": [
+        "0|<em>Agriculture</em>, forestry and fishing#A#"
+      ]
+    }
+  }
+}

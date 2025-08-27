@@ -1,0 +1,700 @@
+{
+  "accessibility.disable": {
+  },
+  "accessibility.enable": {
+  },
+  "accessibility.support": {
+  },
+  "accessibility.support.disabled": {
+  },
+  "accessibility.support.enabled": {
+  },
+  "ar": {
+  },
+  "auth.required": {
+  },
+  "chart.choropleth": {
+  },
+  "chart.config.baseline": {
+  },
+  "chart.config.dimension.for.symbols": {
+  },
+  "chart.config.dimension.values.x.axis": {
+  },
+  "chart.config.dimension.values.y.axis": {
+  },
+  "chart.config.dimension.x.axis": {
+  },
+  "chart.config.dimension.x.y.axes": {
+  },
+  "chart.config.focus": {
+  },
+  "chart.config.frequency": {
+  },
+  "chart.config.height": {
+  },
+  "chart.config.highlights": {
+  },
+  "chart.config.maximum": {
+  },
+  "chart.config.minimum": {
+  },
+  "chart.config.observations.displayed": {
+  },
+  "chart.config.pivot": {
+  },
+  "chart.config.select": {
+  },
+  "chart.config.series": {
+  },
+  "chart.config.size": {
+  },
+  "chart.config.stacked.percent": {
+  },
+  "chart.config.stacked.values": {
+  },
+  "chart.config.step": {
+  },
+  "chart.config.step.period": {
+  },
+  "chart.config.width": {
+  },
+  "chart.config.x.axis": {
+  },
+  "chart.config.y.axis": {
+  },
+  "data.download.csv.error": {
+  },
+  "data.download.csv.launch": {
+  },
+  "data.download.csv.launch.detail": {
+  },
+  "data.warning.url.too.long": {
+  },
+  "de": {
+  },
+  "de.advanced.filter": {
+  },
+  "de.api.queries.contact": {
+  },
+  "de.api.queries.copied": {
+  },
+  "de.api.queries.copy": {
+  },
+  "de.api.queries.doc": {
+  },
+  "de.api.queries.error.data.long.url": {
+  },
+  "de.api.queries.format.flat": {
+  },
+  "de.api.queries.format.label": {
+  },
+  "de.api.queries.format.time.series": {
+  },
+  "de.api.queries.information": {
+  },
+  "de.api.queries.label.data": {
+  },
+  "de.api.queries.label.structure": {
+  },
+  "de.api.queries.notice": {
+  },
+  "de.api.queries.title": {
+  },
+  "de.app.title.search": {
+  },
+  "de.app.title.vis": {
+  },
+  "de.appBar.go.home": {
+  },
+  "de.complementary.data": {
+  },
+  "de.contact.checkbox": {
+  },
+  "de.contact.choice.feedback": {
+  },
+  "de.contact.choice.feedback.details": {
+  },
+  "de.contact.choice.problem": {
+  },
+  "de.contact.choice.problem.details": {
+  },
+  "de.contact.choice.question": {
+  },
+  "de.contact.choice.question.details": {
+  },
+  "de.contact.choice.title": {
+  },
+  "de.contact.details": {
+  },
+  "de.contact.email": {
+  },
+  "de.contact.form": {
+  },
+  "de.contact.full.name": {
+  },
+  "de.contact.mail.subject": {
+  },
+  "de.contact.mail.subject.label": {
+  },
+  "de.contact.organisation": {
+  },
+  "de.contact.personal.title": {
+  },
+  "de.contact.privacy": {
+  },
+  "de.contact.submit.label": {
+  },
+  "de.contentConstraints.checkbox.label": {
+  },
+  "de.data.source": {
+  },
+  "de.error.title": {
+  },
+  "de.filter.period.title.head": {
+  },
+  "de.filter.period.title.last": {
+  },
+  "de.filters.search.help": {
+  },
+  "de.footer.author": {
+  },
+  "de.footer.description": {
+  },
+  "de.footer.disclaimer": {
+  },
+  "de.header.message": {
+  },
+  "de.last.updated": {
+  },
+  "de.mail.adress.mail": {
+  },
+  "de.mail.check.box": {
+  },
+  "de.mail.details": {
+  },
+  "de.mail.full.name": {
+  },
+  "de.mail.mode": {
+  },
+  "de.mail.organisation": {
+  },
+  "de.mail.personnal.title": {
+  },
+  "de.mail.url": {
+  },
+  "de.more.complementary.data": {
+  },
+  "de.no": {
+  },
+  "de.no.external.resources": {
+  },
+  "de.notif.contact.error": {
+  },
+  "de.notif.contact.success": {
+  },
+  "de.observations.count": {
+  },
+  "de.panel.contentConstraints.title": {
+  },
+  "de.period.day": {
+  },
+  "de.period.end": {
+  },
+  "de.period.full_hour": {
+  },
+  "de.period.helpLastNPeriods": {
+  },
+  "de.period.helpLastNTimeValues": {
+  },
+  "de.period.hour": {
+  },
+  "de.period.last": {
+  },
+  "de.period.minute": {
+  },
+  "de.period.month": {
+  },
+  "de.period.periods": {
+  },
+  "de.period.quarter": {
+  },
+  "de.period.semester": {
+  },
+  "de.period.start": {
+  },
+  "de.period.week": {
+  },
+  "de.period.year": {
+  },
+  "de.related.files": {
+  },
+  "de.results.more.filters": {
+  },
+  "de.search.agencyId": {
+  },
+  "de.search.back": {
+  },
+  "de.search.dataflow.dimensions": {
+  },
+  "de.search.dataflow.last.updated": {
+  },
+  "de.search.list.blank": {
+  },
+  "de.search.list.loading": {
+  },
+  "de.search.list.status": {
+  },
+  "de.search.list.status.freetext": {
+  },
+  "de.search.page": {
+  },
+  "de.search.page.of": {
+  },
+  "de.search.result.alphabetical": {
+  },
+  "de.search.result.lastupdated": {
+  },
+  "de.search.result.relevance": {
+  },
+  "de.search.result.sort": {
+  },
+  "de.search.splash": {
+  },
+  "de.search.topics.browse": {
+  },
+  "de.search.version": {
+  },
+  "de.share.activate.submit": {
+  },
+  "de.share.activate.title": {
+  },
+  "de.share.alert.delete.cancel": {
+  },
+  "de.share.alert.delete.confirm": {
+  },
+  "de.share.alert.delete.description": {
+  },
+  "de.share.alert.delete.title": {
+  },
+  "de.share.alert.deleteall.confirm": {
+  },
+  "de.share.alert.deleteall.description": {
+  },
+  "de.share.alert.deleteall.title": {
+  },
+  "de.share.button.deleteAll": {
+  },
+  "de.share.confirmationText": {
+  },
+  "de.share.copyMsg": {
+  },
+  "de.share.email.button.label": {
+  },
+  "de.share.embed.description": {
+  },
+  "de.share.expired.description": {
+  },
+  "de.share.expired.label": {
+  },
+  "de.share.expired.submit": {
+  },
+  "de.share.expired.token.success": {
+  },
+  "de.share.headerMsg": {
+  },
+  "de.share.mobile.delete": {
+  },
+  "de.share.subHeaderMsg": {
+  },
+  "de.share.subject": {
+  },
+  "de.share.table.col.actions": {
+  },
+  "de.share.table.col.created": {
+  },
+  "de.share.table.col.expireDate": {
+  },
+  "de.share.table.col.lastViewed": {
+  },
+  "de.share.table.col.link": {
+  },
+  "de.share.table.col.shareOptions": {
+  },
+  "de.share.table.col.title": {
+  },
+  "de.share.table.no.data": {
+  },
+  "de.share.tag.new.shared.object": {
+  },
+  "de.share.title.table": {
+  },
+  "de.sharing.private.data": {
+  },
+  "de.side.filters.action": {
+  },
+  "de.side.filters.result": {
+  },
+  "de.survey.button": {
+  },
+  "de.survey.subtitle": {
+  },
+  "de.survey.title": {
+  },
+  "de.sus.button.label": {
+  },
+  "de.sus.title": {
+  },
+  "de.table.activate.layout.attributes": {
+  },
+  "de.table.layout.apply": {
+  },
+  "de.table.layout.attributes": {
+  },
+  "de.table.layout.cancel": {
+  },
+  "de.table.layout.getter.dimension": {
+  },
+  "de.table.layout.help": {
+  },
+  "de.table.layout.table": {
+  },
+  "de.table.layout.time.asc": {
+  },
+  "de.table.layout.time.desc": {
+  },
+  "de.table.layout.value.one": {
+  },
+  "de.table.layout.x": {
+  },
+  "de.table.layout.y": {
+  },
+  "de.table.layout.z": {
+  },
+  "de.table.obs.value": {
+  },
+  "de.time.series.values": {
+  },
+  "de.viewer.copyright.content.label": {
+  },
+  "de.viewer.copyright.content.link": {
+  },
+  "de.viewer.copyright.content.link.label": {
+  },
+  "de.viewer.copyright.label": {
+  },
+  "de.vis.all.data.points": {
+  },
+  "de.vis.data.points": {
+  },
+  "de.vis.disabled.item.label": {
+  },
+  "de.vis.filter.title": {
+  },
+  "de.vis.map.loading": {
+  },
+  "de.vis.pit.filter.live.value": {
+  },
+  "de.vis.pit.filter.pit.value": {
+  },
+  "de.vis.pit.filter.title": {
+  },
+  "de.visualisation.data.larger.loading": {
+  },
+  "de.visualisation.data.loading": {
+  },
+  "de.visualisation.loading": {
+  },
+  "de.visualisation.toolbar.action.apiqueries": {
+  },
+  "de.visualisation.toolbar.action.customize": {
+  },
+  "de.visualisation.toolbar.action.download": {
+  },
+  "de.visualisation.toolbar.action.download.chart.selection": {
+  },
+  "de.visualisation.toolbar.action.download.csv.all": {
+  },
+  "de.visualisation.toolbar.action.download.csv.selection": {
+  },
+  "de.visualisation.toolbar.action.download.excel.selection": {
+  },
+  "de.visualisation.toolbar.action.fullscreen": {
+  },
+  "de.visualisation.toolbar.action.labels": {
+  },
+  "de.visualisation.toolbar.action.layout": {
+  },
+  "de.visualisation.toolbar.action.more": {
+  },
+  "de.visualisation.toolbar.action.share": {
+  },
+  "de.visualisation.toolbar.chart": {
+  },
+  "de.visualisation.toolbar.chart.bar": {
+  },
+  "de.visualisation.toolbar.chart.horizontalsymbol": {
+  },
+  "de.visualisation.toolbar.chart.row": {
+  },
+  "de.visualisation.toolbar.chart.scatter": {
+  },
+  "de.visualisation.toolbar.chart.stacked.bar": {
+  },
+  "de.visualisation.toolbar.chart.stacked.row": {
+  },
+  "de.visualisation.toolbar.chart.timeline": {
+  },
+  "de.visualisation.toolbar.chart.verticalsymbol": {
+  },
+  "de.visualisation.toolbar.microdata": {
+  },
+  "de.visualisation.toolbar.overview": {
+  },
+  "de.visualisation.toolbar.table": {
+  },
+  "de.wcag.close": {
+  },
+  "de.wcag.contact": {
+  },
+  "de.yes": {
+  },
+  "en": {
+  },
+  "es": {
+  },
+  "fr": {
+  },
+  "incomplete.excel.data": {
+  },
+  "incomplete.table.cells.limit": {
+  },
+  "incomplete.vis.data.total.limit": {
+  },
+  "it": {
+  },
+  "km": {
+  },
+  "log.error.sdmx.404": {
+  },
+  "log.error.sdmx.40x": {
+  },
+  "log.error.sdmx.invalid.space": {
+  },
+  "log.error.sdmx.xxx": {
+  },
+  "metadata.advanced.attributes": {
+  },
+  "metadata.collapse.all": {
+  },
+  "metadata.download": {
+  },
+  "metadata.download.csv.all": {
+  },
+  "metadata.empty": {
+  },
+  "metadata.expand.all": {
+  },
+  "metadata.information.title": {
+  },
+  "metadata.no.value": {
+  },
+  "microdata.count": {
+  },
+  "microdata.download.csv.all": {
+  },
+  "microdata.download.csv.selection": {
+  },
+  "microdata.download.excel.selection": {
+  },
+  "microdata.title": {
+  },
+  "microdata.value": {
+  },
+  "nl": {
+  },
+  "ru": {
+  },
+  "scopelist.selection.current": {
+  },
+  "scopelist.selection.level": {
+  },
+  "scopelist.selection.title": {
+  },
+  "sdmx.data.false": {
+  },
+  "sdmx.data.true": {
+  },
+  "share.action": {
+  },
+  "share.disclaimer": {
+  },
+  "share.error.message": {
+  },
+  "share.error.title": {
+  },
+  "share.latest": {
+  },
+  "share.mail": {
+  },
+  "share.policy.label": {
+  },
+  "share.policy.link": {
+  },
+  "share.snapshot": {
+  },
+  "share.success.message": {
+  },
+  "share.success.title": {
+  },
+  "share.title": {
+  },
+  "space.auth.anonymous": {
+  },
+  "space.auth.failed": {
+  },
+  "space.auth.header": {
+  },
+  "space.auth.login": {
+  },
+  "space.auth.password": {
+  },
+  "space.auth.user": {
+  },
+  "th": {
+  },
+  "used.filters.reducing": {
+  },
+  "user.login": {
+  },
+  "user.logout": {
+  },
+  "viewer.guidance.bar": {
+  },
+  "viewer.guidance.choro": {
+  },
+  "viewer.guidance.hsymbol": {
+  },
+  "viewer.guidance.row": {
+  },
+  "viewer.guidance.scatter": {
+  },
+  "viewer.guidance.stacked-bar": {
+  },
+  "viewer.guidance.stacked-row": {
+  },
+  "viewer.guidance.timeline": {
+  },
+  "viewer.guidance.vsymbol": {
+  },
+  "viewer.guidances.chart": {
+  },
+  "viewer.guidances.table": {
+  },
+  "vis.data.availability.disabled": {
+  },
+  "vx.config.copyright": {
+  },
+  "vx.config.display.both": {
+  },
+  "vx.config.display.code": {
+  },
+  "vx.config.display.label": {
+  },
+  "vx.config.logo": {
+  },
+  "vx.config.reset": {
+  },
+  "vx.config.source": {
+  },
+  "vx.config.subtitle": {
+  },
+  "vx.config.title": {
+  },
+  "vx.config.uniq.focus.option": {
+  },
+  "vx.filter.all.selection": {
+  },
+  "vx.filter.apply": {
+  },
+  "vx.filter.branch.selection": {
+  },
+  "vx.filter.children.selection": {
+  },
+  "vx.filter.close": {
+  },
+  "vx.filter.colapse.all": {
+  },
+  "vx.filter.deselect.all": {
+  },
+  "vx.filter.expand.all": {
+  },
+  "vx.filter.level.selection": {
+  },
+  "vx.filter.selectin.hint": {
+  },
+  "vx.filter.selectin.mode": {
+  },
+  "vx.filter.single.selection": {
+  },
+  "vx.filters.current.clear": {
+  },
+  "vx.filters.current.title": {
+  },
+  "vx.no.data": {
+  },
+  "vx.no.data.selection": {
+  },
+  "vx.no.map": {
+  },
+  "vx.no.time.data": {
+  },
+  "vx.spotlight.placeholder": {
+  },
+  "vx.spotlight.placeholder.primary": {
+  },
+  "vx.spotlight.placeholder.secondary": {
+  },
+  "wcag.applied.filetrs.chip.tooltip": {
+  },
+  "wcag.filters.current.title": {
+  },
+  "wcag.filters.search.help": {
+  },
+  "wcag.filters.tag.label": {
+  },
+  "wcag.last.n.label": {
+  },
+  "wcag.logo.app.alt.text": {
+  },
+  "wcag.logo.siscc.alt.text": {
+  },
+  "wcag.pinned": {
+  },
+  "wcag.scopelist.navigate.backHelper": {
+  },
+  "wcag.scopelist.navigate.children": {
+  },
+  "wcag.scopelist.navigate.next": {
+  },
+  "wcag.search.page.end": {
+  },
+  "wcag.search.page.next": {
+  },
+  "wcag.search.page.previous": {
+  },
+  "wcag.search.page.start": {
+  },
+  "wcag.table.layout.cancel": {
+  },
+  "wcag.table.layout.end": {
+  },
+  "wcag.table.layout.explanation": {
+  },
+  "wcag.table.layout.start": {
+  },
+  "wcag.table.layout.update": {
+  },
+  "zh": {
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "endpoint": "https://sfs-qa.siscc.org/api",
+  "defaultFacetsNumber": 6,
+  "homeFacetIds": [
+    "Topic",
+    "Thème",
+    "Popular data",
+    "Données populaires",
+    "Reference area",
+    "Zone de référence",
+    "مرجع المنطقة",
+    "Frequency",
+    "Fréquence",
+    "الدورية",
+    "datasourceId",
+    "Databases",
+    "Bases de données",
+    "Bases de datos"
+  ],
+  "homeFacetLevel2Clickable": true,
+  "homeFacetCentered": true,
+  "expandedHomeFacets": [
+    "Topic",
+    "Thème"
+  ],
+  "hideHomeFacetItemIDs": [
+    "Databases",
+    "Bases de données",
+    "Bases de datos"
+  ],
+  "hideHomeAndResultFacetItemIDs": [
+    "Topic",
+    "Thème",
+    "Popular data",
+    "Données populaires"
+  ],
+  "pinnedFacetIds": [
+    "datasourceId",
+    "Topic",
+    "Thème",
+    "Reference area",
+    "Zone de référence",
+    "مرجع المنطقة",
+    "Frequency",
+    "Fréquence",
+    "الدورية"
+  ],
+  "downloadableDataflowResults": true,
+  "excludedFacetIds": [
+    "Territory",
+    "Indicator number",
+    "Age",
+    "Reporting country",
+    "Counterpart country",
+    "Activity",
+    "Institutional sector",
+    "Transaction",
+    "Financial instrument"
+  ]
+}

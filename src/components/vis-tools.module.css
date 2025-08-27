@@ -1,0 +1,32 @@
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  border-top: 2px solid #595959;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.panels {
+  background: white;
+}
+
+.panel {
+  padding: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.panel:first-child {
+  border-top: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .toolbar {
+    position: relative;
+  }
+  
+  .panel {
+    padding: 12px;
+  }
+}

@@ -1,0 +1,2095 @@
+{
+  "data": {
+    "hierarchicalCodelists": [
+      {
+        "id": "HCL_TEST",
+        "links": [
+          {
+            "rel": "self",
+            "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCodelist=TEST:HCL_TEST(1.0)"
+          }
+        ],
+        "version": "1.0",
+        "agencyID": "TEST",
+        "isFinal": false,
+        "validFrom": "2022-01-01T00:00:00",
+        "validTo": "2030-12-31T00:00:00",
+        "name": "Reference area hierarchical Codelist",
+        "names": {
+          "en": "Reference area hierarchical Codelist"
+        },
+        "hierarchies": [
+          {
+            "id": "CONT_EN",
+            "links": [
+              {
+                "rel": "self",
+                "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=TEST:HCL_TEST(1.0).CONT_EN"
+              }
+            ],
+            "name": "Hierarchy by continents - World first",
+            "names": {
+              "en": "Hierarchy by continents - World first"
+            },
+            "description": "Hierarchy by continents - World first",
+            "descriptions": {
+              "en": "Hierarchy by continents - World first"
+            },
+            "leveled": false,
+            "hierarchicalCodes": [
+              {
+                "id": "W",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).W",
+                "codeID": "W",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "A",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W.A"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A",
+                    "codeID": "A",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "E",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W.E"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).E",
+                    "codeID": "E",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "F",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W.F"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).F",
+                    "codeID": "F",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "O",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W.O"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).O",
+                    "codeID": "O",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "S",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W.S"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).S",
+                    "codeID": "S",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "W_X",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.W.W_X"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).W_X",
+                    "codeID": "W_X",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "A",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A",
+                "codeID": "A",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "A2",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A2"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A2",
+                    "codeID": "A2",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A3",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A3"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A3",
+                    "codeID": "A3",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A4",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A4"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A4",
+                    "codeID": "A4",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A5",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A5"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A5",
+                    "codeID": "A5",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A7",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A7"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A7",
+                    "codeID": "A7",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A8",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A8"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A8",
+                    "codeID": "A8",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A8_M",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A8_M"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A8_M",
+                    "codeID": "A8_M",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A9",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A9"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A9",
+                    "codeID": "A9",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A_X",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A_X"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A_X",
+                    "codeID": "A_X",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A_O",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A.A_O"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A_O",
+                    "codeID": "A_O",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "A2",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A2"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A2",
+                "codeID": "A2",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "BMU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A2.BMU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).BMU",
+                    "codeID": "BMU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CAN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A2.CAN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CAN",
+                    "codeID": "CAN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GRL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A2.GRL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GRL",
+                    "codeID": "GRL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SPM",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A2.SPM"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SPM",
+                    "codeID": "SPM",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "USA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.A2.USA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).USA",
+                    "codeID": "USA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "OECD",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).OECD",
+                "codeID": "OECD",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "AUS",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.AUS"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).AUS",
+                    "codeID": "AUS",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "AUT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.AUT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).AUT",
+                    "codeID": "AUT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "BEL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.BEL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).BEL",
+                    "codeID": "BEL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CAN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.CAN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CAN",
+                    "codeID": "CAN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CHL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.CHL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CHL",
+                    "codeID": "CHL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "COL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.COL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).COL",
+                    "codeID": "COL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CRI",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.CRI"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CRI",
+                    "codeID": "CRI",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CZE",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.CZE"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CZE",
+                    "codeID": "CZE",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "DNK",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.DNK"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).DNK",
+                    "codeID": "DNK",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "EST",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.EST"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).EST",
+                    "codeID": "EST",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FIN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.FIN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FIN",
+                    "codeID": "FIN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FRA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.FRA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FRA",
+                    "codeID": "FRA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "DEU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.DEU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).DEU",
+                    "codeID": "DEU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GRC",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.GRC"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GRC",
+                    "codeID": "GRC",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "HUN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.HUN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).HUN",
+                    "codeID": "HUN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ISL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.ISL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ISL",
+                    "codeID": "ISL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "IRL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.IRL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).IRL",
+                    "codeID": "IRL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ISR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.ISR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ISR",
+                    "codeID": "ISR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ITA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.ITA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ITA",
+                    "codeID": "ITA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "JPN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.JPN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).JPN",
+                    "codeID": "JPN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "KOR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.KOR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).KOR",
+                    "codeID": "KOR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LVA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.LVA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LVA",
+                    "codeID": "LVA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LTU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.LTU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LTU",
+                    "codeID": "LTU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LUX",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.LUX"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LUX",
+                    "codeID": "LUX",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "MEX",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.MEX"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).MEX",
+                    "codeID": "MEX",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NLD",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.NLD"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NLD",
+                    "codeID": "NLD",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NZL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.NZL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NZL",
+                    "codeID": "NZL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NOR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.NOR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NOR",
+                    "codeID": "NOR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "POL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.POL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).POL",
+                    "codeID": "POL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "PRT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.PRT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).PRT",
+                    "codeID": "PRT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVK",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.SVK"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVK",
+                    "codeID": "SVK",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.SVN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVN",
+                    "codeID": "SVN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ESP",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.ESP"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ESP",
+                    "codeID": "ESP",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SWE",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.SWE"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SWE",
+                    "codeID": "SWE",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CHE",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.CHE"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CHE",
+                    "codeID": "CHE",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "TUR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.TUR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).TUR",
+                    "codeID": "TUR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GBR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.GBR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GBR",
+                    "codeID": "GBR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "USA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.OECD.USA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).USA",
+                    "codeID": "USA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "EA00",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).EA00",
+                "codeID": "EA00",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "BEL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.BEL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).BEL",
+                    "codeID": "BEL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "DEU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.DEU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).DEU",
+                    "codeID": "DEU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "IRL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.IRL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).IRL",
+                    "codeID": "IRL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ESP",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.ESP"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ESP",
+                    "codeID": "ESP",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FRA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.FRA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FRA",
+                    "codeID": "FRA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ITA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.ITA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ITA",
+                    "codeID": "ITA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LUX",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.LUX"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LUX",
+                    "codeID": "LUX",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NLD",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.NLD"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NLD",
+                    "codeID": "NLD",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "AUT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.AUT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).AUT",
+                    "codeID": "AUT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "PRT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.PRT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).PRT",
+                    "codeID": "PRT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FIN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.FIN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FIN",
+                    "codeID": "FIN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GRC",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.GRC"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GRC",
+                    "codeID": "GRC",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.SVN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVN",
+                    "codeID": "SVN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CYP",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.CYP"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CYP",
+                    "codeID": "CYP",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "MLT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.MLT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).MLT",
+                    "codeID": "MLT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVK",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.SVK"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVK",
+                    "codeID": "SVK",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "EST",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.EST"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).EST",
+                    "codeID": "EST",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LVA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.LVA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LVA",
+                    "codeID": "LVA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LTU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_EN.EA00.LTU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LTU",
+                    "codeID": "LTU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "CONT_FR",
+            "links": [
+              {
+                "rel": "self",
+                "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Hierarchy=TEST:HCL_TEST(1.0).CONT_FR"
+              }
+            ],
+            "name": "[name]",
+            "names": {
+              "fr": "Hierarchie par continent - OECD d'abord"
+            },
+            "leveled": false,
+            "hierarchicalCodes": [
+              {
+                "id": "OECD",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).OECD",
+                "codeID": "OECD",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "AUS",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.AUS"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).AUS",
+                    "codeID": "AUS",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "AUT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.AUT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).AUT",
+                    "codeID": "AUT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "BEL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.BEL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).BEL",
+                    "codeID": "BEL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CAN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.CAN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CAN",
+                    "codeID": "CAN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CHL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.CHL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CHL",
+                    "codeID": "CHL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "COL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.COL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).COL",
+                    "codeID": "COL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CRI",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.CRI"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CRI",
+                    "codeID": "CRI",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CZE",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.CZE"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CZE",
+                    "codeID": "CZE",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "DNK",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.DNK"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).DNK",
+                    "codeID": "DNK",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "EST",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.EST"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).EST",
+                    "codeID": "EST",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FIN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.FIN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FIN",
+                    "codeID": "FIN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FRA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.FRA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FRA",
+                    "codeID": "FRA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "DEU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.DEU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).DEU",
+                    "codeID": "DEU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GRC",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.GRC"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GRC",
+                    "codeID": "GRC",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "HUN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.HUN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).HUN",
+                    "codeID": "HUN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ISL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.ISL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ISL",
+                    "codeID": "ISL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "IRL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.IRL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).IRL",
+                    "codeID": "IRL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ISR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.ISR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ISR",
+                    "codeID": "ISR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ITA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.ITA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ITA",
+                    "codeID": "ITA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "JPN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.JPN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).JPN",
+                    "codeID": "JPN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "KOR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.KOR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).KOR",
+                    "codeID": "KOR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LVA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.LVA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LVA",
+                    "codeID": "LVA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LTU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.LTU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LTU",
+                    "codeID": "LTU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LUX",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.LUX"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LUX",
+                    "codeID": "LUX",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "MEX",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.MEX"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).MEX",
+                    "codeID": "MEX",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NLD",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.NLD"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NLD",
+                    "codeID": "NLD",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NZL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.NZL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NZL",
+                    "codeID": "NZL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NOR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.NOR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NOR",
+                    "codeID": "NOR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "POL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.POL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).POL",
+                    "codeID": "POL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "PRT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.PRT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).PRT",
+                    "codeID": "PRT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVK",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.SVK"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVK",
+                    "codeID": "SVK",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.SVN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVN",
+                    "codeID": "SVN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ESP",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.ESP"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ESP",
+                    "codeID": "ESP",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SWE",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.SWE"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SWE",
+                    "codeID": "SWE",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CHE",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.CHE"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CHE",
+                    "codeID": "CHE",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "TUR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.TUR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).TUR",
+                    "codeID": "TUR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GBR",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.GBR"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GBR",
+                    "codeID": "GBR",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "USA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.OECD.USA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).USA",
+                    "codeID": "USA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "A",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A",
+                "codeID": "A",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "A2",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A2"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A2",
+                    "codeID": "A2",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A3",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A3"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A3",
+                    "codeID": "A3",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A4",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A4"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A4",
+                    "codeID": "A4",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A5",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A5"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A5",
+                    "codeID": "A5",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A7",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A7"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A7",
+                    "codeID": "A7",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A8",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A8"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A8",
+                    "codeID": "A8",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A8_M",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A8_M"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A8_M",
+                    "codeID": "A8_M",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A9",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A9"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A9",
+                    "codeID": "A9",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A_X",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A_X"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A_X",
+                    "codeID": "A_X",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "A_O",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A.A_O"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A_O",
+                    "codeID": "A_O",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "A2",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A2"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A2",
+                "codeID": "A2",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "BMU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A2.BMU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).BMU",
+                    "codeID": "BMU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CAN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A2.CAN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CAN",
+                    "codeID": "CAN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GRL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A2.GRL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GRL",
+                    "codeID": "GRL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SPM",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A2.SPM"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SPM",
+                    "codeID": "SPM",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "USA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.A2.USA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).USA",
+                    "codeID": "USA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "EA00",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).EA00",
+                "codeID": "EA00",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "BEL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.BEL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).BEL",
+                    "codeID": "BEL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "DEU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.DEU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).DEU",
+                    "codeID": "DEU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "IRL",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.IRL"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).IRL",
+                    "codeID": "IRL",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ESP",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.ESP"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ESP",
+                    "codeID": "ESP",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FRA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.FRA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FRA",
+                    "codeID": "FRA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "ITA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.ITA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).ITA",
+                    "codeID": "ITA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LUX",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.LUX"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LUX",
+                    "codeID": "LUX",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "NLD",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.NLD"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).NLD",
+                    "codeID": "NLD",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "AUT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.AUT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).AUT",
+                    "codeID": "AUT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "PRT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.PRT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).PRT",
+                    "codeID": "PRT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "FIN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.FIN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).FIN",
+                    "codeID": "FIN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "GRC",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.GRC"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).GRC",
+                    "codeID": "GRC",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVN",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.SVN"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVN",
+                    "codeID": "SVN",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "CYP",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.CYP"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).CYP",
+                    "codeID": "CYP",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "MLT",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.MLT"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).MLT",
+                    "codeID": "MLT",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "SVK",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.SVK"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).SVK",
+                    "codeID": "SVK",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "EST",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.EST"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).EST",
+                    "codeID": "EST",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LVA",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.LVA"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LVA",
+                    "codeID": "LVA",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "LTU",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.EA00.LTU"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).LTU",
+                    "codeID": "LTU",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              },
+              {
+                "id": "W",
+                "links": [
+                  {
+                    "rel": "self",
+                    "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W"
+                  }
+                ],
+                "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).W",
+                "codeID": "W",
+                "codelistAliasRef": "CL_AREA@TEST@10",
+                "hierarchicalCodes": [
+                  {
+                    "id": "A",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W.A"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).A",
+                    "codeID": "A",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "E",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W.E"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).E",
+                    "codeID": "E",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "F",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W.F"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).F",
+                    "codeID": "F",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "O",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W.O"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).O",
+                    "codeID": "O",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "S",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W.S"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).S",
+                    "codeID": "S",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  },
+                  {
+                    "id": "W_X",
+                    "links": [
+                      {
+                        "rel": "self",
+                        "urn": "urn:sdmx:org.sdmx.infomodel.codelist.HierarchicalCode=TEST:HCL_TEST(1.0).CONT_FR.W.W_X"
+                      }
+                    ],
+                    "code": "urn:sdmx:org.sdmx.infomodel.codelist.Code=TEST:CL_AREA(1.0).W_X",
+                    "codeID": "W_X",
+                    "codelistAliasRef": "CL_AREA@TEST@10"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "includedCodelists": {
+          "CL_AREA@TEST@10": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=TEST:CL_AREA(1.0)"
+        }
+      }
+    ]
+  },
+  "meta": {
+    "schema": "https://raw.githubusercontent.com/sdmx-twg/sdmx-json/develop/structure-message/tools/schemas/1.0/sdmx-json-structure-schema.json",
+    "contentLanguages": [
+      "en",
+      "fr"
+    ],
+    "id": "IDREF705",
+    "prepared": "2022-03-29T14:06:17.7784586Z",
+    "test": false,
+    "sender": {
+      "id": "Unknown"
+    },
+    "receiver": [
+      {
+        "id": "Unknown"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2345 @@
+[
+  {
+    "id": "datasourceId",
+    "label": "datasourceId",
+    "values": [
+      {
+        "id": "ds:qa:stable",
+        "code": "",
+        "label": "ds:qa:stable",
+        "order": 0,
+        "count": 13,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": null,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true,
+    "isPinned": true,
+    "index": 0
+  },
+  {
+    "id": "Topic",
+    "label": "Topic",
+    "values": [
+      {
+        "id": "0|Economy#ECO#",
+        "code": "ECO",
+        "label": "Economy",
+        "order": 3,
+        "count": 13,
+        "isDisabled": false,
+        "isSelected": true,
+        "svgPath": "M17.119 10.522c-.449.876-1.36 1.478-2.41 1.478-1.05 0-1.96-.602-2.41-1.478H1.903v9.358h15.341c-.505-.6-.811-1.373-.811-2.216 0-1.647 1.162-3.027 2.709-3.366v-3.776H17.119zM10.522 18.157c-1.632 0-2.955-1.323-2.955-2.955s1.323-2.955 2.955-2.955c1.632 0 2.955 1.323 2.955 2.955S12.154 18.157 10.522 18.157zM17.664 17.663a2.216 2.216 0 1 0 4.433 0 2.216 2.216 0 1 0-4.433 0M13.231 9.291a1.478 1.478 0 1 0 2.955 0 1.478 1.478 0 1 0-2.955 0M5.132 4.119 4.198 9.291h7.802c0-1.494 1.215-2.709 2.709-2.709 1.494 0 2.709 1.215 2.709 2.709h1.724 1.231v1.231 3.733c.147.021 .291.051 .431.09l1.293-7.164L5.132 4.119z",
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Economy#ECO#|GDP and spending#ECO_GDP#",
+        "code": "ECO_GDP",
+        "label": "GDP and spending",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Economy#ECO#",
+        "level": 1,
+        "path": [
+          "Economy#ECO#"
+        ]
+      },
+      {
+        "id": "1|Economy#ECO#|Productivity#ECO_PRO#",
+        "code": "ECO_PRO",
+        "label": "Productivity",
+        "order": 9,
+        "count": 6,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Economy#ECO#",
+        "level": 1,
+        "path": [
+          "Economy#ECO#"
+        ]
+      }
+    ],
+    "count": 1,
+    "hasPath": true,
+    "isPinned": true,
+    "index": 1
+  },
+  {
+    "id": "Reference area",
+    "label": "Reference area",
+    "values": [
+      {
+        "id": "1|Colombia#CO#|Amazonia#CO1#",
+        "code": "CO1",
+        "label": "Amazonia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Colombia#CO#",
+        "level": 1,
+        "path": [
+          "Colombia#CO#"
+        ]
+      },
+      {
+        "id": "1|Colombia#CO#|Andes#CO2#",
+        "code": "CO2",
+        "label": "Andes",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Colombia#CO#",
+        "level": 1,
+        "path": [
+          "Colombia#CO#"
+        ]
+      },
+      {
+        "id": "0|Argentina#AR#",
+        "code": "AR",
+        "label": "Argentina",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Australia#AU#",
+        "code": "AU",
+        "label": "Australia",
+        "order": 0,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Austria#AT#",
+        "code": "AT",
+        "label": "Austria",
+        "order": 0,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Belgium#BE#",
+        "code": "BE",
+        "label": "Belgium",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Bulgaria#BG#",
+        "code": "BG",
+        "label": "Bulgaria",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Colombia#CO#|Caribe#CO3#",
+        "code": "CO3",
+        "label": "Caribe",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Colombia#CO#",
+        "level": 1,
+        "path": [
+          "Colombia#CO#"
+        ]
+      },
+      {
+        "id": "0|Chile#CL#",
+        "code": "CL",
+        "label": "Chile",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Colombia#CO#",
+        "code": "CO",
+        "label": "Colombia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Croatia#HR#",
+        "code": "HR",
+        "label": "Croatia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Czechia#CZ#",
+        "code": "CZ",
+        "label": "Czechia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Denmark#DK#",
+        "code": "DK",
+        "label": "Denmark",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Egypt#EG#",
+        "code": "EG",
+        "label": "Egypt",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Estonia#EE#",
+        "code": "EE",
+        "label": "Estonia",
+        "order": 0,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Finland#FI#",
+        "code": "FI",
+        "label": "Finland",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Belgium#BE#|Flanders#BE2#",
+        "code": "BE2",
+        "label": "Flanders",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Belgium#BE#",
+        "level": 1,
+        "path": [
+          "Belgium#BE#"
+        ]
+      },
+      {
+        "id": "0|France#FR#",
+        "code": "FR",
+        "label": "France",
+        "order": 0,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Greece#GR#",
+        "code": "GR",
+        "label": "Greece",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Hungary#HU#",
+        "code": "HU",
+        "label": "Hungary",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Iceland#IS#",
+        "code": "IS",
+        "label": "Iceland",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|India#IN#",
+        "code": "IN",
+        "label": "India",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Indonesia#ID#",
+        "code": "ID",
+        "label": "Indonesia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ireland#IE#",
+        "code": "IE",
+        "label": "Ireland",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Israel#IL#",
+        "code": "IL",
+        "label": "Israel",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Italy#IT#",
+        "code": "IT",
+        "label": "Italy",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Japan#JP#",
+        "code": "JP",
+        "label": "Japan",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Korea, Republic of#KR#",
+        "code": "KR",
+        "label": "Korea, Republic of",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Latvia#LV#",
+        "code": "LV",
+        "label": "Latvia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Lithuania#LT#",
+        "code": "LT",
+        "label": "Lithuania",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Luxembourg#LU#",
+        "code": "LU",
+        "label": "Luxembourg",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Malta#MT#",
+        "code": "MT",
+        "label": "Malta",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Mexico#MX#",
+        "code": "MX",
+        "label": "Mexico",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Morocco#MA#",
+        "code": "MA",
+        "label": "Morocco",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Netherlands#NL#",
+        "code": "NL",
+        "label": "Netherlands",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|New Zealand#NZ#",
+        "code": "NZ",
+        "label": "New Zealand",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|North Macedonia#MK#",
+        "code": "MK",
+        "label": "North Macedonia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Norway#NO#",
+        "code": "NO",
+        "label": "Norway",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Philippines#PH#",
+        "code": "PH",
+        "label": "Philippines",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Poland#PL#",
+        "code": "PL",
+        "label": "Poland",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Portugal#PT#",
+        "code": "PT",
+        "label": "Portugal",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Puerto Rico#PR#",
+        "code": "PR",
+        "label": "Puerto Rico",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Belgium#BE#|Region of Brussels-Capital#BE1#",
+        "code": "BE1",
+        "label": "Region of Brussels-Capital",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Belgium#BE#",
+        "level": 1,
+        "path": [
+          "Belgium#BE#"
+        ]
+      },
+      {
+        "id": "0|Romania#RO#",
+        "code": "RO",
+        "label": "Romania",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Russian Federation#RU#",
+        "code": "RU",
+        "label": "Russian Federation",
+        "order": 0,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovakia#SK#",
+        "code": "SK",
+        "label": "Slovakia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovenia#SI#",
+        "code": "SI",
+        "label": "Slovenia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|South Africa#ZA#",
+        "code": "ZA",
+        "label": "South Africa",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Spain#ES#",
+        "code": "ES",
+        "label": "Spain",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sweden#SE#",
+        "code": "SE",
+        "label": "Sweden",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Turkey#TR#",
+        "code": "TR",
+        "label": "Turkey",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United Kingdom of Great Britain and Northern Ireland#GB#",
+        "code": "GB",
+        "label": "United Kingdom of Great Britain and Northern Ireland",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United States of America#US#",
+        "code": "US",
+        "label": "United States of America",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Belgium#BE#|Wallonia#BE3#",
+        "code": "BE3",
+        "label": "Wallonia",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Belgium#BE#",
+        "level": 1,
+        "path": [
+          "Belgium#BE#"
+        ]
+      },
+      {
+        "id": "0|Australia#AUS#",
+        "code": "AUS",
+        "label": "Australia",
+        "order": 10,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|OECD countries#OECD#",
+        "code": "OECD",
+        "label": "OECD countries",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Austria#AUT#",
+        "code": "AUT",
+        "label": "Austria",
+        "order": 20,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Belgium#BEL#",
+        "code": "BEL",
+        "label": "Belgium",
+        "order": 30,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Canada#CAN#",
+        "code": "CAN",
+        "label": "Canada",
+        "order": 40,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chile#CHL#",
+        "code": "CHL",
+        "label": "Chile",
+        "order": 50,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Colombia#COL#",
+        "code": "COL",
+        "label": "Colombia",
+        "order": 60,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Costa Rica#CRI#",
+        "code": "CRI",
+        "label": "Costa Rica",
+        "order": 70,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Czech Republic#CZE#",
+        "code": "CZE",
+        "label": "Czech Republic",
+        "order": 80,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Denmark#DNK#",
+        "code": "DNK",
+        "label": "Denmark",
+        "order": 90,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Estonia#EST#",
+        "code": "EST",
+        "label": "Estonia",
+        "order": 100,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Finland#FIN#",
+        "code": "FIN",
+        "label": "Finland",
+        "order": 110,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|France#FRA#",
+        "code": "FRA",
+        "label": "France",
+        "order": 120,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Germany#DEU#",
+        "code": "DEU",
+        "label": "Germany",
+        "order": 130,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Greece#GRC#",
+        "code": "GRC",
+        "label": "Greece",
+        "order": 140,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Hungary#HUN#",
+        "code": "HUN",
+        "label": "Hungary",
+        "order": 150,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Iceland#ISL#",
+        "code": "ISL",
+        "label": "Iceland",
+        "order": 160,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ireland#IRL#",
+        "code": "IRL",
+        "label": "Ireland",
+        "order": 170,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Israel#ISR#",
+        "code": "ISR",
+        "label": "Israel",
+        "order": 180,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Italy#ITA#",
+        "code": "ITA",
+        "label": "Italy",
+        "order": 190,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Japan#JPN#",
+        "code": "JPN",
+        "label": "Japan",
+        "order": 200,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Korea#KOR#",
+        "code": "KOR",
+        "label": "Korea",
+        "order": 210,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Latvia#LVA#",
+        "code": "LVA",
+        "label": "Latvia",
+        "order": 220,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Lithuania#LTU#",
+        "code": "LTU",
+        "label": "Lithuania",
+        "order": 230,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Luxembourg#LUX#",
+        "code": "LUX",
+        "label": "Luxembourg",
+        "order": 240,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Mexico#MEX#",
+        "code": "MEX",
+        "label": "Mexico",
+        "order": 250,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Netherlands#NLD#",
+        "code": "NLD",
+        "label": "Netherlands",
+        "order": 260,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|New Zealand#NZL#",
+        "code": "NZL",
+        "label": "New Zealand",
+        "order": 270,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Norway#NOR#",
+        "code": "NOR",
+        "label": "Norway",
+        "order": 280,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Poland#POL#",
+        "code": "POL",
+        "label": "Poland",
+        "order": 290,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Portugal#PRT#",
+        "code": "PRT",
+        "label": "Portugal",
+        "order": 300,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovak Republic#SVK#",
+        "code": "SVK",
+        "label": "Slovak Republic",
+        "order": 310,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovenia#SVN#",
+        "code": "SVN",
+        "label": "Slovenia",
+        "order": 320,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Spain#ESP#",
+        "code": "ESP",
+        "label": "Spain",
+        "order": 330,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sweden#SWE#",
+        "code": "SWE",
+        "label": "Sweden",
+        "order": 340,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Switzerland#CHE#",
+        "code": "CHE",
+        "label": "Switzerland",
+        "order": 350,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Türkiye#TUR#",
+        "code": "TUR",
+        "label": "Türkiye",
+        "order": 360,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United Kingdom#GBR#",
+        "code": "GBR",
+        "label": "United Kingdom",
+        "order": 370,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United States#USA#",
+        "code": "USA",
+        "label": "United States",
+        "order": 380,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|G7#G7#",
+        "code": "G7",
+        "label": "G7",
+        "order": 410,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|G20#G20#",
+        "code": "G20",
+        "label": "G20",
+        "order": 420,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Turkey#TUR#",
+        "code": "TUR",
+        "label": "Turkey",
+        "order": 450,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Euro area (19 countries)#EA19#",
+        "code": "EA19",
+        "label": "Euro area (19 countries)",
+        "order": 570,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union – 27 countries (from 01/02/2020)#EU27_2020#",
+        "code": "EU27_2020",
+        "label": "European Union – 27 countries (from 01/02/2020)",
+        "order": 620,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union (15 countries)#EU15#",
+        "code": "EU15",
+        "label": "European Union (15 countries)",
+        "order": 620,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union (27 countries)#EU27#",
+        "code": "EU27",
+        "label": "European Union (27 countries)",
+        "order": 640,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union (28 countries)#EU28#",
+        "code": "EU28",
+        "label": "European Union (28 countries)",
+        "order": 650,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union (27 countries from 01/02/2020)#EU27_2020#",
+        "code": "EU27_2020",
+        "label": "European Union (27 countries from 01/02/2020)",
+        "order": 660,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union 28 excluding European Union 15 countries#EU28XEU15#",
+        "code": "EU28XEU15",
+        "label": "European Union 28 excluding European Union 15 countries",
+        "order": 670,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|OECD#OECD#",
+        "code": "OECD",
+        "label": "OECD",
+        "order": 790,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|OECD (26 countries)#OECD26#",
+        "code": "OECD26",
+        "label": "OECD (26 countries)",
+        "order": 810,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|OECD Europe#OECDE#",
+        "code": "OECDE",
+        "label": "OECD Europe",
+        "order": 940,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Non-OECD economies#WXOECD#",
+        "code": "WXOECD",
+        "label": "Non-OECD economies",
+        "order": 980,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|BRIICS economies#BRIICS#",
+        "code": "BRIICS",
+        "label": "BRIICS economies",
+        "order": 1040,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Albania#ALB#",
+        "code": "ALB",
+        "label": "Albania",
+        "order": 1060,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Argentina#ARG#",
+        "code": "ARG",
+        "label": "Argentina",
+        "order": 1140,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|G7 countries#G7#",
+        "code": "G7",
+        "label": "G7 countries",
+        "order": 1140,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Argentina#ARG#",
+        "code": "ARG",
+        "label": "Argentina",
+        "order": 1300,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Brazil#BRA#",
+        "code": "BRA",
+        "label": "Brazil",
+        "order": 1330,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Brunei Darussalam#BRN#",
+        "code": "BRN",
+        "label": "Brunei Darussalam",
+        "order": 1360,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Bulgaria#BGR#",
+        "code": "BGR",
+        "label": "Bulgaria",
+        "order": 1370,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Cabo Verde#CPV#",
+        "code": "CPV",
+        "label": "Cabo Verde",
+        "order": 1400,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Cambodia#KHM#",
+        "code": "KHM",
+        "label": "Cambodia",
+        "order": 1410,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Cameroon#CMR#",
+        "code": "CMR",
+        "label": "Cameroon",
+        "order": 1420,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|Brazil#BRA#",
+        "code": "BRA",
+        "label": "Brazil",
+        "order": 1440,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Bulgaria#BGR#",
+        "code": "BGR",
+        "label": "Bulgaria",
+        "order": 1460,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|China (People’s Republic of)#CHN#",
+        "code": "CHN",
+        "label": "China (People’s Republic of)",
+        "order": 1460,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Croatia#HRV#",
+        "code": "HRV",
+        "label": "Croatia",
+        "order": 1530,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|China (People’s Republic of)#CHN#",
+        "code": "CHN",
+        "label": "China (People’s Republic of)",
+        "order": 1540,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Cyprus#CYP#",
+        "code": "CYP",
+        "label": "Cyprus",
+        "order": 1560,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|Croatia#HRV#",
+        "code": "HRV",
+        "label": "Croatia",
+        "order": 1610,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Georgia#GEO#",
+        "code": "GEO",
+        "label": "Georgia",
+        "order": 1770,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|India#IND#",
+        "code": "IND",
+        "label": "India",
+        "order": 1890,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Indonesia#IDN#",
+        "code": "IDN",
+        "label": "Indonesia",
+        "order": 1900,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Hong Kong (China)#HKG#",
+        "code": "HKG",
+        "label": "Hong Kong (China)",
+        "order": 1920,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|India#IND#",
+        "code": "IND",
+        "label": "India",
+        "order": 1930,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Indonesia#IDN#",
+        "code": "IDN",
+        "label": "Indonesia",
+        "order": 1940,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Kazakhstan#KAZ#",
+        "code": "KAZ",
+        "label": "Kazakhstan",
+        "order": 2010,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Lao People’s Democratic Republic#LAO#",
+        "code": "LAO",
+        "label": "Lao People’s Democratic Republic",
+        "order": 2070,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Madagascar#MDG#",
+        "code": "MDG",
+        "label": "Madagascar",
+        "order": 2140,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Malaysia#MYS#",
+        "code": "MYS",
+        "label": "Malaysia",
+        "order": 2160,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Malta#MLT#",
+        "code": "MLT",
+        "label": "Malta",
+        "order": 2190,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Morocco#MAR#",
+        "code": "MAR",
+        "label": "Morocco",
+        "order": 2310,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Myanmar#MMR#",
+        "code": "MMR",
+        "label": "Myanmar",
+        "order": 2330,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|Peru#PER#",
+        "code": "PER",
+        "label": "Peru",
+        "order": 2380,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Romania#ROU#",
+        "code": "ROU",
+        "label": "Romania",
+        "order": 2410,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Russia#RUS#",
+        "code": "RUS",
+        "label": "Russia",
+        "order": 2420,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|North Macedonia#MKD#",
+        "code": "MKD",
+        "label": "North Macedonia",
+        "order": 2430,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Peru#PER#",
+        "code": "PER",
+        "label": "Peru",
+        "order": 2520,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Philippines#PHL#",
+        "code": "PHL",
+        "label": "Philippines",
+        "order": 2530,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Romania#ROU#",
+        "code": "ROU",
+        "label": "Romania",
+        "order": 2580,
+        "count": 4,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|South Africa#ZAF#",
+        "code": "ZAF",
+        "label": "South Africa",
+        "order": 2580,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Russia#RUS#",
+        "code": "RUS",
+        "label": "Russia",
+        "order": 2590,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Saudi Arabia#SAU#",
+        "code": "SAU",
+        "label": "Saudi Arabia",
+        "order": 2710,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Senegal#SEN#",
+        "code": "SEN",
+        "label": "Senegal",
+        "order": 2720,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Serbia#SRB#",
+        "code": "SRB",
+        "label": "Serbia",
+        "order": 2730,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Singapore#SGP#",
+        "code": "SGP",
+        "label": "Singapore",
+        "order": 2760,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|South Africa#ZAF#",
+        "code": "ZAF",
+        "label": "South Africa",
+        "order": 2800,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Chinese Taipei#TWN#",
+        "code": "TWN",
+        "label": "Chinese Taipei",
+        "order": 2880,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Thailand#THA#",
+        "code": "THA",
+        "label": "Thailand",
+        "order": 2910,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Tunisia#TUN#",
+        "code": "TUN",
+        "label": "Tunisia",
+        "order": 2970,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Viet Nam#VNM#",
+        "code": "VNM",
+        "label": "Viet Nam",
+        "order": 3100,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD economies#WXOECD#|Zambia#ZMB#",
+        "code": "ZMB",
+        "label": "Zambia",
+        "order": 3140,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD economies#WXOECD#",
+        "level": 1,
+        "path": [
+          "Non-OECD economies#WXOECD#"
+        ]
+      },
+      {
+        "id": "0|Former Federal Republic of Germany#DEU_F#",
+        "code": "DEU_F",
+        "label": "Former Federal Republic of Germany",
+        "order": 3230,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|APEC#APEC#",
+        "code": "APEC",
+        "label": "APEC",
+        "order": 3350,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|ASEAN#ASEAN#",
+        "code": "ASEAN",
+        "label": "ASEAN",
+        "order": 3360,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|NAFTA#NAFTA#",
+        "code": "NAFTA",
+        "label": "NAFTA",
+        "order": 3460,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Northern America#A2#",
+        "code": "A2",
+        "label": "Northern America",
+        "order": 3940,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|South and Central America#A5_A7#",
+        "code": "A5_A7",
+        "label": "South and Central America",
+        "order": 3980,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Europe#E#",
+        "code": "E",
+        "label": "Europe",
+        "order": 4050,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Eastern Asia#S2#",
+        "code": "S2",
+        "label": "Eastern Asia",
+        "order": 4310,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Eastern and South-eastern Asia#S2_S8#",
+        "code": "S2_S8",
+        "label": "Eastern and South-eastern Asia",
+        "order": 4320,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Other countries#W_O#",
+        "code": "W_O",
+        "label": "Other countries",
+        "order": 4390,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Non-target TiVA countries#WXTIVA#",
+        "code": "WXTIVA",
+        "label": "Non-target TiVA countries",
+        "order": 4400,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true,
+    "isPinned": true,
+    "index": 3
+  },
+  {
+    "id": "Frequency",
+    "label": "Frequency",
+    "values": [
+      {
+        "id": "0|Monthly#M#",
+        "code": "M",
+        "label": "Monthly",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Quarterly#Q#",
+        "code": "Q",
+        "label": "Quarterly",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Annual#A#",
+        "code": "A",
+        "label": "Annual",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true,
+    "isPinned": true,
+    "index": 6
+  },
+  {
+    "id": "Accommodation type",
+    "label": "Accommodation type",
+    "values": [
+      {
+        "id": "0|Specialised establishments#SPEC_ESTABL#",
+        "code": "SPEC_ESTABL",
+        "label": "Specialised establishments",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Hotels and similar establishments#HOTELS#",
+        "code": "HOTELS",
+        "label": "Hotels and similar establishments",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Private accommodation#PRIVATE#",
+        "code": "PRIVATE",
+        "label": "Private accommodation",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Total#_T#",
+        "code": "_T",
+        "label": "Total",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Other#_O#",
+        "code": "_O",
+        "label": "Other",
+        "order": 9550,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Adjustment",
+    "label": "Adjustment",
+    "values": [
+      {
+        "id": "0|Calendar and seasonally adjusted data#Y#",
+        "code": "Y",
+        "label": "Calendar and seasonally adjusted data",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Neither seasonally adjusted nor calendar adjusted data#N#",
+        "code": "N",
+        "label": "Neither seasonally adjusted nor calendar adjusted data",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  }
+]

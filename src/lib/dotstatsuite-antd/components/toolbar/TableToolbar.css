@@ -1,0 +1,69 @@
+/**
+ * Table Toolbar Styles
+ * Following clean-code rule: Keep related code together
+ */
+
+.table-toolbar {
+  transition: all 0.3s ease;
+}
+
+.table-toolbar:focus-within {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .table-toolbar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px !important;
+    min-height: auto !important;
+  }
+  
+  .table-toolbar > * {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .table-toolbar {
+    background: #141414 !important;
+    border-bottom-color: #303030 !important;
+  }
+}
+
+/* Animation for action panels */
+.table-toolbar-action-panel {
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button hover effects */
+.table-toolbar .ant-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Active button styles */
+.table-toolbar .ant-btn-primary {
+  background: #1890ff;
+  border-color: #1890ff;
+}
+
+/* Loading state */
+.table-toolbar-loading {
+  pointer-events: none;
+  opacity: 0.6;
+}

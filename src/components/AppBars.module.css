@@ -1,0 +1,90 @@
+.container {
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.topBar {
+  background: #fff;
+  padding: 0;
+  height: 64px;
+  line-height: 64px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.topBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logoImage {
+  max-height: 40px;
+  width: auto;
+}
+
+.localeSelector {
+  min-width: 100px;
+}
+
+.bottomBar {
+  background: #fafafa;
+  padding: 0;
+  height: 48px;
+  line-height: 48px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.bottomBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.navButton {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.navButton:hover {
+  color: #1890ff;
+}
+
+.pageInfo {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}
+
+/* RTL Support */
+[dir="rtl"] .topBarContent,
+[dir="rtl"] .bottomBarContent {
+  direction: rtl;
+}
+
+[dir="rtl"] .logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .topBarContent,
+  .bottomBarContent {
+    padding: 0 16px;
+  }
+  
+  .pageInfo {
+    display: none;
+  }
+}

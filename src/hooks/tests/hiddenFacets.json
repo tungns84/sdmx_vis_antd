@@ -1,0 +1,7132 @@
+[
+  {
+    "id": "Cartel information",
+    "label": "Cartel information",
+    "values": [
+      {
+        "id": "0|Bid rigging case (Y/N)#Bid_rigging#",
+        "code": "Bid_rigging",
+        "label": "Bid rigging case (Y/N)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Cartel duration (years)#Cartel_duration#",
+        "code": "Cartel_duration",
+        "label": "Cartel duration (years)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Cartel name#Cartel_Name#",
+        "code": "Cartel_Name",
+        "label": "Cartel name",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Cartel number#ID_Cartel#",
+        "code": "ID_Cartel",
+        "label": "Cartel number",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Cartel number (Connor)#ID_Cartel_Connor#",
+        "code": "ID_Cartel_Connor",
+        "label": "Cartel number (Connor)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Discovery year#Discovery_year#",
+        "code": "Discovery_year",
+        "label": "Discovery year",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|End date of infringement#End_date#",
+        "code": "End_date",
+        "label": "End date of infringement",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|First penalty year#Penalty_year#",
+        "code": "Penalty_year",
+        "label": "First penalty year",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Geographic coverage#Geographic_extension#",
+        "code": "Geographic_extension",
+        "label": "Geographic coverage",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Industry code (NAICS 2-digit)#ID_NAICS_2digit#",
+        "code": "ID_NAICS_2digit",
+        "label": "Industry code (NAICS 2-digit)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Industry code (NAICS 3-digit)#ID_NAICS_3digit#",
+        "code": "ID_NAICS_3digit",
+        "label": "Industry code (NAICS 3-digit)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Industry name (NAICS 2-digit)#NAICS_2digit_Name#",
+        "code": "NAICS_2digit_Name",
+        "label": "Industry name (NAICS 2-digit)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Industry name (NAICS 3-digit)#NAICS_3digit_Name#",
+        "code": "NAICS_3digit_Name",
+        "label": "Industry name (NAICS 3-digit)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Number of cartelists#Number_Cartellists#",
+        "code": "Number_Cartellists",
+        "label": "Number of cartelists",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Reference#Reference#",
+        "code": "Reference",
+        "label": "Reference",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sanction type#Santion_Name#",
+        "code": "Santion_Name",
+        "label": "Sanction type",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sanctions (million USD)#Sanction#",
+        "code": "Sanction",
+        "label": "Sanctions (million USD)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Start date of infringement#Start_date#",
+        "code": "Start_date",
+        "label": "Start date of infringement",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Third party support#3rd_party#",
+        "code": "3rd_party",
+        "label": "Third party support",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Company information item ID",
+    "label": "Company information item ID",
+    "values": [
+      {
+        "id": "0|749_ITEM_169#749_ITEM_169#",
+        "code": "749_ITEM_169",
+        "label": "749_ITEM_169",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_192#749_ITEM_192#",
+        "code": "749_ITEM_192",
+        "label": "749_ITEM_192",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_236#749_ITEM_236#",
+        "code": "749_ITEM_236",
+        "label": "749_ITEM_236",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_237#749_ITEM_237#",
+        "code": "749_ITEM_237",
+        "label": "749_ITEM_237",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_543#749_ITEM_543#",
+        "code": "749_ITEM_543",
+        "label": "749_ITEM_543",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_629#749_ITEM_629#",
+        "code": "749_ITEM_629",
+        "label": "749_ITEM_629",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_649#749_ITEM_649#",
+        "code": "749_ITEM_649",
+        "label": "749_ITEM_649",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_650#749_ITEM_650#",
+        "code": "749_ITEM_650",
+        "label": "749_ITEM_650",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_732#749_ITEM_732#",
+        "code": "749_ITEM_732",
+        "label": "749_ITEM_732",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_789#749_ITEM_789#",
+        "code": "749_ITEM_789",
+        "label": "749_ITEM_789",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_790#749_ITEM_790#",
+        "code": "749_ITEM_790",
+        "label": "749_ITEM_790",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_863#749_ITEM_863#",
+        "code": "749_ITEM_863",
+        "label": "749_ITEM_863",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_864#749_ITEM_864#",
+        "code": "749_ITEM_864",
+        "label": "749_ITEM_864",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_878#749_ITEM_878#",
+        "code": "749_ITEM_878",
+        "label": "749_ITEM_878",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_879#749_ITEM_879#",
+        "code": "749_ITEM_879",
+        "label": "749_ITEM_879",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_880#749_ITEM_880#",
+        "code": "749_ITEM_880",
+        "label": "749_ITEM_880",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_882#749_ITEM_882#",
+        "code": "749_ITEM_882",
+        "label": "749_ITEM_882",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_1040#749_ITEM_1040#",
+        "code": "749_ITEM_1040",
+        "label": "749_ITEM_1040",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_1041#749_ITEM_1041#",
+        "code": "749_ITEM_1041",
+        "label": "749_ITEM_1041",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_1043#749_ITEM_1043#",
+        "code": "749_ITEM_1043",
+        "label": "749_ITEM_1043",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_158#819_ITEM_158#",
+        "code": "819_ITEM_158",
+        "label": "819_ITEM_158",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_344#819_ITEM_344#",
+        "code": "819_ITEM_344",
+        "label": "819_ITEM_344",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_569#819_ITEM_569#",
+        "code": "819_ITEM_569",
+        "label": "819_ITEM_569",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_570#819_ITEM_570#",
+        "code": "819_ITEM_570",
+        "label": "819_ITEM_570",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_673#819_ITEM_673#",
+        "code": "819_ITEM_673",
+        "label": "819_ITEM_673",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_674#819_ITEM_674#",
+        "code": "819_ITEM_674",
+        "label": "819_ITEM_674",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_744#819_ITEM_744#",
+        "code": "819_ITEM_744",
+        "label": "819_ITEM_744",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_745#819_ITEM_745#",
+        "code": "819_ITEM_745",
+        "label": "819_ITEM_745",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_746#819_ITEM_746#",
+        "code": "819_ITEM_746",
+        "label": "819_ITEM_746",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_855#819_ITEM_855#",
+        "code": "819_ITEM_855",
+        "label": "819_ITEM_855",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_856#819_ITEM_856#",
+        "code": "819_ITEM_856",
+        "label": "819_ITEM_856",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_857#819_ITEM_857#",
+        "code": "819_ITEM_857",
+        "label": "819_ITEM_857",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_858#819_ITEM_858#",
+        "code": "819_ITEM_858",
+        "label": "819_ITEM_858",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_950#819_ITEM_950#",
+        "code": "819_ITEM_950",
+        "label": "819_ITEM_950",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Total#_T#",
+        "code": "_T",
+        "label": "Total",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Counterpart area",
+    "label": "Counterpart area",
+    "values": [
+      {
+        "id": "0|World#W#",
+        "code": "W",
+        "label": "World",
+        "order": 4410,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Counterpart institutional sector",
+    "label": "Counterpart institutional sector",
+    "values": [
+      {
+        "id": "0|Total economy#S1#",
+        "code": "S1",
+        "label": "Total economy",
+        "order": 10,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Country",
+    "label": "Country",
+    "values": [
+      {
+        "id": "0|Non-OECD Economies#NMEC#",
+        "code": "NMEC",
+        "label": "Non-OECD Economies",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Australia#AUS#",
+        "code": "AUS",
+        "label": "Australia",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Austria#AUT#",
+        "code": "AUT",
+        "label": "Austria",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Belgium#BEL#",
+        "code": "BEL",
+        "label": "Belgium",
+        "order": 30,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Canada#CAN#",
+        "code": "CAN",
+        "label": "Canada",
+        "order": 40,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chile#CHL#",
+        "code": "CHL",
+        "label": "Chile",
+        "order": 50,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Colombia#COL#",
+        "code": "COL",
+        "label": "Colombia",
+        "order": 60,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Czech Republic#CZE#",
+        "code": "CZE",
+        "label": "Czech Republic",
+        "order": 80,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Denmark#DNK#",
+        "code": "DNK",
+        "label": "Denmark",
+        "order": 90,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Estonia#EST#",
+        "code": "EST",
+        "label": "Estonia",
+        "order": 100,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|G7#G-7#",
+        "code": "G-7",
+        "label": "G7",
+        "order": 107,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Finland#FIN#",
+        "code": "FIN",
+        "label": "Finland",
+        "order": 110,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|G20#G-20#",
+        "code": "G-20",
+        "label": "G20",
+        "order": 110,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|OECD - Europe#OECDE#",
+        "code": "OECDE",
+        "label": "OECD - Europe",
+        "order": 110,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|OECD - Total#OECD#",
+        "code": "OECD",
+        "label": "OECD - Total",
+        "order": 115,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|France#FRA#",
+        "code": "FRA",
+        "label": "France",
+        "order": 120,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Germany#DEU#",
+        "code": "DEU",
+        "label": "Germany",
+        "order": 130,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Greece#GRC#",
+        "code": "GRC",
+        "label": "Greece",
+        "order": 140,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Hungary#HUN#",
+        "code": "HUN",
+        "label": "Hungary",
+        "order": 150,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Iceland#ISL#",
+        "code": "ISL",
+        "label": "Iceland",
+        "order": 160,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ireland#IRL#",
+        "code": "IRL",
+        "label": "Ireland",
+        "order": 170,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Israel#ISR#",
+        "code": "ISR",
+        "label": "Israel",
+        "order": 180,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Italy#ITA#",
+        "code": "ITA",
+        "label": "Italy",
+        "order": 190,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Japan#JPN#",
+        "code": "JPN",
+        "label": "Japan",
+        "order": 200,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|Argentina#ARG#",
+        "code": "ARG",
+        "label": "Argentina",
+        "order": 209,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|Korea#KOR#",
+        "code": "KOR",
+        "label": "Korea",
+        "order": 210,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Latvia#LVA#",
+        "code": "LVA",
+        "label": "Latvia",
+        "order": 220,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|Brazil#BRA#",
+        "code": "BRA",
+        "label": "Brazil",
+        "order": 226,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|Lithuania#LTU#",
+        "code": "LTU",
+        "label": "Lithuania",
+        "order": 230,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|China (People's Republic of)#CHN#",
+        "code": "CHN",
+        "label": "China (People's Republic of)",
+        "order": 240,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|Luxembourg#LUX#",
+        "code": "LUX",
+        "label": "Luxembourg",
+        "order": 240,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|Costa Rica#CRI#",
+        "code": "CRI",
+        "label": "Costa Rica",
+        "order": 245,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|Mexico#MEX#",
+        "code": "MEX",
+        "label": "Mexico",
+        "order": 250,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Netherlands#NLD#",
+        "code": "NLD",
+        "label": "Netherlands",
+        "order": 260,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|New Zealand#NZL#",
+        "code": "NZL",
+        "label": "New Zealand",
+        "order": 270,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Norway#NOR#",
+        "code": "NOR",
+        "label": "Norway",
+        "order": 280,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|India#IND#",
+        "code": "IND",
+        "label": "India",
+        "order": 285,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|Indonesia#IDN#",
+        "code": "IDN",
+        "label": "Indonesia",
+        "order": 286,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|Poland#POL#",
+        "code": "POL",
+        "label": "Poland",
+        "order": 290,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Portugal#PRT#",
+        "code": "PRT",
+        "label": "Portugal",
+        "order": 300,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovak Republic#SVK#",
+        "code": "SVK",
+        "label": "Slovak Republic",
+        "order": 310,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovenia#SVN#",
+        "code": "SVN",
+        "label": "Slovenia",
+        "order": 320,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Spain#ESP#",
+        "code": "ESP",
+        "label": "Spain",
+        "order": 330,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sweden#SWE#",
+        "code": "SWE",
+        "label": "Sweden",
+        "order": 340,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Switzerland#CHE#",
+        "code": "CHE",
+        "label": "Switzerland",
+        "order": 350,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|Russia#RUS#",
+        "code": "RUS",
+        "label": "Russia",
+        "order": 356,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|Saudi Arabia#SAU#",
+        "code": "SAU",
+        "label": "Saudi Arabia",
+        "order": 366,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|United Kingdom#GBR#",
+        "code": "GBR",
+        "label": "United Kingdom",
+        "order": 370,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Non-OECD Economies#NMEC#|South Africa#ZAF#",
+        "code": "ZAF",
+        "label": "South Africa",
+        "order": 375,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Non-OECD Economies#NMEC#",
+        "level": 1,
+        "path": [
+          "Non-OECD Economies#NMEC#"
+        ]
+      },
+      {
+        "id": "0|United States#USA#",
+        "code": "USA",
+        "label": "United States",
+        "order": 380,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Turkey#TUR#",
+        "code": "TUR",
+        "label": "Turkey",
+        "order": 450,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Euro area (19 countries)#EA19#",
+        "code": "EA19",
+        "label": "Euro area (19 countries)",
+        "order": 570,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union – 27 countries (from 01/02/2020)#EU27_2020#",
+        "code": "EU27_2020",
+        "label": "European Union – 27 countries (from 01/02/2020)",
+        "order": 620,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|European Union (28 countries)#EU28#",
+        "code": "EU28",
+        "label": "European Union (28 countries)",
+        "order": 650,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Databases",
+    "label": "Databases",
+    "values": [
+      {
+        "id": "0|COVID Monitor#DB_608#",
+        "code": "DB_608",
+        "label": "COVID Monitor",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|SDG labour market indicators (ILOSDG)#DB_576#",
+        "code": "DB_576",
+        "label": "SDG labour market indicators (ILOSDG)",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Child labour statistics (CHILD)#DB_609#",
+        "code": "DB_609",
+        "label": "Child labour statistics (CHILD)",
+        "order": 15,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|ILO modelled estimates and projections (ILOEST)#DB_575#",
+        "code": "DB_575",
+        "label": "ILO modelled estimates and projections (ILOEST)",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Labour force statistics (LFS)#DB_603#",
+        "code": "DB_603",
+        "label": "Labour force statistics (LFS)",
+        "order": 30,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Short-term labour force statistics (STLFS)#DB_578#",
+        "code": "DB_578",
+        "label": "Short-term labour force statistics (STLFS)",
+        "order": 40,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Industrial relations data (IRdata)#DB_581#",
+        "code": "DB_581",
+        "label": "Industrial relations data (IRdata)",
+        "order": 50,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Wages and working time statistics (COND)#DB_583#",
+        "code": "DB_583",
+        "label": "Wages and working time statistics (COND)",
+        "order": 60,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Occupational safety and health statistics (OSH)#DB_580#",
+        "code": "DB_580",
+        "label": "Occupational safety and health statistics (OSH)",
+        "order": 70,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Competitiveness indicators (COMP)#DB_586#",
+        "code": "DB_586",
+        "label": "Competitiveness indicators (COMP)",
+        "order": 75,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Youth labour market indicators (YouthSTATS)#DB_602#",
+        "code": "DB_602",
+        "label": "Youth labour market indicators (YouthSTATS)",
+        "order": 80,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Gender equality and non-discrimination indicators (GEND)#DB_604#",
+        "code": "DB_604",
+        "label": "Gender equality and non-discrimination indicators (GEND)",
+        "order": 90,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Rural and urban labour markets (RURBAN)#DB_601#",
+        "code": "DB_601",
+        "label": "Rural and urban labour markets (RURBAN)",
+        "order": 100,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Education and skills mismatch indicators (SKILLS)#DB_605#",
+        "code": "DB_605",
+        "label": "Education and skills mismatch indicators (SKILLS)",
+        "order": 110,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Statistics on unpaid work (UNPAID)#DB_606#",
+        "code": "DB_606",
+        "label": "Statistics on unpaid work (UNPAID)",
+        "order": 120,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|International labour migration statistics (ILMS)#DB_577#",
+        "code": "DB_577",
+        "label": "International labour migration statistics (ILMS)",
+        "order": 130,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Drilldown",
+    "label": "Drilldown",
+    "values": [
+      {
+        "id": "0|Drilldown#DD#",
+        "code": "DD",
+        "label": "Drilldown",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Total#_T#",
+        "code": "_T",
+        "label": "Total",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Economic activity",
+    "label": "Economic activity",
+    "values": [
+      {
+        "id": "0|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#",
+        "code": "G",
+        "label": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Total - All activities#_T#",
+        "code": "_T",
+        "label": "Total - All activities",
+        "order": 10,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Manufacturing#C#",
+        "code": "C",
+        "label": "Manufacturing",
+        "order": 1190,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Construction#F#",
+        "code": "F",
+        "label": "Construction",
+        "order": 4170,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#|Wholesale trade, except of motor vehicles and motorcycles#G46#",
+        "code": "G46",
+        "label": "Wholesale trade, except of motor vehicles and motorcycles",
+        "order": 4630,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#",
+        "level": 1,
+        "path": [
+          "Wholesale and retail trade; repair of motor vehicles and motorcycles#G#"
+        ]
+      },
+      {
+        "id": "1|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#|Retail trade, except of motor vehicles and motorcycles#G47#",
+        "code": "G47",
+        "label": "Retail trade, except of motor vehicles and motorcycles",
+        "order": 4860,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Wholesale and retail trade; repair of motor vehicles and motorcycles#G#",
+        "level": 1,
+        "path": [
+          "Wholesale and retail trade; repair of motor vehicles and motorcycles#G#"
+        ]
+      },
+      {
+        "id": "0|Transportation and storage#H#",
+        "code": "H",
+        "label": "Transportation and storage",
+        "order": 5230,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Accommodation and food service activities#I#",
+        "code": "I",
+        "label": "Accommodation and food service activities",
+        "order": 5640,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Information and communication#J#",
+        "code": "J",
+        "label": "Information and communication",
+        "order": 5820,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Financial and insurance activities#K#",
+        "code": "K",
+        "label": "Financial and insurance activities",
+        "order": 6340,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Real estate activities#L#",
+        "code": "L",
+        "label": "Real estate activities",
+        "order": 6700,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Professional, scientific and technical activities#M#",
+        "code": "M",
+        "label": "Professional, scientific and technical activities",
+        "order": 6800,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Administrative and support service activities#N#",
+        "code": "N",
+        "label": "Administrative and support service activities",
+        "order": 7230,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Efficiency",
+    "label": "Efficiency",
+    "values": [
+      {
+        "id": "0|Hyperbolic method#H#",
+        "code": "H",
+        "label": "Hyperbolic method",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Employment size class",
+    "label": "Employment size class",
+    "values": [
+      {
+        "id": "0|Total - All sizes#_T#",
+        "code": "_T",
+        "label": "Total - All sizes",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Total - All sizes#_T#|From 10 to 49#S10T49#",
+        "code": "S10T49",
+        "label": "From 10 to 49",
+        "order": 170,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total - All sizes#_T#",
+        "level": 1,
+        "path": [
+          "Total - All sizes#_T#"
+        ]
+      },
+      {
+        "id": "1|Total - All sizes#_T#|10 or more#S_GE10#",
+        "code": "S_GE10",
+        "label": "10 or more",
+        "order": 190,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total - All sizes#_T#",
+        "level": 1,
+        "path": [
+          "Total - All sizes#_T#"
+        ]
+      },
+      {
+        "id": "1|Total - All sizes#_T#|From 50 to 249#S50T249#",
+        "code": "S50T249",
+        "label": "From 50 to 249",
+        "order": 230,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total - All sizes#_T#",
+        "level": 1,
+        "path": [
+          "Total - All sizes#_T#"
+        ]
+      },
+      {
+        "id": "1|Total - All sizes#_T#|250 or more#S_GE250#",
+        "code": "S_GE250",
+        "label": "250 or more",
+        "order": 290,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total - All sizes#_T#",
+        "level": 1,
+        "path": [
+          "Total - All sizes#_T#"
+        ]
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Expenditure",
+    "label": "Expenditure",
+    "values": [
+      {
+        "id": "0|Total#_T#",
+        "code": "_T",
+        "label": "Total",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Frequency of observation",
+    "label": "Frequency of observation",
+    "values": [
+      {
+        "id": "0|Quarterly#Q#",
+        "code": "Q",
+        "label": "Quarterly",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Annual#A#",
+        "code": "A",
+        "label": "Annual",
+        "order": 20,
+        "count": 7,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Ictdef",
+    "label": "Ictdef",
+    "values": [
+      {
+        "id": "0|Harmonised ICT deflators#H#",
+        "code": "H",
+        "label": "Harmonised ICT deflators",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|National ICT deflators#N#",
+        "code": "N",
+        "label": "National ICT deflators",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Industrial Classification",
+    "label": "Industrial Classification",
+    "values": [
+      {
+        "id": "0|International Standard Industrial Classification of All Economic Activities (ISIC), Rev.4#I4#",
+        "code": "I4",
+        "label": "International Standard Industrial Classification of All Economic Activities (ISIC), Rev.4",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Industry",
+    "label": "Industry",
+    "values": [
+      {
+        "id": "0|33 - Manufacturing#33#",
+        "code": "33",
+        "label": "33 - Manufacturing",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|48 - Transportation and Warehousing#48#",
+        "code": "48",
+        "label": "48 - Transportation and Warehousing",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Instrument",
+    "label": "Instrument",
+    "values": [
+      {
+        "id": "0|Fixed assets by type of asset#_T#",
+        "code": "_T",
+        "label": "Fixed assets by type of asset",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|not applicable#_Z#",
+        "code": "_Z",
+        "label": "not applicable",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Telecommunications equipment#COM#",
+        "code": "COM",
+        "label": "Telecommunications equipment",
+        "order": 4,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Computer hardware#HARD#",
+        "code": "HARD",
+        "label": "Computer hardware",
+        "order": 8,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|ICT capital#ICT#",
+        "code": "ICT",
+        "label": "ICT capital",
+        "order": 9,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Non-ICT capital#NICT#",
+        "code": "NICT",
+        "label": "Non-ICT capital",
+        "order": 16,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Other buildings and structures#OBS#",
+        "code": "OBS",
+        "label": "Other buildings and structures",
+        "order": 17,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Other intellectual property products#OIPPNRDS#",
+        "code": "OIPPNRDS",
+        "label": "Other intellectual property products",
+        "order": 19,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Other machinery and equipment and weapons systems#OMEW#",
+        "code": "OMEW",
+        "label": "Other machinery and equipment and weapons systems",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Research and development#RD#",
+        "code": "RD",
+        "label": "Research and development",
+        "order": 22,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Computer software and databases#SOFT#",
+        "code": "SOFT",
+        "label": "Computer software and databases",
+        "order": 23,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Transport equipment#TRANS#",
+        "code": "TRANS",
+        "label": "Transport equipment",
+        "order": 26,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Instruments and assets",
+    "label": "Instruments and assets",
+    "values": [
+      {
+        "id": "0|Fixed assets by type of asset (gross)#N11G#",
+        "code": "N11G",
+        "label": "Fixed assets by type of asset (gross)",
+        "order": 2599,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Produced non-financial assets (gross)#N1G#",
+        "code": "N1G",
+        "label": "Produced non-financial assets (gross)",
+        "order": 3460,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Item ID",
+    "label": "Item ID",
+    "values": [
+      {
+        "id": "0|749_ITEM_11#749_ITEM_11#",
+        "code": "749_ITEM_11",
+        "label": "749_ITEM_11",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_12#749_ITEM_12#",
+        "code": "749_ITEM_12",
+        "label": "749_ITEM_12",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_13#749_ITEM_13#",
+        "code": "749_ITEM_13",
+        "label": "749_ITEM_13",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_14#749_ITEM_14#",
+        "code": "749_ITEM_14",
+        "label": "749_ITEM_14",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_15#749_ITEM_15#",
+        "code": "749_ITEM_15",
+        "label": "749_ITEM_15",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_16#749_ITEM_16#",
+        "code": "749_ITEM_16",
+        "label": "749_ITEM_16",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_17#749_ITEM_17#",
+        "code": "749_ITEM_17",
+        "label": "749_ITEM_17",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_18#749_ITEM_18#",
+        "code": "749_ITEM_18",
+        "label": "749_ITEM_18",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_19#749_ITEM_19#",
+        "code": "749_ITEM_19",
+        "label": "749_ITEM_19",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_20#749_ITEM_20#",
+        "code": "749_ITEM_20",
+        "label": "749_ITEM_20",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_21#749_ITEM_21#",
+        "code": "749_ITEM_21",
+        "label": "749_ITEM_21",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|749_ITEM_22#749_ITEM_22#",
+        "code": "749_ITEM_22",
+        "label": "749_ITEM_22",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_45#819_ITEM_45#",
+        "code": "819_ITEM_45",
+        "label": "819_ITEM_45",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_46#819_ITEM_46#",
+        "code": "819_ITEM_46",
+        "label": "819_ITEM_46",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_47#819_ITEM_47#",
+        "code": "819_ITEM_47",
+        "label": "819_ITEM_47",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_48#819_ITEM_48#",
+        "code": "819_ITEM_48",
+        "label": "819_ITEM_48",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_49#819_ITEM_49#",
+        "code": "819_ITEM_49",
+        "label": "819_ITEM_49",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|819_ITEM_50#819_ITEM_50#",
+        "code": "819_ITEM_50",
+        "label": "819_ITEM_50",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Jurisdiction",
+    "label": "Jurisdiction",
+    "values": [
+      {
+        "id": "0|European Union / European Commission#EEU#",
+        "code": "EEU",
+        "label": "European Union / European Commission",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|People's Republic of China#CHN#",
+        "code": "CHN",
+        "label": "People's Republic of China",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|US - Civil case#USC#",
+        "code": "USC",
+        "label": "US - Civil case",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|US - Department of Justice#USD#",
+        "code": "USD",
+        "label": "US - Department of Justice",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Australia#AUS#",
+        "code": "AUS",
+        "label": "Australia",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Canada#CAN#",
+        "code": "CAN",
+        "label": "Canada",
+        "order": 40,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chile#CHL#",
+        "code": "CHL",
+        "label": "Chile",
+        "order": 50,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Japan#JPN#",
+        "code": "JPN",
+        "label": "Japan",
+        "order": 200,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Korea#KOR#",
+        "code": "KOR",
+        "label": "Korea",
+        "order": 210,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Mexico#MEX#",
+        "code": "MEX",
+        "label": "Mexico",
+        "order": 250,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Brazil#BRA#",
+        "code": "BRA",
+        "label": "Brazil",
+        "order": 1440,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Peru#PER#",
+        "code": "PER",
+        "label": "Peru",
+        "order": 2380,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|South Africa#ZAF#",
+        "code": "ZAF",
+        "label": "South Africa",
+        "order": 2580,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Measure",
+    "label": "Measure",
+    "values": [
+      {
+        "id": "1|External sectors, trade and payments#EXT#|(Indicator of) competitiveness based on relative consumer prices#CPIDR#",
+        "code": "CPIDR",
+        "label": "(Indicator of) competitiveness based on relative consumer prices",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|(Indicator of) competitiveness based on relative unit labour costs in total economy#ULCDR#",
+        "code": "ULCDR",
+        "label": "(Indicator of) competitiveness based on relative unit labour costs in total economy",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Balance of primary income#BSII#",
+        "code": "BSII",
+        "label": "Balance of primary income",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Balance of secondary income#NTR#",
+        "code": "NTR",
+        "label": "Balance of secondary income",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Competitors' price of goods and services exports#PXC#",
+        "code": "PXC",
+        "label": "Competitors' price of goods and services exports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Competitors' price of non-commodity goods and services exports#PXCX#",
+        "code": "PXCX",
+        "label": "Competitors' price of non-commodity goods and services exports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Contribution to world trade growth, goods and services#CTGSVD#",
+        "code": "CTGSVD",
+        "label": "Contribution to world trade growth, goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Current account balance#CB#",
+        "code": "CB",
+        "label": "Current account balance",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Current account balance, residual item#CBR#",
+        "code": "CBR",
+        "label": "Current account balance, residual item",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "0|Employment#EMP#",
+        "code": "EMP",
+        "label": "Employment",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Exchange rate, national currency per USD#EXCHUD#",
+        "code": "EXCHUD",
+        "label": "Exchange rate, national currency per USD",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Exchange rate, USD per national currency#EXCH#",
+        "code": "EXCH",
+        "label": "Exchange rate, USD per national currency",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Export market for goods and services#XMKT#",
+        "code": "XMKT",
+        "label": "Export market for goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Export performance for goods and service#XPERF#",
+        "code": "XPERF",
+        "label": "Export performance for goods and service",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Exports of goods and services#XGS#",
+        "code": "XGS",
+        "label": "Exports of goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "0|External sectors, trade and payments#EXT#",
+        "code": "EXT",
+        "label": "External sectors, trade and payments",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Goods and services trade#TGS#",
+        "code": "TGS",
+        "label": "Goods and services trade",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Import penetration, goods and services#MPEN#",
+        "code": "MPEN",
+        "label": "Import penetration, goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Imports of goods and services#MGS#",
+        "code": "MGS",
+        "label": "Imports of goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Net exports of goods and services#FBGSD#",
+        "code": "FBGSD",
+        "label": "Net exports of goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "0|Nights spent in tourism accommodation establishments#NIGHTS_ACCOM#",
+        "code": "NIGHTS_ACCOM",
+        "label": "Nights spent in tourism accommodation establishments",
+        "order": 0,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Nominal effective exchange rate#EXCHEB#",
+        "code": "EXCHEB",
+        "label": "Nominal effective exchange rate",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Price of commodity exports#PXNW#",
+        "code": "PXNW",
+        "label": "Price of commodity exports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Price of commodity imports#PMNW#",
+        "code": "PMNW",
+        "label": "Price of commodity imports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Price of non-commodity exports of goods and services#PXGSX#",
+        "code": "PXGSX",
+        "label": "Price of non-commodity exports of goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Price of non-commodity imports of goods and services#PMGSX#",
+        "code": "PMGSX",
+        "label": "Price of non-commodity imports of goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Real effective exchange rate#EXCHER#",
+        "code": "EXCHER",
+        "label": "Real effective exchange rate",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Relative price of exported goods and services#RPXGS#",
+        "code": "RPXGS",
+        "label": "Relative price of exported goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Relative price of imported goods and services#RPMGS#",
+        "code": "RPMGS",
+        "label": "Relative price of imported goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Shadow price of goods and services imports#PMSH#",
+        "code": "PMSH",
+        "label": "Shadow price of goods and services imports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Shadow price of non-commodity goods and services imports#PMSHX#",
+        "code": "PMSHX",
+        "label": "Shadow price of non-commodity goods and services imports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Share of country's trade in world trade#SHTGSVD#",
+        "code": "SHTGSVD",
+        "label": "Share of country's trade in world trade",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "0|Share of employment (direct)#EMP_SH#",
+        "code": "EMP_SH",
+        "label": "Share of employment (direct)",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Share of GDP (direct)#GDP#",
+        "code": "GDP",
+        "label": "Share of GDP (direct)",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Share of value exports of goods and services in world exports#XSHA#",
+        "code": "XSHA",
+        "label": "Share of value exports of goods and services in world exports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Share of value imports of goods and services in world imports#MSHA#",
+        "code": "MSHA",
+        "label": "Share of value imports of goods and services in world imports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "1|External sectors, trade and payments#EXT#|Terms of trade, goods and services#TTRADE#",
+        "code": "TTRADE",
+        "label": "Terms of trade, goods and services",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|External sectors, trade and payments#EXT#",
+        "level": 1,
+        "path": [
+          "External sectors, trade and payments#EXT#"
+        ]
+      },
+      {
+        "id": "0|Tourism trips#TOUR_TRIPS#",
+        "code": "TOUR_TRIPS",
+        "label": "Tourism trips",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Visitors#TOTAL_VISITORS#",
+        "code": "TOTAL_VISITORS",
+        "label": "Visitors",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Growth previous period#GP#",
+        "code": "GP",
+        "label": "Growth previous period",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Growth on the same period of the previous year#GY#",
+        "code": "GY",
+        "label": "Growth on the same period of the previous year",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Level, ratio or index#ST#",
+        "code": "ST",
+        "label": "Level, ratio or index",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Persons employed regularly using a computer in their work#A1_B#",
+        "code": "A1_B",
+        "label": "Persons employed regularly using a computer in their work",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Gross trade balance#BALGR#",
+        "code": "BALGR",
+        "label": "Gross trade balance",
+        "order": 11,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband connection includes both fixed and mobile#A2_B#",
+        "code": "A2_B",
+        "label": "Businesses with a broadband connection includes both fixed and mobile",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a wired or fixed wireless broadband connection#A2A_B#",
+        "code": "A2A_B",
+        "label": "Businesses with a wired or fixed wireless broadband connection",
+        "order": 30,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a mobile broadband connection#A2B_B#",
+        "code": "A2B_B",
+        "label": "Businesses with a mobile broadband connection",
+        "order": 40,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Enterprises#ENT#",
+        "code": "ENT",
+        "label": "Enterprises",
+        "order": 40,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed less than 2 Mbit/s#A3A_B#",
+        "code": "A3A_B",
+        "label": "Businesses with a broadband download speed less than 2 Mbit/s",
+        "order": 60,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 2 Mbit/s but less than 10 Mbit/s#A3B_B#",
+        "code": "A3B_B",
+        "label": "Businesses with a broadband download speed at least 2 Mbit/s but less than 10 Mbit/s",
+        "order": 70,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 10 Mbit/s but less than 30 Mbit/s#A3C_B#",
+        "code": "A3C_B",
+        "label": "Businesses with a broadband download speed at least 10 Mbit/s but less than 30 Mbit/s",
+        "order": 80,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed less than 30 Mbit/s#A3C1_B#",
+        "code": "A3C1_B",
+        "label": "Businesses with a broadband download speed less than 30 Mbit/s",
+        "order": 90,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 30 Mbit/s but less than 100 Mbit/s#A3D_B#",
+        "code": "A3D_B",
+        "label": "Businesses with a broadband download speed at least 30 Mbit/s but less than 100 Mbit/s",
+        "order": 100,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 30 Mbit/s#A3D_E_B#",
+        "code": "A3D_E_B",
+        "label": "Businesses with a broadband download speed at least 30 Mbit/s",
+        "order": 110,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 100 Mbit/s#A3E_B#",
+        "code": "A3E_B",
+        "label": "Businesses with a broadband download speed at least 100 Mbit/s",
+        "order": 120,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 100 Mbit/s but less than 500 Mbit/s#A3F_B#",
+        "code": "A3F_B",
+        "label": "Businesses with a broadband download speed at least 100 Mbit/s but less than 500 Mbit/s",
+        "order": 130,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 500 Mbit/s but less than 1 Gbit/s#A3G_B#",
+        "code": "A3G_B",
+        "label": "Businesses with a broadband download speed at least 500 Mbit/s but less than 1 Gbit/s",
+        "order": 140,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a broadband download speed at least 1 Gbit/s#A3H_B#",
+        "code": "A3H_B",
+        "label": "Businesses with a broadband download speed at least 1 Gbit/s",
+        "order": 150,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Persons employed using a computer with internet access#A4_B#",
+        "code": "A4_B",
+        "label": "Persons employed using a computer with internet access",
+        "order": 160,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Persons employed using an Internet-enabled portable device#A5_B#",
+        "code": "A5_B",
+        "label": "Persons employed using an Internet-enabled portable device",
+        "order": 170,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a website or home page#B1_B#",
+        "code": "B1_B",
+        "label": "Businesses with a website or home page",
+        "order": 180,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with a website allowing for online ordering or reservation or booking (e.g. shopping cart)#B2_B#",
+        "code": "B2_B",
+        "label": "Businesses with a website allowing for online ordering or reservation or booking (e.g. shopping cart)",
+        "order": 190,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using ERP (Enterprise Resource Planning) software#C3A_B#",
+        "code": "C3A_B",
+        "label": "Businesses using ERP (Enterprise Resource Planning) software",
+        "order": 210,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using CRM (Customer Relationship Management) software#C3B_B#",
+        "code": "C3B_B",
+        "label": "Businesses using CRM (Customer Relationship Management) software",
+        "order": 220,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using EDI (Electronic Data Interchange)#C3C_B#",
+        "code": "C3C_B",
+        "label": "Businesses using EDI (Electronic Data Interchange)",
+        "order": 230,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using RFID (Radio Frequency Identification) technology#C3D_B#",
+        "code": "C3D_B",
+        "label": "Businesses using RFID (Radio Frequency Identification) technology",
+        "order": 240,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses sharing electronically SCM information with suppliers and customers#C4_B#",
+        "code": "C4_B",
+        "label": "Businesses sharing electronically SCM information with suppliers and customers",
+        "order": 250,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses receiving orders over computer networks#D1_B#",
+        "code": "D1_B",
+        "label": "Businesses receiving orders over computer networks",
+        "order": 260,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses receiving orders via EDI-type messages#D1A_B#",
+        "code": "D1A_B",
+        "label": "Businesses receiving orders via EDI-type messages",
+        "order": 270,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses receiving orders through the Internet#D1B_B#",
+        "code": "D1B_B",
+        "label": "Businesses receiving orders through the Internet",
+        "order": 280,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Orders received over computer networks#D2_B#",
+        "code": "D2_B",
+        "label": "Orders received over computer networks",
+        "order": 290,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Orders received via EDI-type messages#D2A_B#",
+        "code": "D2A_B",
+        "label": "Orders received via EDI-type messages",
+        "order": 300,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Orders received through the Internet#D2B_B#",
+        "code": "D2B_B",
+        "label": "Orders received through the Internet",
+        "order": 310,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Orders placed through the internet by households/individuals#D2B1_B#",
+        "code": "D2B1_B",
+        "label": "Orders placed through the internet by households/individuals",
+        "order": 320,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Orders placed through the internet by other enterprises and government#D2B2_B#",
+        "code": "D2B2_B",
+        "label": "Orders placed through the internet by other enterprises and government",
+        "order": 330,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses placing orders (i.e. making purchases) over computer networks#D7_B#",
+        "code": "D7_B",
+        "label": "Businesses placing orders (i.e. making purchases) over computer networks",
+        "order": 340,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Orders placed over computer networks#D8_B#",
+        "code": "D8_B",
+        "label": "Orders placed over computer networks",
+        "order": 350,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses experiencing ICT incidents (security breaches)#E3_B#",
+        "code": "E3_B",
+        "label": "Businesses experiencing ICT incidents (security breaches)",
+        "order": 360,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses with formal policy to manage ICT privacy risks#E7_B#",
+        "code": "E7_B",
+        "label": "Businesses with formal policy to manage ICT privacy risks",
+        "order": 370,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using the Internet to interact with public authorities#F1_B#",
+        "code": "F1_B",
+        "label": "Businesses using the Internet to interact with public authorities",
+        "order": 380,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using the Internet to issue/send invoices (electronic or paper) to public authorities#F1A_B#",
+        "code": "F1A_B",
+        "label": "Businesses using the Internet to issue/send invoices (electronic or paper) to public authorities",
+        "order": 390,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services#G3_B#",
+        "code": "G3_B",
+        "label": "Businesses purchasing cloud computing services",
+        "order": 400,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for e-mail#G3A_B#",
+        "code": "G3A_B",
+        "label": "Businesses purchasing cloud computing services for e-mail",
+        "order": 410,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for office software#G3B_B#",
+        "code": "G3B_B",
+        "label": "Businesses purchasing cloud computing services for office software",
+        "order": 420,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for finance or accounting software#G3C_B#",
+        "code": "G3C_B",
+        "label": "Businesses purchasing cloud computing services for finance or accounting software",
+        "order": 430,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for customer relationship management (CRM) software#G3D_B#",
+        "code": "G3D_B",
+        "label": "Businesses purchasing cloud computing services for customer relationship management (CRM) software",
+        "order": 440,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for hosting of databases#G3E_B#",
+        "code": "G3E_B",
+        "label": "Businesses purchasing cloud computing services for hosting of databases",
+        "order": 450,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for storage of files#G3F_B#",
+        "code": "G3F_B",
+        "label": "Businesses purchasing cloud computing services for storage of files",
+        "order": 460,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses purchasing cloud computing services for computing power to run own software#G3G_B#",
+        "code": "G3G_B",
+        "label": "Businesses purchasing cloud computing services for computing power to run own software",
+        "order": 470,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses having performed big data analysis#G7_B#",
+        "code": "G7_B",
+        "label": "Businesses having performed big data analysis",
+        "order": 480,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses having performed big data analysis only with own employees#G7A_B#",
+        "code": "G7A_B",
+        "label": "Businesses having performed big data analysis only with own employees",
+        "order": 490,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses having performed big data analysis only with external service provider#G7B_B#",
+        "code": "G7B_B",
+        "label": "Businesses having performed big data analysis only with external service provider",
+        "order": 500,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses having performed big data analysis with both own employees and external service provider#G7C_B#",
+        "code": "G7C_B",
+        "label": "Businesses having performed big data analysis with both own employees and external service provider",
+        "order": 510,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using 3D printing technology#G12_B#",
+        "code": "G12_B",
+        "label": "Businesses using 3D printing technology",
+        "order": 520,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using internet of things (IoT)#G13_B#",
+        "code": "G13_B",
+        "label": "Businesses using internet of things (IoT)",
+        "order": 530,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using artificial intelligence (AI)#G14_B#",
+        "code": "G14_B",
+        "label": "Businesses using artificial intelligence (AI)",
+        "order": 540,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses which employ ICT specialists#H1_B#",
+        "code": "H1_B",
+        "label": "Businesses which employ ICT specialists",
+        "order": 550,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses which provided any type of training to develop ICT related skills of the persons employed#H3_B#",
+        "code": "H3_B",
+        "label": "Businesses which provided any type of training to develop ICT related skills of the persons employed",
+        "order": 560,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses which provided any type of training to develop ICT related skills for ICT specialists#H3A_B#",
+        "code": "H3A_B",
+        "label": "Businesses which provided any type of training to develop ICT related skills for ICT specialists",
+        "order": 570,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses which provided any type of training to develop ICT related skills for persons employed not ICT specialists#H3B_B#",
+        "code": "H3B_B",
+        "label": "Businesses which provided any type of training to develop ICT related skills for persons employed not ICT specialists",
+        "order": 580,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses that offered positions for ICT specialist#H4_B#",
+        "code": "H4_B",
+        "label": "Businesses that offered positions for ICT specialist",
+        "order": 590,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses that offered positions for ICT specialist that were difficult to fill#H5_B#",
+        "code": "H5_B",
+        "label": "Businesses that offered positions for ICT specialist that were difficult to fill",
+        "order": 600,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses using social media#K1_B#",
+        "code": "K1_B",
+        "label": "Businesses using social media",
+        "order": 610,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Businesses#BUS_B#",
+        "code": "BUS_B",
+        "label": "Businesses",
+        "order": 620,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Price base",
+    "label": "Price base",
+    "values": [
+      {
+        "id": "0|Chain linked volume#L#",
+        "code": "L",
+        "label": "Chain linked volume",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chain linked volume (rebased)#LR#",
+        "code": "LR",
+        "label": "Chain linked volume (rebased)",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Current prices#V#",
+        "code": "V",
+        "label": "Current prices",
+        "order": 50,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Current prices (constant converter)#VQ#",
+        "code": "VQ",
+        "label": "Current prices (constant converter)",
+        "order": 60,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Deflator (rebased)#DR#",
+        "code": "DR",
+        "label": "Deflator (rebased)",
+        "order": 90,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Previous year prices#Y#",
+        "code": "Y",
+        "label": "Previous year prices",
+        "order": 100,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Prices",
+    "label": "Prices",
+    "values": [
+      {
+        "id": "0|Constant prices#Q#",
+        "code": "Q",
+        "label": "Constant prices",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Constant prices (rebased)#QR#",
+        "code": "QR",
+        "label": "Constant prices (rebased)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Deflator (index)#D#",
+        "code": "D",
+        "label": "Deflator (index)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Current prices#C#",
+        "code": "C",
+        "label": "Current prices",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Constant prices, OECD base year#VOB#",
+        "code": "VOB",
+        "label": "Constant prices, OECD base year",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chain linked volume#L#",
+        "code": "L",
+        "label": "Chain linked volume",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chain linked volume (rebased)#LR#",
+        "code": "LR",
+        "label": "Chain linked volume (rebased)",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Current prices#V#",
+        "code": "V",
+        "label": "Current prices",
+        "order": 50,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Deflator (rebased)#DR#",
+        "code": "DR",
+        "label": "Deflator (rebased)",
+        "order": 90,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Reporting institutional sector",
+    "label": "Reporting institutional sector",
+    "values": [
+      {
+        "id": "0|Total economy#S1#",
+        "code": "S1",
+        "label": "Total economy",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Total economy#S1#|General government#S13#",
+        "code": "S13",
+        "label": "General government",
+        "order": 1430,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total economy#S1#",
+        "level": 1,
+        "path": [
+          "Total economy#S1#"
+        ]
+      },
+      {
+        "id": "2|Total economy#S1#|Households and non profit institutions serving households (NPISH)#S1M#|Households#S14#",
+        "code": "S14",
+        "label": "Households",
+        "order": 1740,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Total economy#S1#|Households and non profit institutions serving households (NPISH)#S1M#",
+        "level": 2,
+        "path": [
+          "Total economy#S1#",
+          "Households and non profit institutions serving households (NPISH)#S1M#"
+        ]
+      },
+      {
+        "id": "2|Total economy#S1#|Households and non profit institutions serving households (NPISH)#S1M#|Non profit institutions serving households#S15#",
+        "code": "S15",
+        "label": "Non profit institutions serving households",
+        "order": 1820,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Total economy#S1#|Households and non profit institutions serving households (NPISH)#S1M#",
+        "level": 2,
+        "path": [
+          "Total economy#S1#",
+          "Households and non profit institutions serving households (NPISH)#S1M#"
+        ]
+      },
+      {
+        "id": "1|Total economy#S1#|General government, households and non profit institutions serving households#S1L#",
+        "code": "S1L",
+        "label": "General government, households and non profit institutions serving households",
+        "order": 1940,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total economy#S1#",
+        "level": 1,
+        "path": [
+          "Total economy#S1#"
+        ]
+      },
+      {
+        "id": "1|Total economy#S1#|Households and non profit institutions serving households (NPISH)#S1M#",
+        "code": "S1M",
+        "label": "Households and non profit institutions serving households (NPISH)",
+        "order": 1950,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total economy#S1#",
+        "level": 1,
+        "path": [
+          "Total economy#S1#"
+        ]
+      },
+      {
+        "id": "1|Total economy#S1#|Other sectors than general government#S1W#",
+        "code": "S1W",
+        "label": "Other sectors than general government",
+        "order": 2080,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Total economy#S1#",
+        "level": 1,
+        "path": [
+          "Total economy#S1#"
+        ]
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Sex",
+    "label": "Sex",
+    "values": [
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Source",
+    "label": "Source",
+    "values": [
+      {
+        "id": "0|Tourism demand surveys#TDS#",
+        "code": "TDS",
+        "label": "Tourism demand surveys",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Tourism supply surveys#TSS#",
+        "code": "TSS",
+        "label": "Tourism supply surveys",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Stocks, Transactions, Other Flows",
+    "label": "Stocks, Transactions, Other Flows",
+    "values": [
+      {
+        "id": "0|Gross domestic product at market prices#B1GQ#",
+        "code": "B1GQ",
+        "label": "Gross domestic product at market prices",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Gross domestic product at market prices#B1GQ#|Domestic demand#P3T5#",
+        "code": "P3T5",
+        "label": "Domestic demand",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Gross domestic product at market prices#B1GQ#",
+        "level": 1,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#"
+        ]
+      },
+      {
+        "id": "1|Gross domestic product at market prices#B1GQ#|Final consumption expenditure#P3#",
+        "code": "P3",
+        "label": "Final consumption expenditure",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Gross domestic product at market prices#B1GQ#",
+        "level": 1,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#"
+        ]
+      },
+      {
+        "id": "2|Gross domestic product at market prices#B1GQ#|Final consumption expenditure#P3#|Individual consumption expenditure#P31#",
+        "code": "P31",
+        "label": "Individual consumption expenditure",
+        "order": 4,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Gross domestic product at market prices#B1GQ#|Final consumption expenditure#P3#",
+        "level": 2,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "Final consumption expenditure#P3#"
+        ]
+      },
+      {
+        "id": "2|Gross domestic product at market prices#B1GQ#|Final consumption expenditure#P3#|Collective consumption expenditure#P32#",
+        "code": "P32",
+        "label": "Collective consumption expenditure",
+        "order": 5,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Gross domestic product at market prices#B1GQ#|Final consumption expenditure#P3#",
+        "level": 2,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "Final consumption expenditure#P3#"
+        ]
+      },
+      {
+        "id": "1|Gross domestic product at market prices#B1GQ#|Actual individual consumption#P41#",
+        "code": "P41",
+        "label": "Actual individual consumption",
+        "order": 6,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Gross domestic product at market prices#B1GQ#",
+        "level": 1,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#"
+        ]
+      },
+      {
+        "id": "1|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#",
+        "code": "P5",
+        "label": "Gross capital formation",
+        "order": 7,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Gross domestic product at market prices#B1GQ#",
+        "level": 1,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#"
+        ]
+      },
+      {
+        "id": "2|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#|Gross fixed capital formation#P51G#",
+        "code": "P51G",
+        "label": "Gross fixed capital formation",
+        "order": 8,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#",
+        "level": 2,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "Gross capital formation#P5#"
+        ]
+      },
+      {
+        "id": "2|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#|Changes in inventories and acquisition less disposals of valuables#P5M#",
+        "code": "P5M",
+        "label": "Changes in inventories and acquisition less disposals of valuables",
+        "order": 18,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#",
+        "level": 2,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "Gross capital formation#P5#"
+        ]
+      },
+      {
+        "id": "3|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#|Changes in inventories and acquisition less disposals of valuables#P5M#|Changes in inventories#P52#",
+        "code": "P52",
+        "label": "Changes in inventories",
+        "order": 19,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "2|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#|Changes in inventories and acquisition less disposals of valuables#P5M#",
+        "level": 3,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "Gross capital formation#P5#",
+          "Changes in inventories and acquisition less disposals of valuables#P5M#"
+        ]
+      },
+      {
+        "id": "3|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#|Changes in inventories and acquisition less disposals of valuables#P5M#|Acquisitions less disposals of valuables#P53#",
+        "code": "P53",
+        "label": "Acquisitions less disposals of valuables",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "2|Gross domestic product at market prices#B1GQ#|Gross capital formation#P5#|Changes in inventories and acquisition less disposals of valuables#P5M#",
+        "level": 3,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "Gross capital formation#P5#",
+          "Changes in inventories and acquisition less disposals of valuables#P5M#"
+        ]
+      },
+      {
+        "id": "1|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#",
+        "code": "B11",
+        "label": "External balance of goods and services",
+        "order": 23,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Gross domestic product at market prices#B1GQ#",
+        "level": 1,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#"
+        ]
+      },
+      {
+        "id": "2|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Exports of goods and services#P6#",
+        "code": "P6",
+        "label": "Exports of goods and services",
+        "order": 24,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#",
+        "level": 2,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "External balance of goods and services#B11#"
+        ]
+      },
+      {
+        "id": "3|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Exports of goods and services#P6#|Exports of goods#P61#",
+        "code": "P61",
+        "label": "Exports of goods",
+        "order": 25,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "2|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Exports of goods and services#P6#",
+        "level": 3,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "External balance of goods and services#B11#",
+          "Exports of goods and services#P6#"
+        ]
+      },
+      {
+        "id": "3|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Exports of goods and services#P6#|Exports of services#P62#",
+        "code": "P62",
+        "label": "Exports of services",
+        "order": 26,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "2|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Exports of goods and services#P6#",
+        "level": 3,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "External balance of goods and services#B11#",
+          "Exports of goods and services#P6#"
+        ]
+      },
+      {
+        "id": "2|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Imports of goods and services#P7#",
+        "code": "P7",
+        "label": "Imports of goods and services",
+        "order": 27,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#",
+        "level": 2,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "External balance of goods and services#B11#"
+        ]
+      },
+      {
+        "id": "3|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Imports of goods and services#P7#|Imports of goods#P71#",
+        "code": "P71",
+        "label": "Imports of goods",
+        "order": 28,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "2|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Imports of goods and services#P7#",
+        "level": 3,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "External balance of goods and services#B11#",
+          "Imports of goods and services#P7#"
+        ]
+      },
+      {
+        "id": "3|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Imports of goods and services#P7#|Imports of services#P72#",
+        "code": "P72",
+        "label": "Imports of services",
+        "order": 29,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "2|Gross domestic product at market prices#B1GQ#|External balance of goods and services#B11#|Imports of goods and services#P7#",
+        "level": 3,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#",
+          "External balance of goods and services#B11#",
+          "Imports of goods and services#P7#"
+        ]
+      },
+      {
+        "id": "1|Gross domestic product at market prices#B1GQ#|Statistical discrepancy (expenditure approach)#YA0#",
+        "code": "YA0",
+        "label": "Statistical discrepancy (expenditure approach)",
+        "order": 30,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Gross domestic product at market prices#B1GQ#",
+        "level": 1,
+        "path": [
+          "Gross domestic product at market prices#B1GQ#"
+        ]
+      },
+      {
+        "id": "0|Total demand#P3T6#",
+        "code": "P3T6",
+        "label": "Total demand",
+        "order": 501,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Final domestic demand excluding inventories#P3_P51G#",
+        "code": "P3_P51G",
+        "label": "Final domestic demand excluding inventories",
+        "order": 566,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Subject",
+    "label": "Subject",
+    "values": [
+      {
+        "id": "0|Balance of Payments#BP#",
+        "code": "BP",
+        "label": "Balance of Payments",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Cyclical indicators#CI#|Business tendency surveys (manufacturing)#BS#",
+        "code": "BS",
+        "label": "Business tendency surveys (manufacturing)",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Cyclical indicators#CI#",
+        "level": 1,
+        "path": [
+          "Cyclical indicators#CI#"
+        ]
+      },
+      {
+        "id": "1|Cyclical indicators#CI#|Consumer opinion surveys#CS#",
+        "code": "CS",
+        "label": "Consumer opinion surveys",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Cyclical indicators#CI#",
+        "level": 1,
+        "path": [
+          "Cyclical indicators#CI#"
+        ]
+      },
+      {
+        "id": "1|Price Indices#PP#|Consumer prices#CP#",
+        "code": "CP",
+        "label": "Consumer prices",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Price Indices#PP#",
+        "level": 1,
+        "path": [
+          "Price Indices#PP#"
+        ]
+      },
+      {
+        "id": "0|Cyclical indicators#CI#",
+        "code": "CI",
+        "label": "Cyclical indicators",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Financial indicators#FI#",
+        "code": "FI",
+        "label": "Financial indicators",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Financial indicators#FI#|Interest Rates#IR#",
+        "code": "IR",
+        "label": "Interest Rates",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Financial indicators#FI#",
+        "level": 1,
+        "path": [
+          "Financial indicators#FI#"
+        ]
+      },
+      {
+        "id": "0|International trade#XT#",
+        "code": "XT",
+        "label": "International trade",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Labour indicators#LI#|Labour Compensation#LC#",
+        "code": "LC",
+        "label": "Labour Compensation",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Labour indicators#LI#",
+        "level": 1,
+        "path": [
+          "Labour indicators#LI#"
+        ]
+      },
+      {
+        "id": "1|Labour indicators#LI#|Labour Force Statistics - Quarterly Levels#LF#",
+        "code": "LF",
+        "label": "Labour Force Statistics - Quarterly Levels",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Labour indicators#LI#",
+        "level": 1,
+        "path": [
+          "Labour indicators#LI#"
+        ]
+      },
+      {
+        "id": "1|Labour indicators#LI#|Labour Force Survey - Quarterly Rates#LR#",
+        "code": "LR",
+        "label": "Labour Force Survey - Quarterly Rates",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Labour indicators#LI#",
+        "level": 1,
+        "path": [
+          "Labour indicators#LI#"
+        ]
+      },
+      {
+        "id": "0|Labour indicators#LI#",
+        "code": "LI",
+        "label": "Labour indicators",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Cyclical indicators#CI#|Leading Indicators#LO#",
+        "code": "LO",
+        "label": "Leading Indicators",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Cyclical indicators#CI#",
+        "level": 1,
+        "path": [
+          "Cyclical indicators#CI#"
+        ]
+      },
+      {
+        "id": "1|Financial indicators#FI#|Monetary aggregates and their components#MA#",
+        "code": "MA",
+        "label": "Monetary aggregates and their components",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Financial indicators#FI#",
+        "level": 1,
+        "path": [
+          "Financial indicators#FI#"
+        ]
+      },
+      {
+        "id": "1|Production, Sales & Orders#PS#|Orders#OD#",
+        "code": "OD",
+        "label": "Orders",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Production, Sales & Orders#PS#",
+        "level": 1,
+        "path": [
+          "Production, Sales & Orders#PS#"
+        ]
+      },
+      {
+        "id": "0|Price Indices#PP#",
+        "code": "PP",
+        "label": "Price Indices",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Price Indices#PP#|Producer prices#PI#",
+        "code": "PI",
+        "label": "Producer prices",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Price Indices#PP#",
+        "level": 1,
+        "path": [
+          "Price Indices#PP#"
+        ]
+      },
+      {
+        "id": "1|Production, Sales & Orders#PS#|Production#PR#",
+        "code": "PR",
+        "label": "Production",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Production, Sales & Orders#PS#",
+        "level": 1,
+        "path": [
+          "Production, Sales & Orders#PS#"
+        ]
+      },
+      {
+        "id": "0|Production, Sales & Orders#PS#",
+        "code": "PS",
+        "label": "Production, Sales & Orders",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Quarterly national accounts#NA#",
+        "code": "NA",
+        "label": "Quarterly national accounts",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|Production, Sales & Orders#PS#|Sales#SL#",
+        "code": "SL",
+        "label": "Sales",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Production, Sales & Orders#PS#",
+        "level": 1,
+        "path": [
+          "Production, Sales & Orders#PS#"
+        ]
+      },
+      {
+        "id": "1|Financial indicators#FI#|Share Prices#SP#",
+        "code": "SP",
+        "label": "Share Prices",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Financial indicators#FI#",
+        "level": 1,
+        "path": [
+          "Financial indicators#FI#"
+        ]
+      },
+      {
+        "id": "1|Labour indicators#LI#|Unit Labour Costs#UL#",
+        "code": "UL",
+        "label": "Unit Labour Costs",
+        "order": 0,
+        "count": null,
+        "isDisabled": true,
+        "isSelected": false,
+        "parentId": "0|Labour indicators#LI#",
+        "level": 1,
+        "path": [
+          "Labour indicators#LI#"
+        ]
+      },
+      {
+        "id": "2|Cyclical indicators#CI#|Consumer opinion surveys#CS#|Consumer confidence indicator, s.a.#CSCICP02#",
+        "code": "CSCICP02",
+        "label": "Consumer confidence indicator, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Cyclical indicators#CI#|Consumer opinion surveys#CS#",
+        "level": 2,
+        "path": [
+          "Cyclical indicators#CI#",
+          "Consumer opinion surveys#CS#"
+        ]
+      },
+      {
+        "id": "2|Price Indices#PP#|Consumer prices#CP#|Consumer prices: all items#CPALTT01#",
+        "code": "CPALTT01",
+        "label": "Consumer prices: all items",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Price Indices#PP#|Consumer prices#CP#",
+        "level": 2,
+        "path": [
+          "Price Indices#PP#",
+          "Consumer prices#CP#"
+        ]
+      },
+      {
+        "id": "1|Balance of Payments#BP#|Current account as a % of GDP, s.a.#B6BLTT02#",
+        "code": "B6BLTT02",
+        "label": "Current account as a % of GDP, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Balance of Payments#BP#",
+        "level": 1,
+        "path": [
+          "Balance of Payments#BP#"
+        ]
+      },
+      {
+        "id": "1|International trade#XT#|Exports in goods, s.a.#XTEXVA01#",
+        "code": "XTEXVA01",
+        "label": "Exports in goods, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|International trade#XT#",
+        "level": 1,
+        "path": [
+          "International trade#XT#"
+        ]
+      },
+      {
+        "id": "1|Quarterly national accounts#NA#|Gross domestic product; constant prices, s.a.#NAEXKP01#",
+        "code": "NAEXKP01",
+        "label": "Gross domestic product; constant prices, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Quarterly national accounts#NA#",
+        "level": 1,
+        "path": [
+          "Quarterly national accounts#NA#"
+        ]
+      },
+      {
+        "id": "2|Labour indicators#LI#|Labour Force Survey - Quarterly Rates#LR#|Harmonised unemployment rate: all persons, s.a.#LRHUTTTT#",
+        "code": "LRHUTTTT",
+        "label": "Harmonised unemployment rate: all persons, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Labour indicators#LI#|Labour Force Survey - Quarterly Rates#LR#",
+        "level": 2,
+        "path": [
+          "Labour indicators#LI#",
+          "Labour Force Survey - Quarterly Rates#LR#"
+        ]
+      },
+      {
+        "id": "2|Labour indicators#LI#|Labour Compensation#LC#|Hourly earnings: manufacturing, s.a.#LCEAMN01#",
+        "code": "LCEAMN01",
+        "label": "Hourly earnings: manufacturing, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Labour indicators#LI#|Labour Compensation#LC#",
+        "level": 2,
+        "path": [
+          "Labour indicators#LI#",
+          "Labour Compensation#LC#"
+        ]
+      },
+      {
+        "id": "2|Production, Sales & Orders#PS#|Production#PR#|Industrial production, s.a.#PRINTO01#",
+        "code": "PRINTO01",
+        "label": "Industrial production, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Production, Sales & Orders#PS#|Production#PR#",
+        "level": 2,
+        "path": [
+          "Production, Sales & Orders#PS#",
+          "Production#PR#"
+        ]
+      },
+      {
+        "id": "2|Cyclical indicators#CI#|Leading Indicators#LO#|Leading indicator, amplitude adjusted#LOLITOAA#",
+        "code": "LOLITOAA",
+        "label": "Leading indicator, amplitude adjusted",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Cyclical indicators#CI#|Leading Indicators#LO#",
+        "level": 2,
+        "path": [
+          "Cyclical indicators#CI#",
+          "Leading Indicators#LO#"
+        ]
+      },
+      {
+        "id": "2|Cyclical indicators#CI#|Business tendency surveys (manufacturing)#BS#|Manufacturing - Confidence indicator, s.a.#BSCICP02#",
+        "code": "BSCICP02",
+        "label": "Manufacturing - Confidence indicator, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Cyclical indicators#CI#|Business tendency surveys (manufacturing)#BS#",
+        "level": 2,
+        "path": [
+          "Cyclical indicators#CI#",
+          "Business tendency surveys (manufacturing)#BS#"
+        ]
+      },
+      {
+        "id": "2|Financial indicators#FI#|Monetary aggregates and their components#MA#|Narrow money, s.a.#MANMM101#",
+        "code": "MANMM101",
+        "label": "Narrow money, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Financial indicators#FI#|Monetary aggregates and their components#MA#",
+        "level": 2,
+        "path": [
+          "Financial indicators#FI#",
+          "Monetary aggregates and their components#MA#"
+        ]
+      },
+      {
+        "id": "2|Financial indicators#FI#|Interest Rates#IR#|Overnight interbank rate#IRSTCI01#",
+        "code": "IRSTCI01",
+        "label": "Overnight interbank rate",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Financial indicators#FI#|Interest Rates#IR#",
+        "level": 2,
+        "path": [
+          "Financial indicators#FI#",
+          "Interest Rates#IR#"
+        ]
+      },
+      {
+        "id": "2|Production, Sales & Orders#PS#|Orders#OD#|Permits issued for dwellings, s.a.#ODCNPI03#",
+        "code": "ODCNPI03",
+        "label": "Permits issued for dwellings, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Production, Sales & Orders#PS#|Orders#OD#",
+        "level": 2,
+        "path": [
+          "Production, Sales & Orders#PS#",
+          "Orders#OD#"
+        ]
+      },
+      {
+        "id": "2|Price Indices#PP#|Producer prices#PI#|Producer prices - Manufacturing#PIEAMP01#",
+        "code": "PIEAMP01",
+        "label": "Producer prices - Manufacturing",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Price Indices#PP#|Producer prices#PI#",
+        "level": 2,
+        "path": [
+          "Price Indices#PP#",
+          "Producer prices#PI#"
+        ]
+      },
+      {
+        "id": "2|Production, Sales & Orders#PS#|Sales#SL#|Retail trade (Volume), s.a.#SLRTTO01#",
+        "code": "SLRTTO01",
+        "label": "Retail trade (Volume), s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Production, Sales & Orders#PS#|Sales#SL#",
+        "level": 2,
+        "path": [
+          "Production, Sales & Orders#PS#",
+          "Sales#SL#"
+        ]
+      },
+      {
+        "id": "2|Financial indicators#FI#|Share Prices#SP#|Share prices#SPASTT01#",
+        "code": "SPASTT01",
+        "label": "Share prices",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Financial indicators#FI#|Share Prices#SP#",
+        "level": 2,
+        "path": [
+          "Financial indicators#FI#",
+          "Share Prices#SP#"
+        ]
+      },
+      {
+        "id": "2|Labour indicators#LI#|Labour Force Statistics - Quarterly Levels#LF#|Total employment: all persons, s.a.#LFEMTTTT#",
+        "code": "LFEMTTTT",
+        "label": "Total employment: all persons, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Labour indicators#LI#|Labour Force Statistics - Quarterly Levels#LF#",
+        "level": 2,
+        "path": [
+          "Labour indicators#LI#",
+          "Labour Force Statistics - Quarterly Levels#LF#"
+        ]
+      },
+      {
+        "id": "2|Labour indicators#LI#|Unit Labour Costs#UL#|Unit labour cost: Total Economy, s.a.#ULQEUL01#",
+        "code": "ULQEUL01",
+        "label": "Unit labour cost: Total Economy, s.a.",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Labour indicators#LI#|Unit Labour Costs#UL#",
+        "level": 2,
+        "path": [
+          "Labour indicators#LI#",
+          "Unit Labour Costs#UL#"
+        ]
+      },
+      {
+        "id": "2|Financial indicators#FI#|Interest Rates#IR#|3 month interbank rate#IR3TIB01#",
+        "code": "IR3TIB01",
+        "label": "3 month interbank rate",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Financial indicators#FI#|Interest Rates#IR#",
+        "level": 2,
+        "path": [
+          "Financial indicators#FI#",
+          "Interest Rates#IR#"
+        ]
+      },
+      {
+        "id": "2|Financial indicators#FI#|Monetary aggregates and their components#MA#|Broad money, s.a.#MABMM301#",
+        "code": "MABMM301",
+        "label": "Broad money, s.a.",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Financial indicators#FI#|Monetary aggregates and their components#MA#",
+        "level": 2,
+        "path": [
+          "Financial indicators#FI#",
+          "Monetary aggregates and their components#MA#"
+        ]
+      },
+      {
+        "id": "1|Cyclical indicators#CI#|GDP (ratio to trend, smoothed)#LORSGPRT#",
+        "code": "LORSGPRT",
+        "label": "GDP (ratio to trend, smoothed)",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Cyclical indicators#CI#",
+        "level": 1,
+        "path": [
+          "Cyclical indicators#CI#"
+        ]
+      },
+      {
+        "id": "1|Quarterly national accounts#NA#|GDP Private final consumption expenditure; constant prices, s.a.#NAEXKP02#",
+        "code": "NAEXKP02",
+        "label": "GDP Private final consumption expenditure; constant prices, s.a.",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Quarterly national accounts#NA#",
+        "level": 1,
+        "path": [
+          "Quarterly national accounts#NA#"
+        ]
+      },
+      {
+        "id": "1|International trade#XT#|Imports in goods, s.a.#XTIMVA01#",
+        "code": "XTIMVA01",
+        "label": "Imports in goods, s.a.",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|International trade#XT#",
+        "level": 1,
+        "path": [
+          "International trade#XT#"
+        ]
+      },
+      {
+        "id": "2|Production, Sales & Orders#PS#|Sales#SL#|Passenger car registrations, s.a.#SLRTCR03#",
+        "code": "SLRTCR03",
+        "label": "Passenger car registrations, s.a.",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Production, Sales & Orders#PS#|Sales#SL#",
+        "level": 2,
+        "path": [
+          "Production, Sales & Orders#PS#",
+          "Sales#SL#"
+        ]
+      },
+      {
+        "id": "2|Production, Sales & Orders#PS#|Production#PR#|Total manufacturing, s.a.#PRMNTO01#",
+        "code": "PRMNTO01",
+        "label": "Total manufacturing, s.a.",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Production, Sales & Orders#PS#|Production#PR#",
+        "level": 2,
+        "path": [
+          "Production, Sales & Orders#PS#",
+          "Production#PR#"
+        ]
+      },
+      {
+        "id": "2|Production, Sales & Orders#PS#|Production#PR#|Construction, s.a.#PRCNTO01#",
+        "code": "PRCNTO01",
+        "label": "Construction, s.a.",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Production, Sales & Orders#PS#|Production#PR#",
+        "level": 2,
+        "path": [
+          "Production, Sales & Orders#PS#",
+          "Production#PR#"
+        ]
+      },
+      {
+        "id": "1|Quarterly national accounts#NA#|GDP Government consumption expenditure; constant prices, s.a.#NAEXKP03#",
+        "code": "NAEXKP03",
+        "label": "GDP Government consumption expenditure; constant prices, s.a.",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Quarterly national accounts#NA#",
+        "level": 1,
+        "path": [
+          "Quarterly national accounts#NA#"
+        ]
+      },
+      {
+        "id": "2|Financial indicators#FI#|Interest Rates#IR#|Long-term interest rate#IRLTLT01#",
+        "code": "IRLTLT01",
+        "label": "Long-term interest rate",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|Financial indicators#FI#|Interest Rates#IR#",
+        "level": 2,
+        "path": [
+          "Financial indicators#FI#",
+          "Interest Rates#IR#"
+        ]
+      },
+      {
+        "id": "1|Quarterly national accounts#NA#|GDP Gross fixed capital formation; constant prices, s.a.#NAEXKP04#",
+        "code": "NAEXKP04",
+        "label": "GDP Gross fixed capital formation; constant prices, s.a.",
+        "order": 4,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Quarterly national accounts#NA#",
+        "level": 1,
+        "path": [
+          "Quarterly national accounts#NA#"
+        ]
+      },
+      {
+        "id": "1|Financial indicators#FI#|Exchange rates,  monthly averages, National currency per US dollar#CCUSMA02#",
+        "code": "CCUSMA02",
+        "label": "Exchange rates,  monthly averages, National currency per US dollar",
+        "order": 5,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Financial indicators#FI#",
+        "level": 1,
+        "path": [
+          "Financial indicators#FI#"
+        ]
+      },
+      {
+        "id": "1|Quarterly national accounts#NA#|GDP Exports; constant prices, s.a.#NAEXKP06#",
+        "code": "NAEXKP06",
+        "label": "GDP Exports; constant prices, s.a.",
+        "order": 5,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Quarterly national accounts#NA#",
+        "level": 1,
+        "path": [
+          "Quarterly national accounts#NA#"
+        ]
+      },
+      {
+        "id": "1|Quarterly national accounts#NA#|GDP Imports of goods and services; constant prices, s.a.#NAEXKP07#",
+        "code": "NAEXKP07",
+        "label": "GDP Imports of goods and services; constant prices, s.a.",
+        "order": 6,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|Quarterly national accounts#NA#",
+        "level": 1,
+        "path": [
+          "Quarterly national accounts#NA#"
+        ]
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Table identifier",
+    "label": "Table identifier",
+    "values": [
+      {
+        "id": "0|Table 0102 - GDP identity from the expenditure side#T0102#",
+        "code": "T0102",
+        "label": "Table 0102 - GDP identity from the expenditure side",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Top counterpart country",
+    "label": "Top counterpart country",
+    "values": [
+      {
+        "id": "0|America (Continent)#AGG_AMER#",
+        "code": "AGG_AMER",
+        "label": "America (Continent)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Argentina#AR#",
+        "code": "AR",
+        "label": "Argentina",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Armenia#AM#",
+        "code": "AM",
+        "label": "Armenia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Asia#AGG_ASIAT#",
+        "code": "AGG_ASIAT",
+        "label": "Asia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Australia#AU#",
+        "code": "AU",
+        "label": "Australia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Austria#AT#",
+        "code": "AT",
+        "label": "Austria",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Azerbaijan#AZ#",
+        "code": "AZ",
+        "label": "Azerbaijan",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Bangladesh#BD#",
+        "code": "BD",
+        "label": "Bangladesh",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Belarus#BY#",
+        "code": "BY",
+        "label": "Belarus",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Belgium#BE#",
+        "code": "BE",
+        "label": "Belgium",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Bolivia (Plurinational State of)#BO#",
+        "code": "BO",
+        "label": "Bolivia (Plurinational State of)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Bosnia and Herzegovina#BA#",
+        "code": "BA",
+        "label": "Bosnia and Herzegovina",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Botswana#BW#",
+        "code": "BW",
+        "label": "Botswana",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Brazil#BR#",
+        "code": "BR",
+        "label": "Brazil",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Bulgaria#BG#",
+        "code": "BG",
+        "label": "Bulgaria",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Canada#CA#",
+        "code": "CA",
+        "label": "Canada",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Central America#AGG_AMERC#",
+        "code": "AGG_AMERC",
+        "label": "Central America",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chile#CL#",
+        "code": "CL",
+        "label": "Chile",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|China#CN#",
+        "code": "CN",
+        "label": "China",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Colombia#CO#",
+        "code": "CO",
+        "label": "Colombia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Croatia#HR#",
+        "code": "HR",
+        "label": "Croatia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Czechia#CZ#",
+        "code": "CZ",
+        "label": "Czechia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Denmark#DK#",
+        "code": "DK",
+        "label": "Denmark",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ecuador#EC#",
+        "code": "EC",
+        "label": "Ecuador",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Estonia#EE#",
+        "code": "EE",
+        "label": "Estonia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Eswatini#SZ#",
+        "code": "SZ",
+        "label": "Eswatini",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Europe#AGG_EUROPE#",
+        "code": "AGG_EUROPE",
+        "label": "Europe",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Finland#FI#",
+        "code": "FI",
+        "label": "Finland",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|France#FR#",
+        "code": "FR",
+        "label": "France",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Georgia#GE#",
+        "code": "GE",
+        "label": "Georgia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Germany#DE#",
+        "code": "DE",
+        "label": "Germany",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Greece#GR#",
+        "code": "GR",
+        "label": "Greece",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Hong Kong#HK#",
+        "code": "HK",
+        "label": "Hong Kong",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Hungary#HU#",
+        "code": "HU",
+        "label": "Hungary",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|India#IN#",
+        "code": "IN",
+        "label": "India",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Iran (Islamic Republic of)#IR#",
+        "code": "IR",
+        "label": "Iran (Islamic Republic of)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ireland#IE#",
+        "code": "IE",
+        "label": "Ireland",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Israel#IL#",
+        "code": "IL",
+        "label": "Israel",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Italy#IT#",
+        "code": "IT",
+        "label": "Italy",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Japan#JP#",
+        "code": "JP",
+        "label": "Japan",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Kazakhstan#KZ#",
+        "code": "KZ",
+        "label": "Kazakhstan",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Korea, Republic of#KR#",
+        "code": "KR",
+        "label": "Korea, Republic of",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Latvia#LV#",
+        "code": "LV",
+        "label": "Latvia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Lesotho#LS#",
+        "code": "LS",
+        "label": "Lesotho",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Lithuania#LT#",
+        "code": "LT",
+        "label": "Lithuania",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Malaysia#MY#",
+        "code": "MY",
+        "label": "Malaysia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Mexico#MX#",
+        "code": "MX",
+        "label": "Mexico",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Montenegro#ME#",
+        "code": "ME",
+        "label": "Montenegro",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Mozambique#MZ#",
+        "code": "MZ",
+        "label": "Mozambique",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Netherlands#NL#",
+        "code": "NL",
+        "label": "Netherlands",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|New Zealand#NZ#",
+        "code": "NZ",
+        "label": "New Zealand",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Nordic countries#AGG_NORD#",
+        "code": "AGG_NORD",
+        "label": "Nordic countries",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|North Macedonia#MK#",
+        "code": "MK",
+        "label": "North Macedonia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Norway#NO#",
+        "code": "NO",
+        "label": "Norway",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Other Europe#AGG_EUROPE_O#",
+        "code": "AGG_EUROPE_O",
+        "label": "Other Europe",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Paraguay#PY#",
+        "code": "PY",
+        "label": "Paraguay",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Peru#PE#",
+        "code": "PE",
+        "label": "Peru",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Poland#PL#",
+        "code": "PL",
+        "label": "Poland",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Romania#RO#",
+        "code": "RO",
+        "label": "Romania",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Russian Federation#RU#",
+        "code": "RU",
+        "label": "Russian Federation",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Serbia#RS#",
+        "code": "RS",
+        "label": "Serbia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Singapore#SG#",
+        "code": "SG",
+        "label": "Singapore",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovakia#SK#",
+        "code": "SK",
+        "label": "Slovakia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Slovenia#SI#",
+        "code": "SI",
+        "label": "Slovenia",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|South America#AGG_AMERS#",
+        "code": "AGG_AMERS",
+        "label": "South America",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Spain#ES#",
+        "code": "ES",
+        "label": "Spain",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sri Lanka#LK#",
+        "code": "LK",
+        "label": "Sri Lanka",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Sweden#SE#",
+        "code": "SE",
+        "label": "Sweden",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Switzerland and Liechtenstein#CH_LI#",
+        "code": "CH_LI",
+        "label": "Switzerland and Liechtenstein",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Taiwan, Province of China#TW#",
+        "code": "TW",
+        "label": "Taiwan, Province of China",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Turkey#TR#",
+        "code": "TR",
+        "label": "Turkey",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ukraine#UA#",
+        "code": "UA",
+        "label": "Ukraine",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United Kingdom of Great Britain and Northern Ireland#GB#",
+        "code": "GB",
+        "label": "United Kingdom of Great Britain and Northern Ireland",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United States and Canada#US_CA#",
+        "code": "US_CA",
+        "label": "United States and Canada",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|United States of America#US#",
+        "code": "US",
+        "label": "United States of America",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Uruguay#UY#",
+        "code": "UY",
+        "label": "Uruguay",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Venezuela (Bolivarian Republic of)#VE#",
+        "code": "VE",
+        "label": "Venezuela (Bolivarian Republic of)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Zimbabwe#ZW#",
+        "code": "ZW",
+        "label": "Zimbabwe",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Switzerland#CH#",
+        "code": "CH",
+        "label": "Switzerland",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Total#_T#",
+        "code": "_T",
+        "label": "Total",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Tourism form",
+    "label": "Tourism form",
+    "values": [
+      {
+        "id": "0|Domestic#D#",
+        "code": "D",
+        "label": "Domestic",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Inbound#I#",
+        "code": "I",
+        "label": "Inbound",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Tourism trip direction",
+    "label": "Tourism trip direction",
+    "values": [
+      {
+        "id": "0|Domestic#D#",
+        "code": "D",
+        "label": "Domestic",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Inbound#I#",
+        "code": "I",
+        "label": "Inbound",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Outbound#O#",
+        "code": "O",
+        "label": "Outbound",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Transformation",
+    "label": "Transformation",
+    "values": [
+      {
+        "id": "0|Annual levels#LA#",
+        "code": "LA",
+        "label": "Annual levels",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Contribution to growth rate, period on period#GO1#",
+        "code": "GO1",
+        "label": "Contribution to growth rate, period on period",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Growth rate over 4 periods#G4#",
+        "code": "G4",
+        "label": "Growth rate over 4 periods",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|As % of the USA (USA=100)#PCTUS#",
+        "code": "PCTUS",
+        "label": "As % of the USA (USA=100)",
+        "order": 1,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Gap in % points#GAP#",
+        "code": "GAP",
+        "label": "Gap in % points",
+        "order": 2,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Annual growth/change#GRW#",
+        "code": "GRW",
+        "label": "Annual growth/change",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Index#IDX#",
+        "code": "IDX",
+        "label": "Index",
+        "order": 4,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Growth rate, period on period#G1#",
+        "code": "G1",
+        "label": "Growth rate, period on period",
+        "order": 350,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Non transformed data#N#",
+        "code": "N",
+        "label": "Non transformed data",
+        "order": 500,
+        "count": 3,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Trip type",
+    "label": "Trip type",
+    "values": [
+      {
+        "id": "0|Overnight visitors#OVERNIGHT#",
+        "code": "OVERNIGHT",
+        "label": "Overnight visitors",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Same-day visitors#SAME_DAY#",
+        "code": "SAME_DAY",
+        "label": "Same-day visitors",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Total#_T#",
+        "code": "_T",
+        "label": "Total",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Unit of measure",
+    "label": "Unit of measure",
+    "values": [
+      {
+        "id": "0|Australian Dollar#AUD#",
+        "code": "AUD",
+        "label": "Australian Dollar",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Chilean Peso#CLP#",
+        "code": "CLP",
+        "label": "Chilean Peso",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Domestic currency (incl. conversion to current currency made using a fixed parity)#XDC#",
+        "code": "XDC",
+        "label": "Domestic currency (incl. conversion to current currency made using a fixed parity)",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Euro#EUR#",
+        "code": "EUR",
+        "label": "Euro",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|National currency#XDC#",
+        "code": "XDC",
+        "label": "National currency",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Number#NUMBER#",
+        "code": "NUMBER",
+        "label": "Number",
+        "order": 0,
+        "count": 5,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Per capita, US $, PPP converted#PU_R_POP#",
+        "code": "PU_R_POP",
+        "label": "Per capita, US $, PPP converted",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of employment in industry#EMP_PERC_IND#",
+        "code": "EMP_PERC_IND",
+        "label": "Percentage of employment in industry",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of GDP#GDP_PERC#",
+        "code": "GDP_PERC",
+        "label": "Percentage of GDP",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of GDP#PT_GDP#",
+        "code": "PT_GDP",
+        "label": "Percentage of GDP",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of total contribution#PT_CONT#",
+        "code": "PT_CONT",
+        "label": "Percentage of total contribution",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of total employment#EMP_PERC#",
+        "code": "EMP_PERC",
+        "label": "Percentage of total employment",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of world exports#PT_M#",
+        "code": "PT_M",
+        "label": "Percentage of world exports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of world imports#PT_X#",
+        "code": "PT_X",
+        "label": "Percentage of world imports",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of world trade#PT_TR#",
+        "code": "PT_TR",
+        "label": "Percentage of world trade",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Persons#PERSONS#",
+        "code": "PERSONS",
+        "label": "Persons",
+        "order": 0,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Ratio#RATIO#",
+        "code": "RATIO",
+        "label": "Ratio",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|US Dollar#USD#",
+        "code": "USD",
+        "label": "US Dollar",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|US dollar, converted using purchasing power parities#PU#",
+        "code": "PU",
+        "label": "US dollar, converted using purchasing power parities",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|US Dollars#USD#",
+        "code": "USD",
+        "label": "US Dollars",
+        "order": 0,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Index#IDX#",
+        "code": "IDX",
+        "label": "Index",
+        "order": 4,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of employment#PT_EMP#",
+        "code": "PT_EMP",
+        "label": "Percentage of employment",
+        "order": 10,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of enterprises#PT_ENT#",
+        "code": "PT_ENT",
+        "label": "Percentage of enterprises",
+        "order": 20,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Percentage of turnover#PT_TURN#",
+        "code": "PT_TURN",
+        "label": "Percentage of turnover",
+        "order": 30,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Enterprises#ENT#",
+        "code": "ENT",
+        "label": "Enterprises",
+        "order": 40,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Valuation",
+    "label": "Valuation",
+    "values": [
+      {
+        "id": "0|Nominal value#N#",
+        "code": "N",
+        "label": "Nominal value",
+        "order": 3,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Volume#L#",
+        "code": "L",
+        "label": "Volume",
+        "order": 6,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "0|Not applicable#_Z#",
+        "code": "_Z",
+        "label": "Not applicable",
+        "order": 3000,
+        "count": 1,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  },
+  {
+    "id": "Visitor type",
+    "label": "Visitor type",
+    "values": [
+      {
+        "id": "0|All visitors#_T#",
+        "code": "_T",
+        "label": "All visitors",
+        "order": 1,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": null,
+        "level": 0,
+        "path": null
+      },
+      {
+        "id": "1|All visitors#_T#|Same-day visitors (excursionists)#SAME_DAY#",
+        "code": "SAME_DAY",
+        "label": "Same-day visitors (excursionists)",
+        "order": 2,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|All visitors#_T#",
+        "level": 1,
+        "path": [
+          "All visitors#_T#"
+        ]
+      },
+      {
+        "id": "1|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#",
+        "code": "OVERNIGHT",
+        "label": "Overnight visitors (tourists)",
+        "order": 3,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "0|All visitors#_T#",
+        "level": 1,
+        "path": [
+          "All visitors#_T#"
+        ]
+      },
+      {
+        "id": "2|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#|Stayed in hotels and similar establishments#HOTELS#",
+        "code": "HOTELS",
+        "label": "Stayed in hotels and similar establishments",
+        "order": 4,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#",
+        "level": 2,
+        "path": [
+          "All visitors#_T#",
+          "Overnight visitors (tourists)#OVERNIGHT#"
+        ]
+      },
+      {
+        "id": "2|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#|Stayed in private accommodation#PRIVATE#",
+        "code": "PRIVATE",
+        "label": "Stayed in private accommodation",
+        "order": 5,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#",
+        "level": 2,
+        "path": [
+          "All visitors#_T#",
+          "Overnight visitors (tourists)#OVERNIGHT#"
+        ]
+      },
+      {
+        "id": "2|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#|Stayed in other collective accommodation#_O#",
+        "code": "_O",
+        "label": "Stayed in other collective accommodation",
+        "order": 6,
+        "count": 2,
+        "isDisabled": false,
+        "isSelected": false,
+        "parentId": "1|All visitors#_T#|Overnight visitors (tourists)#OVERNIGHT#",
+        "level": 2,
+        "path": [
+          "All visitors#_T#",
+          "Overnight visitors (tourists)#OVERNIGHT#"
+        ]
+      }
+    ],
+    "count": 0,
+    "hasPath": true
+  }
+]
