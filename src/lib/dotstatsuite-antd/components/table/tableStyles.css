@@ -7,19 +7,26 @@
   overflow: auto;
   position: relative;
   background-color: #fff;
+  /* Prevent rendering issues during scroll */
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .sdmx-table {
   outline: 1px solid transparent;
   transform: translateZ(0);
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
   font-size: 12px;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: auto;
   min-width: 100%;
-  border-left: thin solid #9e9e9e;
-  border-top: thin solid #9e9e9e;
+}
+
+/* Ensure all cells have borders */
+.sdmx-table td,
+.sdmx-table th {
+  border: 1px solid #9e9e9e;
 }
 
 /* ===== Headers ===== */
@@ -27,6 +34,12 @@
   position: sticky;
   top: 0;
   z-index: 2;
+  background-color: #fff; /* Solid background to prevent gaps */
+}
+
+/* Header rows - ensure no gaps */
+.sdmx-thead tr {
+  background-color: #fff;
 }
 
 /* Column heading - Dimension name (e.g., "Thời gian")
@@ -35,15 +48,14 @@
 .column-dim-name {
   background-color: #01579b; /* Xanh dương giống hình */
   color: #ffffff;
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: right;
   font-weight: bold;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.43;
   position: sticky;
   left: 0;
   z-index: 11;
@@ -55,52 +67,53 @@
 .column-dim-value {
   background-color: #01579b; /* Xanh dương giống hình */
   color: #ffffff;
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.43;
 }
 
 /* Row heading - Dimension name (e.g., "Địa bàn hành chính")
    Background: Default - Light
-   Color: TXT - dark */
+   Color: TXT - dark
+   MUI TableCell-like styles */
 .row-dim-name {
   background-color: #e1f5fe; /* Xanh rất nhạt - Light cyan */
   color: #333333; /* TXT - dark */
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: left;
   font-weight: bold;
   font-style: italic;
-  font-size: 12px;
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.43;
   position: sticky;
   z-index: 1;
 }
 
 /* Row heading - Dimension value (e.g., "Tổng số", "Thành thị")
    Background: Default - Light
-   Color: TXT - dark */
+   Color: TXT - dark
+   MUI TableCell-like styles */
 .row-dim-value {
   background-color: #e1f5fe; /* Xanh rất nhạt - Light cyan */
   color: #333333; /* TXT - dark */
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: left;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.43;
   position: sticky;
   z-index: 1;
 }
+
+
 
 /* Row heading - Dimension value blank
    Background: Neutral lighten-3
@@ -108,14 +121,13 @@
 .row-dim-value-blank {
   background-color: #eeeeee; /* Neutral lighten-3 */
   color: #333333; /* TXT - dark */
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.43;
 }
 
 /* Column heading (Group) Row section
@@ -124,14 +136,13 @@
 .section-header {
   background-color: #4a90e2; /* Xanh đậm - Dark blue */
   color: #ffffff; /* White text for better contrast on dark background */
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: left;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1.43;
 }
 
 .section-header .dimension-name {
@@ -149,15 +160,16 @@
    Background: Neutral lighten-5
    Color: TXT - dark */
 .data-cell {
+  /* MUI TableCell-like styles */
   background-color: #fafafa; /* Neutral lighten-5 */
   color: #333333; /* TXT - dark */
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: right;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.43;
   white-space: pre-wrap;
   transition: all 0.2s;
 }
@@ -186,29 +198,31 @@
 
 /* ===== Special Cells ===== */
 .unit-cell {
+  /* MUI TableCell-like styles */
   background-color: #e1f5fe; /* Xanh rất nhạt - same as row headers */
   color: #333333;
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.875rem; /* 14px - MUI default */
+  line-height: 1.43;
   position: sticky;
   z-index: 1;
 }
 
 .symbols-cell {
+  /* MUI TableCell-like styles */
   background-color: #eeeeee; /* Neutral lighten-3 */
   color: #333333;
-  border: inherit;
-  border-bottom: thin solid #9e9e9e;
-  border-right: thin solid #9e9e9e;
+  border: 1px solid #9e9e9e !important;
+  border-right-width: 2px !important; /* Stronger border to separate from data */
+  border-right-color: #e0e0e0 !important;
   padding: 4px 8px;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.875rem; /* 14px - MUI default */
+  line-height: 1.43;
   position: sticky;
   z-index: 1;
   width: 30px;
@@ -219,17 +233,28 @@
   position: sticky;
   top: 0;
   z-index: 2;
+  background-clip: padding-box;
 }
 
 .sticky-column {
   position: sticky;
   z-index: 1;
+  background-clip: padding-box;
 }
 
 .sticky-header-section {
   position: sticky;
   left: 0;
   z-index: 2;
+  background-clip: padding-box;
+}
+
+/* Ensure sticky cells render properly */
+.sdmx-table [style*="position: sticky"],
+.sdmx-table [style*="position:'sticky'"],
+.sdmx-table [style*='position:"sticky"'] {
+  will-change: transform;
+  background-clip: padding-box;
 }
 
 /* ===== Table Cell Adjustments ===== */
@@ -239,7 +264,7 @@ th, td {
 
 /* Remove default table spacing */
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
 }
 

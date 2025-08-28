@@ -21,7 +21,7 @@ export interface SDMXParser {
    * Parse raw SDMX data
    * @returns Unified SDMXData format
    */
-  parse(data: any): SDMXData;
+  parse(data: any, locale?: string): SDMXData;
   
   /**
    * Get parser version
@@ -39,7 +39,7 @@ export interface SDMXParser {
  */
 export abstract class BaseSDMXParser implements SDMXParser {
   abstract version: SDMXVersion;
-  abstract parse(data: any): SDMXData;
+  abstract parse(data: any, locale?: string): SDMXData;
   abstract canParse(data: any): boolean;
   
   /**

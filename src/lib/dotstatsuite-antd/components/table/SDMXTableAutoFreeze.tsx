@@ -455,7 +455,7 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
                 textAlign: 'center',
                 position: 'sticky',
                 left: columnWidths[rowDims.length] !== undefined ? columnWidths[rowDims.length] : rowDims.length * 100,
-                top: headerDims.length * 25,
+                top: 0,
                 zIndex: 11
               }}>
               Unit
@@ -467,9 +467,8 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
               style={{
                 position: 'sticky',
                 left: columnWidths[rowDims.length + 1] !== undefined ? columnWidths[rowDims.length + 1] : (rowDims.length * 100 + 50),
-                top: headerDims.length * 25,
-                zIndex: 11,
-                borderRight: '2px solid #999'
+                top: 0,
+                zIndex: 11
               }}>
               
             </th>
@@ -554,8 +553,7 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
                                       style={{
                     position: 'sticky',
                     left: columnWidths[idx] !== undefined ? columnWidths[idx] : idx * 100,
-                    zIndex: 1,
-                    boxShadow: idx === rowDims.length - 1 ? '1px 0 2px rgba(0,0,0,0.1)' : 'none'
+                    zIndex: 1
                   }}
                   >
                     {value}
@@ -580,8 +578,7 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
                   style={{
                     position: 'sticky',
                     left: columnWidths[rowDims.length + 1] !== undefined ? columnWidths[rowDims.length + 1] : (rowDims.length * 100 + 50),
-                    zIndex: 1,
-                    boxShadow: '2px 0 4px rgba(0,0,0,0.15)'
+                    zIndex: 1
                   }}
                 >
                   

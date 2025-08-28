@@ -26,11 +26,11 @@ export class SDMXJSONV2Parser extends BaseSDMXParser {
     );
   }
   
-  parse(data: any): SDMXData {
+  parse(data: any, locale: string = 'en'): SDMXData {
     // TODO: Implement v2 parsing logic
     // This is a placeholder that will be implemented when v2 data is available
     
-    console.warn('SDMX-JSON v2 parser not yet implemented, using basic structure');
+    console.warn('SDMX-JSON v2 parser not yet fully implemented, using basic structure');
     
     // Basic structure extraction for v2
     const result: SDMXData = {
@@ -41,9 +41,9 @@ export class SDMXJSONV2Parser extends BaseSDMXParser {
     
     // Extract dimensions from structure/meta
     if (data.structure?.dimensions) {
-      result.dimensions = this.extractDimensionsV2(data.structure.dimensions);
+      result.dimensions = this.extractDimensionsV2(data.structure.dimensions, locale);
     } else if (data.meta?.dimensions) {
-      result.dimensions = this.extractDimensionsV2(data.meta.dimensions);
+      result.dimensions = this.extractDimensionsV2(data.meta.dimensions, locale);
     }
     
     // Extract observations from data
@@ -54,7 +54,7 @@ export class SDMXJSONV2Parser extends BaseSDMXParser {
     return this.validateOutput(result);
   }
   
-  private extractDimensionsV2(dimensions: any): any[] {
+  private extractDimensionsV2(dimensions: any, locale: string = 'en'): any[] {
     const result: any[] = [];
     
     // V2 can have dimensions as object or array
@@ -181,6 +181,6 @@ export class SDMXJSONV2Parser extends BaseSDMXParser {
 export const sdmxV2Parser = new SDMXJSONV2Parser();
 
 // Export parse function for backward compatibility
-export function parseSDMXJSONV2(data: any): SDMXData {
-  return sdmxV2Parser.parse(data);
+export function parseSDMXJSONV2(data: any, locale: string = 'en'): SDMXData {
+  return sdmxV2Parser.parse(data, locale);
 }

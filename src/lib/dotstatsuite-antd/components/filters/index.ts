@@ -11,6 +11,9 @@ export type { UsedFiltersProps } from './UsedFilters';
 export { FilterSidebar } from './FilterSidebar';
 export type { FilterSidebarProps } from './FilterSidebar';
 
+export { FilterModal } from './FilterModal';
+export type { FilterModalProps } from './FilterModal';
+
 // Utility functions for filtering data
 export function filterObservations(
   observations: any[],

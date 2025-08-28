@@ -46,31 +46,33 @@ export function detectSDMXVersion(data: any): SDMXVersion {
  * 
  * @param data - Raw SDMX-JSON data
  * @param version - SDMX version (default: auto-detect)
+ * @param locale - Locale for data localization (default: 'en')
  * @returns Unified SDMXData format for table display
  */
 export function parseSDMX(
   data: any,
-  version: SDMXVersion = SDMXVersion.AUTO
+  version: SDMXVersion = SDMXVersion.AUTO,
+  locale: string = 'en'
 ): SDMXData {
   // Auto-detect version if needed
   const actualVersion = version === SDMXVersion.AUTO 
     ? detectSDMXVersion(data) 
     : version;
   
-  console.log(`Parsing SDMX-JSON version: ${actualVersion}`);
+  console.log(`Parsing SDMX-JSON version: ${actualVersion} with locale: ${locale}`);
   
   // Select appropriate parser based on version
   switch (actualVersion) {
     case SDMXVersion.V1_0:
-      return parseV1(data);
+      return parseV1(data, locale);
       
     case SDMXVersion.V2_0:
     case SDMXVersion.V2_1:
-      return parseSDMXJSONV2(data);
+      return parseSDMXJSONV2(data, locale);
       
     default:
       console.warn(`Unknown SDMX version: ${actualVersion}, falling back to v1.0`);
-      return parseV1(data);
+      return parseV1(data, locale);
   }
 }
 

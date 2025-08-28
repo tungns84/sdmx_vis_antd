@@ -4,14 +4,17 @@
  */
 
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
-import { message, Spin, Alert, Row, Col, Card, Statistic } from 'antd';
+import { message, Spin, Alert, Row, Col, Card, Statistic, Space } from 'antd';
+import { GlobalOutlined } from '@ant-design/icons';
 import SDMXTableAutoFreeze from '../lib/dotstatsuite-antd/components/table/SDMXTableAutoFreeze';
 import { SDMXData, TableLayout } from '../lib/dotstatsuite-antd/types';
 import TableToolbar from '../lib/dotstatsuite-antd/components/toolbar/TableToolbar';
 import { LayoutPanel, SharePanel, ApiPanel } from '../lib/dotstatsuite-antd/components/toolbar/panels';
-import { FilterSidebar, filterObservations } from '../lib/dotstatsuite-antd/components/filters';
+import FilterModal from '../lib/dotstatsuite-antd/components/filters/FilterModal';
+import { filterObservations } from '../lib/dotstatsuite-antd/components/filters';
 import { getDefaultLayout } from '../lib/dotstatsuite-antd/utils/sdmx-json-parser';
 import { parseSDMX, SDMXVersion } from '../lib/dotstatsuite-antd/utils/sdmx-parser-factory';
+import LanguageSelector from '../lib/dotstatsuite-antd/components/LanguageSelector';
 import sampleData from '../../sampleData.json';
 
 const CleanDemo: React.FC = () => {
@@ -23,19 +26,19 @@ const CleanDemo: React.FC = () => {
   });
   const [activeView, setActiveView] = useState<'table' | 'chart'>('table');
   const [displayMode, setDisplayMode] = useState<'id' | 'name' | 'both'>('name');
-  const [actionId, setActionId] = useState<'config' | 'share' | 'api' | 'download' | null>(null);
+  const [actionId, setActionId] = useState<'config' | 'share' | 'api' | 'download' | 'filter' | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
-  const [showFilters, setShowFilters] = useState(true);
+  const [locale, setLocale] = useState<string>('en');
 
   // Load and parse SDMX data
   useEffect(() => {
     try {
       setLoading(true);
-      console.log('Parsing SDMX data from sampleData.json...');
+      console.log(`Parsing SDMX data with locale: ${locale}...`);
       
-      const parsedData = parseSDMX(sampleData as any, SDMXVersion.AUTO);
+      const parsedData = parseSDMX(sampleData as any, SDMXVersion.AUTO, locale);
       console.log('Parsed data:', parsedData);
       
       setData(parsedData);
@@ -52,7 +55,7 @@ const CleanDemo: React.FC = () => {
       console.log('Default layout:', defaultLayout);
       setLayout(defaultLayout);
       
-      message.success('SDMX data loaded successfully');
+      message.success(`SDMX data loaded successfully (${locale})`);
       setLoading(false);
     } catch (err) {
       console.error('Error parsing SDMX data:', err);
@@ -60,7 +63,7 @@ const CleanDemo: React.FC = () => {
       setLoading(false);
       message.error('Failed to load SDMX data');
     }
-  }, []);
+  }, [locale]); // Re-parse when locale changes
 
   const handleLayoutChange = useCallback((newLayout: TableLayout) => {
     setLayout(newLayout);
@@ -97,31 +100,48 @@ const CleanDemo: React.FC = () => {
 
   return (
     <div style={{ minHeight: '100vh', background: '#f5f5f5' }}>
-      {/* Toolbar */}
-      <TableToolbar
-        viewerId={activeView as any}
-        availableCharts={['line', 'bar', 'column']}
-        displayMode={displayMode}
-        actionId={actionId}
-        isFullscreen={false}
-        filtersVisible={showFilters}
-        onViewerChange={(viewer) => {
-          if (viewer === 'table') setActiveView('table');
-          else if (viewer === 'chart') setActiveView('chart');
-        }}
-        onDisplayModeChange={setDisplayMode}
-        onActionChange={setActionId}
-        onFullscreenToggle={() => {
-          message.info('Fullscreen coming soon');
-        }}
-        onFilterToggle={() => {
-          setShowFilters(!showFilters);
-          message.info(showFilters ? 'Filters hidden' : 'Filters shown');
-        }}
-        features={{
-          showFilters: true
-        }}
-      />
+      {/* Toolbar with Language Selector */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: '#fff', borderBottom: '1px solid #e0e0e0' }}>
+        <TableToolbar
+          viewerId={activeView as any}
+          availableCharts={['line', 'bar', 'column']}
+          displayMode={displayMode}
+          actionId={actionId}
+          isFullscreen={false}
+          filtersVisible={actionId === 'filter'}
+          onViewerChange={(viewer) => {
+            if (viewer === 'table') setActiveView('table');
+            else if (viewer === 'chart') setActiveView('chart');
+          }}
+          onDisplayModeChange={setDisplayMode}
+          onActionChange={setActionId}
+          onFullscreenToggle={() => {
+            message.info('Fullscreen coming soon');
+          }}
+          onFilterToggle={() => {
+            setActionId(actionId === 'filter' ? null : 'filter');
+          }}
+          features={{
+            showFilters: true
+          }}
+        />
+        
+        {/* Language Selector */}
+        <div style={{ paddingRight: 16 }}>
+          <Space>
+            <GlobalOutlined style={{ color: '#666' }} />
+            <LanguageSelector
+              value={locale}
+              onChange={(newLocale) => {
+                setLocale(newLocale);
+                message.info(`Switching to ${newLocale.toUpperCase()}`);
+              }}
+              showFlag={true}
+              style={{ minWidth: 120 }}
+            />
+          </Space>
+        </div>
+      </div>
 
       {/* Panels */}
       {actionId === 'config' && data && (
@@ -149,73 +169,23 @@ const CleanDemo: React.FC = () => {
         />
       )}
 
-      {/* Filter Statistics Bar */}
-      {filterStats && showFilters && (
-        <div style={{ padding: '12px 16px', background: '#fff', borderBottom: '1px solid #f0f0f0' }}>
-          <Row gutter={16}>
-            <Col xs={12} sm={6}>
-              <Statistic
-                title="Total"
-                value={filterStats.totalObservations}
-                valueStyle={{ fontSize: 20 }}
-              />
-            </Col>
-            <Col xs={12} sm={6}>
-              <Statistic
-                title="Filtered"
-                value={filterStats.filteredObservations}
-                valueStyle={{ fontSize: 20, color: filterStats.activeFilters > 0 ? '#3f8600' : undefined }}
-              />
-            </Col>
-            <Col xs={12} sm={6}>
-              <Statistic
-                title="Filters Active"
-                value={filterStats.activeFilters}
-                valueStyle={{ fontSize: 20, color: filterStats.activeFilters > 0 ? '#cf1322' : undefined }}
-              />
-            </Col>
-            <Col xs={12} sm={6}>
-              <Statistic
-                title="Showing"
-                value={filterStats.percentage}
-                suffix="%"
-                valueStyle={{ fontSize: 20 }}
-              />
-            </Col>
-          </Row>
-        </div>
+      {actionId === 'filter' && data && (
+        <FilterModal
+          dimensions={data.dimensions.filter(d => 
+            // Show all dimensions with multiple values
+            d.values.length > 1 && d.values.length < 100
+          )}
+          observations={data.observations}
+          activeFilters={activeFilters}
+          onFiltersChange={setActiveFilters}
+          onClose={() => setActionId(null)}
+          showCounts={true}
+          layoutDimensions={[...layout.header, ...layout.rows, ...layout.sections]}
+        />
       )}
 
       {/* Main Content Area */}
-      <div style={{ display: 'flex', height: showFilters ? 'calc(100vh - 250px)' : 'calc(100vh - 120px)' }}>
-        {/* Filter Sidebar */}
-        {showFilters && data && (
-          <div style={{ 
-            width: 320, 
-            background: '#fff', 
-            borderRight: '1px solid #f0f0f0',
-            overflowY: 'auto',
-            padding: '16px'
-          }}>
-            <FilterSidebar
-              dimensions={data.dimensions.filter(d => 
-                // Show all dimensions with multiple values
-                d.values.length > 1 && d.values.length < 100
-                // Allow filtering even for dimensions in layout
-                // This enables more flexible data exploration
-              )}
-              observations={data.observations}
-              activeFilters={activeFilters}
-              onFiltersChange={setActiveFilters}
-              showCounts={true}
-              isMobile={false}
-              layoutDimensions={[...layout.header, ...layout.rows, ...layout.sections]}
-            />
-          </div>
-        )}
-
-        {/* Table Area */}
-        <div style={{ flex: 1, padding: 16, overflowY: 'auto', background: '#fff' }}>
+      <div style={{ padding: 16, background: '#fff', height: 'calc(100vh - 120px)', overflow: 'auto' }}>
           {loading ? (
             <div style={{ textAlign: 'center', padding: 50 }}>
               <Spin size="large" tip="Loading SDMX data..." />
@@ -242,11 +212,11 @@ const CleanDemo: React.FC = () => {
             </div>
           ) : filteredData ? (
             <>
-              {filterStats && filterStats.activeFilters > 0 && (
+              {Object.values(activeFilters).some(v => v.length > 0) && (
                 <div style={{ marginBottom: 16 }}>
                   <Alert
                     message="Filters Applied"
-                    description={`Showing ${filterStats.filteredObservations} of ${filterStats.totalObservations} observations (${filterStats.percentage}%)`}
+                    description={`Showing ${filteredData.observations.length} of ${data?.observations.length || 0} observations`}
                     type="info"
                     showIcon
                     closable
@@ -266,7 +236,6 @@ const CleanDemo: React.FC = () => {
               showIcon
             />
           )}
-        </div>
       </div>
     </div>
   );

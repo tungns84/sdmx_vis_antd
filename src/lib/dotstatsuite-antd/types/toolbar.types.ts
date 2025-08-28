@@ -9,7 +9,7 @@ import { ReactNode } from 'react';
 export type ViewerType = 'overview' | 'table' | 'microdata' | 'chart' | 'map';
 export type ChartType = 'line' | 'bar' | 'column' | 'area' | 'pie' | 'scatter';
 export type DisplayMode = 'name' | 'id' | 'both';
-export type ActionType = 'config' | 'share' | 'api' | 'download' | null;
+export type ActionType = 'config' | 'share' | 'api' | 'download' | 'filter' | null;
 
 // Toolbar Props
 export interface ToolbarProps {

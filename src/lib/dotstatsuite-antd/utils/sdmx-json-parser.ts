@@ -22,9 +22,35 @@ export interface SDMXJSONData {
 }
 
 /**
+ * Get localized name from SDMX data
+ */
+function getLocalizedName(item: any, locale: string = 'en', fallbackLocale: string = 'en'): string {
+  // Priority 1: Check names object with locale keys (most common in SDMX)
+  if (item?.names) {
+    if (item.names[locale]) return item.names[locale];
+    if (item.names[fallbackLocale]) return item.names[fallbackLocale];
+    // If requested locale not found, try to find any available translation
+    const firstKey = Object.keys(item.names)[0];
+    if (firstKey) return item.names[firstKey];
+  }
+  
+  // Priority 2: Check if name is an object with locale keys
+  if (item?.name && typeof item.name === 'object') {
+    if (item.name[locale]) return item.name[locale];
+    if (item.name[fallbackLocale]) return item.name[fallbackLocale];
+  }
+  
+  // Priority 3: Use direct name string as fallback (may be default language)
+  if (typeof item?.name === 'string') return item.name;
+  
+  // Priority 4: Fallback to id
+  return item?.id || '';
+}
+
+/**
  * Parse SDMX-JSON format to internal SDMXData format
  */
-export function parseSDMXJSON(data: SDMXJSONData): SDMXData {
+export function parseSDMXJSON(data: SDMXJSONData, locale: string = 'en'): SDMXData {
   if (!data?.structures?.[0] || !data?.dataSets?.[0]) {
     throw new Error('Invalid SDMX-JSON format');
   }
@@ -40,10 +66,10 @@ export function parseSDMXJSON(data: SDMXJSONData): SDMXData {
     structure.dimensions.series.forEach((dim: any) => {
       dimensions.push({
         id: dim.id,
-        name: dim.name || dim.names?.vi || dim.names?.en || dim.id,
+        name: getLocalizedName(dim, locale),
         values: dim.values?.map((v: any) => ({
           id: v.id,
-          name: v.name || v.names?.vi || v.names?.en || v.id,
+          name: getLocalizedName(v, locale),
           order: v.order,
           parent: v.parent
         })) || []
@@ -56,10 +82,10 @@ export function parseSDMXJSON(data: SDMXJSONData): SDMXData {
     structure.dimensions.observation.forEach((dim: any) => {
       dimensions.push({
         id: dim.id,
-        name: dim.name || dim.names?.vi || dim.names?.en || dim.id,
+        name: getLocalizedName(dim, locale),
         values: dim.values?.map((v: any) => ({
           id: v.id,
-          name: v.name || v.names?.vi || v.names?.en || v.id,
+          name: getLocalizedName(v, locale),
           start: v.start,
           end: v.end
         })) || []
