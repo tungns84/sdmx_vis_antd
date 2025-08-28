@@ -119,6 +119,7 @@ const run = async () => {
   //const SentryRoutes = Sentry.withSentryReactRouterV7Routing(Routes);
 
   const CleanDemo = React.lazy(() => import('./components/clean-demo.tsx'));
+  const TestSDMXAttributes = React.lazy(() => import('./test-sdmx-attributes.tsx'));
 
   const render = (finalLocale) => {
     if (!getIsFirstRendering(store.getState())) return;
@@ -141,6 +142,7 @@ const run = async () => {
                             <React.Suspense fallback={null}>
                               <Routes>
                                 <Route path="/" element={<CleanDemo />} />
+                                <Route path="/test-attributes" element={<TestSDMXAttributes />} />
                                 <Route path="/search" element={<Search />} />
                                 <Route path="/vis" element={<Vis />} />
                                 <Route path="/share" element={<Share />} />

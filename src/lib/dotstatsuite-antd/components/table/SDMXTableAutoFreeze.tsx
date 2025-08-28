@@ -1,6 +1,7 @@
 import React, { useMemo, useCallback, useRef, useEffect, useState, Fragment } from 'react';
 import { SDMXData, TableLayout } from '../../types';
 import SDMXCell, { SDMXCellData, ObservationFlag } from './SDMXCell';
+import { formatObservationValue, getStatusSymbol } from '../../utils/sdmx-attributes-parser';
 import './tableStyles.css';
 
 interface SDMXTableProps {
@@ -67,7 +68,7 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
           headerDims.forEach(dim => {
             const valueId = obs[dim?.id || ''];
             const dimValue = dim?.values?.find((v: any) => v.id === valueId);
-            values[dim.id] = {
+            values[dim?.id || ''] = {
               id: valueId,
               label: labelAccessor(dimValue)
             };
@@ -164,21 +165,12 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
             if (obs) {
               const cellData: SDMXCellData = {
                 value: obs.value,
-                flags: [],
-                status: undefined,
+                flags: obs._flags || [],
+                status: obs.OBS_STATUS,
                 unit: rowData.unit || '',
-                decimals: obs.DECIMALS ? parseInt(obs.DECIMALS) : undefined,
-                multiplier: obs.UNIT_MULT ? parseInt(obs.UNIT_MULT) : undefined
-              };
-              
-              if (obs.OBS_FLAG) {
-                cellData.flags = [{ code: obs.OBS_FLAG, label: obs.OBS_FLAG }];
-              }
-              if (obs.FOOTNOTE) {
-                cellData.footnote = obs.FOOTNOTE;
-              }
-              if (obs.OBS_STATUS) {
-                cellData.status = obs.OBS_STATUS;
+                decimals: obs.DECIMALS !== undefined ? obs.DECIMALS : undefined,
+                multiplier: obs.UNIT_MULT !== undefined ? obs.UNIT_MULT : undefined,
+                metadata: obs._metadata
               }
               
               rowData.values[headerKey] = cellData;
@@ -233,21 +225,12 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
           if (obs) {
             const cellData: SDMXCellData = {
               value: obs.value,
-              flags: [],
-              status: undefined,
+              flags: obs._flags || [],
+              status: obs.OBS_STATUS,
               unit: rowData.unit || '',
-              decimals: obs.DECIMALS ? parseInt(obs.DECIMALS) : undefined,
-              multiplier: obs.UNIT_MULT ? parseInt(obs.UNIT_MULT) : undefined
-            };
-            
-            if (obs.OBS_FLAG) {
-              cellData.flags = [{ code: obs.OBS_FLAG, label: obs.OBS_FLAG }];
-            }
-            if (obs.FOOTNOTE) {
-              cellData.footnote = obs.FOOTNOTE;
-            }
-            if (obs.OBS_STATUS) {
-              cellData.status = obs.OBS_STATUS;
+              decimals: obs.DECIMALS !== undefined ? obs.DECIMALS : undefined,
+              multiplier: obs.UNIT_MULT !== undefined ? obs.UNIT_MULT : undefined,
+              metadata: obs._metadata
             }
             
             rowData.values[headerKey] = cellData;
@@ -383,8 +366,10 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
         const firstDimGroups = new Map<string, number>();
         headerCombinations.forEach(key => {
           const values = headerValueMap.get(key);
-          const firstDimValue = values[dim.id].id;
-          firstDimGroups.set(firstDimValue, (firstDimGroups.get(firstDimValue) || 0) + 1);
+          const firstDimValue = values[dim?.id || '']?.id;
+          if (firstDimValue) {
+            firstDimGroups.set(firstDimValue, (firstDimGroups.get(firstDimValue) || 0) + 1);
+          }
         });
         
         // Render cells with colspan
@@ -409,7 +394,7 @@ const SDMXTableAutoFreeze: React.FC<SDMXTableProps> = ({
         // For other dimensions or single dimension, show all values
         headerCombinations.forEach((key, idx) => {
           const values = headerValueMap.get(key);
-          const value = values[dim.id];
+          const value = values[dim?.id || ''];
           cells.push(
             <th
               key={`dim_${dimIndex}_val_${idx}`}

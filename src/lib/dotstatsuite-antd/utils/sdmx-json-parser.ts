@@ -3,6 +3,7 @@
  */
 
 import { SDMXData } from '../types';
+import { parseSeriesAttributes, parseObservationAttributes } from './sdmx-attributes-parser';
 
 export interface SDMXJSONData {
   dataSets: Array<{
@@ -128,14 +129,28 @@ export function parseSDMXJSON(data: SDMXJSONData): SDMXData {
         }
       }
       
-      // Add attributes if available
-      if (obsValue.length > 1) {
-        // Additional elements might contain flags, status, etc.
-        for (let i = 1; i < obsValue.length; i++) {
-          if (obsValue[i] !== null) {
-            obs[`ATTR_${i}`] = obsValue[i];
-          }
-        }
+      // Parse observation attributes
+      const obsAttributes = parseObservationAttributes(obsValue, structure.attributes);
+      if (obsAttributes.status) {
+        obs.OBS_STATUS = obsAttributes.status;
+      }
+      if (obsAttributes.flags) {
+        obs._flags = obsAttributes.flags;
+      }
+      if (obsAttributes.metadata) {
+        obs._metadata = obsAttributes.metadata;
+      }
+      if (obsAttributes.decimals !== undefined) {
+        obs.DECIMALS = obsAttributes.decimals;
+      }
+      if (obsAttributes.multiplier !== undefined) {
+        obs.UNIT_MULT = obsAttributes.multiplier;
+      }
+      
+      // Parse series attributes
+      const seriesAttrs = parseSeriesAttributes(seriesData, structure.attributes);
+      if (seriesAttrs && Object.keys(seriesAttrs).length > 0) {
+        obs._seriesAttributes = seriesAttrs;
       }
       
       // Only add observations with actual values

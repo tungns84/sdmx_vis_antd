@@ -39,6 +39,10 @@ export interface ToolbarProps {
   onActionChange: (action: ActionType) => void;
   /** Callback when fullscreen toggles */
   onFullscreenToggle: () => void;
+  /** Filter visibility state */
+  filtersVisible?: boolean;
+  /** Callback when filter toggles */
+  onFilterToggle?: () => void;
   /** Custom className */
   className?: string;
   /** Show/hide specific features */
@@ -57,6 +61,7 @@ export interface ToolbarFeatures {
   showDownload?: boolean;
   showApi?: boolean;
   showFullscreen?: boolean;
+  showFilters?: boolean;
 }
 
 // Button Props

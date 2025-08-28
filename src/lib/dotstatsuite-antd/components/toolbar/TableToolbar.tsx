@@ -10,6 +10,7 @@ import {
   ShareAltOutlined,
   ApiOutlined,
   SwapOutlined,
+  FilterOutlined,
 } from '@ant-design/icons';
 import { ToolbarProps } from '../../types/toolbar.types';
 import { TOOLBAR_LABELS, TOOLBAR_STYLES } from '../../constants/toolbar.constants';
@@ -36,10 +37,12 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
   hasMicrodata = false,
   hasRefAreaDimension = false,
   viewerProps,
+  filtersVisible = false,
   onViewerChange,
   onDisplayModeChange,
   onActionChange,
   onFullscreenToggle,
+  onFilterToggle,
   className = '',
   features = {},
 }) => {
@@ -54,6 +57,7 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
     showShare = true,
     showDownload = true,
     showApi = true,
+    showFilters = true,
     showFullscreen = true,
   } = features;
 
@@ -110,6 +114,19 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
           <LabelSelector
             mode={displayMode}
             onChange={onDisplayModeChange}
+          />
+        )}
+
+        {/* Filter Toggle Button */}
+        {showFilters && onFilterToggle && (
+          <ToolbarButton
+            icon={<FilterOutlined />}
+            label="Filters"
+            tooltip={`${filtersVisible ? 'Hide' : 'Show'} filters`}
+            selected={filtersVisible}
+            onClick={onFilterToggle}
+            aria-expanded={filtersVisible}
+            testId="toolbar-filters"
           />
         )}
 

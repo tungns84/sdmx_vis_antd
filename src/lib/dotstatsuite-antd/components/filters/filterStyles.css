@@ -1,0 +1,366 @@
+/**
+ * Filter Component Styles
+ * Based on .stat-suite UI documentation
+ */
+
+/* Filter Panel */
+.filter-panel-collapse {
+  margin-bottom: 16px;
+  border: none;
+  background: #fff;
+}
+
+.filter-panel-collapse .ant-collapse-header {
+  padding: 8px 12px !important;
+  border-top: 2px solid #e0e0e0;
+  background: #fafafa;
+}
+
+.filter-panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.filter-panel-title {
+  font-family: "PT Sans Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+  line-height: 22px;
+}
+
+.filter-panel-badge {
+  margin-right: 8px;
+}
+
+.filter-panel-badge .ant-badge-count {
+  border: 2px solid #40a9ff;
+  background: #fff;
+  color: #1890ff;
+  font-size: 12px;
+  height: 20px;
+  line-height: 16px;
+  padding: 0 6px;
+}
+
+/* Filter Panel Content */
+.filter-panel-content {
+  padding: 8px 0;
+}
+
+/* Search Input */
+.filter-search {
+  margin: 0 8px 12px;
+}
+
+.filter-search .ant-input-affix-wrapper {
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 0;
+}
+
+.filter-search input {
+  font-size: 14px;
+}
+
+/* Filter Actions */
+.filter-actions {
+  padding: 8px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 8px;
+}
+
+.filter-actions .ant-btn-sm {
+  font-size: 12px;
+  height: 24px;
+  padding: 0 8px;
+}
+
+/* Filter Items Container */
+.filter-items-container {
+  padding: 4px 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.filter-items-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.filter-items-container::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 3px;
+}
+
+.filter-items-container::-webkit-scrollbar-thumb:hover {
+  background: #bfbfbf;
+}
+
+/* Filter Item */
+.filter-item {
+  padding: 4px 8px;
+  border-bottom: 1px solid #fafafa;
+  font-size: 14px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.filter-item:hover {
+  background: #e6f7ff;
+}
+
+.filter-item.selected {
+  background: #e6f7ff;
+  color: #1890ff;
+}
+
+.filter-item.selected:hover {
+  background: #bae7ff;
+}
+
+.filter-item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.filter-item .ant-checkbox-wrapper {
+  width: 100%;
+  white-space: normal;
+}
+
+.filter-item-label {
+  margin-right: 8px;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.filter-item-count {
+  color: #999;
+  font-size: 12px;
+  margin-left: auto;
+  float: right;
+}
+
+/* Filter Status */
+.filter-status {
+  padding: 8px;
+  border-top: 1px solid #f0f0f0;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+/* Used Filters Panel */
+.used-filters-panel {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.used-filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.used-filters-title {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.used-filters-clear {
+  color: #ff4d4f;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.used-filters-clear:hover {
+  text-decoration: underline;
+}
+
+/* Filter Tags */
+.filter-tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.filter-dimension-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.filter-dimension-name {
+  font-weight: 600;
+  color: #666;
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.filter-tag {
+  display: inline-flex;
+  align-items: center;
+  background: #e6f7ff;
+  color: #1890ff;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: 1px solid #91d5ff;
+  transition: all 0.2s;
+}
+
+.filter-tag:hover {
+  background: #bae7ff;
+  border-color: #69c0ff;
+}
+
+.filter-tag-label {
+  margin-right: 4px;
+}
+
+.filter-tag-remove {
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 10px;
+  color: #ff4d4f;
+  transition: color 0.2s;
+}
+
+.filter-tag-remove:hover {
+  color: #ff7875;
+}
+
+/* Clear All Link */
+.clear-all-filters {
+  display: inline-block;
+  padding: 4px 0;
+  color: #1890ff;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.clear-all-filters:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .filter-item {
+    height: 44px;
+    line-height: 36px;
+  }
+  
+  .filter-panel-title {
+    font-size: 16px;
+  }
+  
+  .filter-actions .ant-btn-sm {
+    height: 32px;
+    font-size: 14px;
+  }
+  
+  .filter-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .filter-modal-content {
+    background: white;
+    width: 95%;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 8px;
+    padding: 16px;
+  }
+  
+  .filter-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .filter-modal-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .filter-modal-close {
+    font-size: 24px;
+    color: #999;
+    cursor: pointer;
+  }
+  
+  .filter-modal-footer {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .filter-modal-footer .ant-btn {
+    flex: 1;
+  }
+}
+
+/* Hierarchical Items */
+.filter-item-hierarchical {
+  position: relative;
+}
+
+.filter-item-hierarchical::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #e0e0e0;
+}
+
+.filter-item-expand {
+  margin-right: 4px;
+  cursor: pointer;
+  color: #999;
+}
+
+.filter-item-expand:hover {
+  color: #1890ff;
+}
+
+/* Pinned Facets Indicator */
+.filter-pinned-indicator {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #1890ff;
+  vertical-align: super;
+  margin-left: 4px;
+  font-size: 5px;
+}
