@@ -7,8 +7,9 @@ import React, { memo } from 'react';
 import { Button, Space, Dropdown } from 'antd';
 import type { MenuProps } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { ViewerType, ChartType } from '../../../types/toolbar.types';
-import { TOOLBAR_ICONS, TOOLBAR_LABELS, VIEWER_TYPES, CHART_TYPES } from '../../../constants/toolbar.constants';
+import { TOOLBAR_ICONS, VIEWER_TYPES, CHART_TYPES } from '../../../constants/toolbar.constants';
 
 interface ViewerSelectorProps {
   currentViewer: ViewerType;
@@ -27,6 +28,7 @@ export const ViewerSelector: React.FC<ViewerSelectorProps> = memo(({
   hasMicrodata = false,
   onViewerChange,
 }) => {
+  const intl = useIntl();
   // Chart icon mapping
   const getChartIcon = (chartType: ChartType) => {
     const iconMap: Record<ChartType, React.ReactNode> = {
@@ -60,7 +62,7 @@ export const ViewerSelector: React.FC<ViewerSelectorProps> = memo(({
         aria-pressed={currentViewer === VIEWER_TYPES.OVERVIEW}
         data-testid="viewer-overview"
       >
-        {TOOLBAR_LABELS.VIEWERS.OVERVIEW}
+        <FormattedMessage id="toolbar.viewer.overview" defaultMessage="Overview" />
       </Button>
 
       {/* Table Button */}
@@ -71,7 +73,7 @@ export const ViewerSelector: React.FC<ViewerSelectorProps> = memo(({
         aria-pressed={currentViewer === VIEWER_TYPES.TABLE}
         data-testid="viewer-table"
       >
-        {TOOLBAR_LABELS.VIEWERS.TABLE}
+        <FormattedMessage id="toolbar.viewer.table" defaultMessage="Table" />
       </Button>
 
       {/* Microdata Button (conditional) */}
@@ -83,7 +85,7 @@ export const ViewerSelector: React.FC<ViewerSelectorProps> = memo(({
           aria-pressed={currentViewer === VIEWER_TYPES.MICRODATA}
           data-testid="viewer-microdata"
         >
-          {TOOLBAR_LABELS.VIEWERS.MICRODATA}
+          <FormattedMessage id="toolbar.viewer.microdata" defaultMessage="Microdata" />
         </Button>
       )}
 
@@ -101,7 +103,7 @@ export const ViewerSelector: React.FC<ViewerSelectorProps> = memo(({
           >
             <Space>
               <TOOLBAR_ICONS.VIEWERS.LINE />
-              {TOOLBAR_LABELS.VIEWERS.CHARTS}
+              <FormattedMessage id="toolbar.viewer.chart" defaultMessage="Charts" />
               <DownOutlined />
             </Space>
           </Button>

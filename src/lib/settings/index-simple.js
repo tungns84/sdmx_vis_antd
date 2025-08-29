@@ -6,7 +6,7 @@ export const search = {
 
 export const i18n = {
   locale: window.CONFIG?.i18n?.locale || 'en',
-  locales: window.CONFIG?.i18n?.locales || ['en'],
+  locales: window.CONFIG?.i18n?.locales || ['en', 'vi'],
 };
 
 export const theme = {

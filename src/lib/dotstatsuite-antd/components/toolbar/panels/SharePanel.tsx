@@ -4,8 +4,8 @@
  */
 
 import React, { memo, useState, useCallback } from 'react';
-import { Card, Space, Button, Input, Typography, message, Tabs, QRCode } from 'antd';
-import { CopyOutlined, CloseOutlined, LinkOutlined, QrcodeOutlined, CodeOutlined } from '@ant-design/icons';
+import { Card, Space, Button, Input, Typography, notification, Tabs, QRCode } from 'antd';
+import { CopyOutlined, CloseOutlined, LinkOutlined, QrcodeOutlined, CodeOutlined, CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
 
 const { Title, Text, Paragraph } = Typography;
 const { TextArea } = Input;
@@ -39,8 +39,24 @@ export const SharePanel: React.FC<SharePanelProps> = memo(({
   // Copy to clipboard handler
   const handleCopy = useCallback((text: string, type: string) => {
     navigator.clipboard.writeText(text)
-      .then(() => message.success(`${type} copied to clipboard`))
-      .catch(() => message.error('Failed to copy'));
+      .then(() => {
+        notification.success({
+          message: 'Copied!',
+          description: `${type} copied to clipboard`,
+          placement: 'bottomRight',
+          duration: 2,
+          icon: <CheckCircleOutlined style={{ color: '#52c41a' }} />
+        });
+      })
+      .catch(() => {
+        notification.error({
+          message: 'Copy Failed',
+          description: 'Failed to copy to clipboard',
+          placement: 'bottomRight',
+          duration: 3,
+          icon: <CloseCircleOutlined style={{ color: '#ff4d4f' }} />
+        });
+      });
   }, []);
 
   const tabItems = [

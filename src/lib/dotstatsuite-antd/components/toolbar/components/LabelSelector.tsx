@@ -7,8 +7,9 @@ import React, { memo } from 'react';
 import { Dropdown, Button, Space } from 'antd';
 import type { MenuProps } from 'antd';
 import { CheckOutlined } from '@ant-design/icons';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { LabelSelectorProps, DisplayMode } from '../../../types/toolbar.types';
-import { TOOLBAR_ICONS, TOOLBAR_LABELS, DISPLAY_MODES } from '../../../constants/toolbar.constants';
+import { TOOLBAR_ICONS, DISPLAY_MODES } from '../../../constants/toolbar.constants';
 
 const TagsIcon = TOOLBAR_ICONS.ACTIONS.LABELS;
 
@@ -20,6 +21,7 @@ export const LabelSelector: React.FC<LabelSelectorProps> = memo(({
   mode,
   onChange,
 }) => {
+  const intl = useIntl();
   const items: MenuProps['items'] = [
     {
       key: DISPLAY_MODES.NAME,
@@ -27,7 +29,7 @@ export const LabelSelector: React.FC<LabelSelectorProps> = memo(({
       label: (
         <Space>
           <TOOLBAR_ICONS.DISPLAY.NAME />
-          {TOOLBAR_LABELS.DISPLAY_MODES.NAME}
+          <FormattedMessage id="toolbar.display.name" defaultMessage="Names" />
         </Space>
       ),
       onClick: () => onChange(DISPLAY_MODES.NAME as DisplayMode),
@@ -38,7 +40,7 @@ export const LabelSelector: React.FC<LabelSelectorProps> = memo(({
       label: (
         <Space>
           <TOOLBAR_ICONS.DISPLAY.ID />
-          {TOOLBAR_LABELS.DISPLAY_MODES.ID}
+          <FormattedMessage id="toolbar.display.id" defaultMessage="Codes" />
         </Space>
       ),
       onClick: () => onChange(DISPLAY_MODES.ID as DisplayMode),
@@ -49,7 +51,7 @@ export const LabelSelector: React.FC<LabelSelectorProps> = memo(({
       label: (
         <Space>
           <TOOLBAR_ICONS.DISPLAY.BOTH />
-          {TOOLBAR_LABELS.DISPLAY_MODES.BOTH}
+          <FormattedMessage id="toolbar.display.both" defaultMessage="Both" />
         </Space>
       ),
       onClick: () => onChange(DISPLAY_MODES.BOTH as DisplayMode),
@@ -64,10 +66,10 @@ export const LabelSelector: React.FC<LabelSelectorProps> = memo(({
     >
       <Button
         icon={<TagsIcon />}
-        aria-label="Select label display mode"
+        aria-label={intl.formatMessage({ id: 'toolbar.action.labels', defaultMessage: 'Select label display mode' })}
         data-testid="label-selector"
       >
-        {TOOLBAR_LABELS.ACTIONS.LABELS}
+        <FormattedMessage id="toolbar.action.labels" defaultMessage="Labels" />
       </Button>
     </Dropdown>
   );

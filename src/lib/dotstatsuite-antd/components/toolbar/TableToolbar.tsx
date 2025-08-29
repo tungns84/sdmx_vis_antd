@@ -5,6 +5,7 @@
 
 import React, { memo, useCallback } from 'react';
 import { Space, Divider } from 'antd';
+import { useIntl, FormattedMessage } from 'react-intl';
 import {
   SettingOutlined,
   ShareAltOutlined,
@@ -13,7 +14,7 @@ import {
   FilterOutlined,
 } from '@ant-design/icons';
 import { ToolbarProps } from '../../types/toolbar.types';
-import { TOOLBAR_LABELS, TOOLBAR_STYLES } from '../../constants/toolbar.constants';
+import { TOOLBAR_STYLES } from '../../constants/toolbar.constants';
 import { useToolbar, useToolbarShortcuts } from '../../hooks/useToolbar';
 import {
   ViewerSelector,
@@ -46,6 +47,7 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
   className = '',
   features = {},
 }) => {
+  const intl = useIntl();
   // Default features
   const {
     showOverview = true,
@@ -121,8 +123,8 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
         {showFilters && onFilterToggle && (
           <ToolbarButton
             icon={<FilterOutlined />}
-            label="Filters"
-            tooltip={`${filtersVisible ? 'Hide' : 'Show'} filters`}
+            label={intl.formatMessage({ id: 'toolbar.action.filter', defaultMessage: 'Filter' })}
+            tooltip={intl.formatMessage({ id: 'toolbar.action.filter', defaultMessage: 'Filter' })}
             selected={filtersVisible}
             onClick={onFilterToggle}
             aria-expanded={filtersVisible}
@@ -134,8 +136,8 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
         {showCustomize && (
           <ToolbarButton
             icon={isTableView ? <SwapOutlined /> : <SettingOutlined />}
-            label={isTableView ? TOOLBAR_LABELS.ACTIONS.LAYOUT : TOOLBAR_LABELS.ACTIONS.CUSTOMIZE}
-            tooltip={`${isTableView ? 'Change table layout' : 'Customize view'} (Ctrl+K)`}
+            label={intl.formatMessage({ id: 'toolbar.action.config', defaultMessage: 'Configure' })}
+            tooltip={intl.formatMessage({ id: 'toolbar.action.config', defaultMessage: 'Configure' })}
             selected={actionId === 'config'}
             onClick={() => onActionChange('config')}
             aria-expanded={actionId === 'config'}
@@ -147,8 +149,8 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
         {showShare && (
           <ToolbarButton
             icon={<ShareAltOutlined />}
-            label={TOOLBAR_LABELS.ACTIONS.SHARE}
-            tooltip="Share this view (Ctrl+S)"
+            label={intl.formatMessage({ id: 'toolbar.action.share', defaultMessage: 'Share' })}
+            tooltip={intl.formatMessage({ id: 'toolbar.action.share', defaultMessage: 'Share' })}
             selected={actionId === 'share'}
             onClick={() => onActionChange('share')}
             aria-expanded={actionId === 'share'}
@@ -169,8 +171,8 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
         {showApi && (
           <ToolbarButton
             icon={<ApiOutlined />}
-            label={TOOLBAR_LABELS.ACTIONS.API}
-            tooltip="View API queries (Ctrl+A)"
+            label={intl.formatMessage({ id: 'toolbar.action.api', defaultMessage: 'API' })}
+            tooltip={intl.formatMessage({ id: 'toolbar.action.api', defaultMessage: 'API' })}
             selected={actionId === 'api'}
             onClick={() => onActionChange('api')}
             aria-expanded={actionId === 'api'}
@@ -188,11 +190,8 @@ const TableToolbar: React.FC<ToolbarProps> = memo(({
               <TOOLBAR_ICONS.ACTIONS.FULLSCREEN_EXIT /> : 
               <TOOLBAR_ICONS.ACTIONS.FULLSCREEN />
             }
-            label={isFullscreen ? 
-              TOOLBAR_LABELS.ACTIONS.EXIT_FULLSCREEN : 
-              TOOLBAR_LABELS.ACTIONS.FULLSCREEN
-            }
-            tooltip="Toggle fullscreen (F11)"
+            label={intl.formatMessage({ id: 'toolbar.action.fullscreen', defaultMessage: 'Fullscreen' })}
+            tooltip={intl.formatMessage({ id: 'toolbar.action.fullscreen', defaultMessage: 'Fullscreen' })}
             selected={isFullscreen}
             onClick={onFullscreenToggle}
             aria-pressed={isFullscreen}

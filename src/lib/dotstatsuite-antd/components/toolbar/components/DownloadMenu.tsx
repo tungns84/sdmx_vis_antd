@@ -4,17 +4,19 @@
  */
 
 import React, { memo, useState } from 'react';
-import { Dropdown, Button, Spin, message } from 'antd';
+import { Dropdown, Button, Spin, notification } from 'antd';
 import type { MenuProps } from 'antd';
-import { DownloadOutlined, LoadingOutlined } from '@ant-design/icons';
+import { DownloadOutlined, LoadingOutlined, CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { ViewerType } from '../../../types/toolbar.types';
-import { TOOLBAR_ICONS, TOOLBAR_LABELS, VIEWER_TYPES, DOWNLOAD_FORMATS } from '../../../constants/toolbar.constants';
+import { TOOLBAR_ICONS, VIEWER_TYPES, DOWNLOAD_FORMATS } from '../../../constants/toolbar.constants';
 import { useDownloadOptions } from '../../../hooks/useToolbar';
 
 interface DownloadMenuProps {
-  viewerType: ViewerType;
+  viewerType?: ViewerType;
   isLoading?: boolean;
-  onDownload: (format: string) => Promise<void>;
+  onDownload: (format: string) => Promise<void> | void;
+  disabled?: boolean;
 }
 
 /**
@@ -22,19 +24,33 @@ interface DownloadMenuProps {
  * Provides download options based on the current viewer type
  */
 export const DownloadMenu: React.FC<DownloadMenuProps> = memo(({
-  viewerType,
+  viewerType = VIEWER_TYPES.TABLE,
   isLoading = false,
   onDownload,
+  disabled = false,
 }) => {
+  const intl = useIntl();
   const [downloading, setDownloading] = useState(false);
 
   const handleDownload = async (format: string) => {
     setDownloading(true);
     try {
       await onDownload(format);
-      message.success(`Successfully downloaded ${format.toUpperCase()} file`);
+      notification.success({
+        message: intl.formatMessage({ id: 'message.success', defaultMessage: 'Success' }),
+        description: intl.formatMessage({ id: 'message.downloadStarted', defaultMessage: 'Download started' }),
+        placement: 'bottomRight',
+        duration: 3,
+        icon: <CheckCircleOutlined style={{ color: '#52c41a' }} />
+      });
     } catch (error) {
-      message.error(`Failed to download: ${error}`);
+      notification.error({
+        message: intl.formatMessage({ id: 'message.error', defaultMessage: 'Error' }),
+        description: intl.formatMessage({ id: 'message.downloadFailed', defaultMessage: 'Download failed. Please try again.' }),
+        placement: 'bottomRight',
+        duration: 4,
+        icon: <CloseCircleOutlined style={{ color: '#ff4d4f' }} />
+      });
     } finally {
       setDownloading(false);
     }
@@ -50,33 +66,33 @@ export const DownloadMenu: React.FC<DownloadMenuProps> = memo(({
         {
           key: 'excel-selection',
           icon: <TOOLBAR_ICONS.FORMATS.EXCEL />,
-          label: TOOLBAR_LABELS.DOWNLOADS.EXCEL_SELECTION,
+          label: intl.formatMessage({ id: 'download.excel.selection', defaultMessage: 'Excel (Selection)' }),
           onClick: () => handleDownload(DOWNLOAD_FORMATS.EXCEL),
         },
         {
           key: 'excel-all',
           icon: <TOOLBAR_ICONS.FORMATS.EXCEL />,
-          label: TOOLBAR_LABELS.DOWNLOADS.EXCEL_ALL,
+          label: intl.formatMessage({ id: 'download.excel.all', defaultMessage: 'Excel (All Data)' }),
           onClick: () => handleDownload(`${DOWNLOAD_FORMATS.EXCEL}-all`),
         },
         { type: 'divider' },
         {
           key: 'csv-selection',
           icon: <TOOLBAR_ICONS.FORMATS.CSV />,
-          label: TOOLBAR_LABELS.DOWNLOADS.CSV_SELECTION,
+          label: intl.formatMessage({ id: 'download.csv.selection', defaultMessage: 'CSV (Selection)' }),
           onClick: () => handleDownload(DOWNLOAD_FORMATS.CSV),
         },
         {
           key: 'csv-all',
           icon: <TOOLBAR_ICONS.FORMATS.CSV />,
-          label: TOOLBAR_LABELS.DOWNLOADS.CSV_ALL,
+          label: intl.formatMessage({ id: 'download.csv.all', defaultMessage: 'CSV (All Data)' }),
           onClick: () => handleDownload(`${DOWNLOAD_FORMATS.CSV}-all`),
         },
         { type: 'divider' },
         {
           key: 'json',
           icon: <TOOLBAR_ICONS.FORMATS.JSON />,
-          label: TOOLBAR_LABELS.DOWNLOADS.JSON,
+          label: intl.formatMessage({ id: 'download.json', defaultMessage: 'JSON' }),
           onClick: () => handleDownload(DOWNLOAD_FORMATS.JSON),
         },
       );
@@ -88,20 +104,20 @@ export const DownloadMenu: React.FC<DownloadMenuProps> = memo(({
         {
           key: 'png',
           icon: <TOOLBAR_ICONS.FORMATS.PNG />,
-          label: TOOLBAR_LABELS.DOWNLOADS.PNG,
+          label: intl.formatMessage({ id: 'download.png', defaultMessage: 'Image (PNG)' }),
           onClick: () => handleDownload(DOWNLOAD_FORMATS.PNG),
         },
         {
           key: 'svg',
           icon: <TOOLBAR_ICONS.FORMATS.PNG />,
-          label: TOOLBAR_LABELS.DOWNLOADS.SVG,
+          label: intl.formatMessage({ id: 'download.svg', defaultMessage: 'Image (SVG)' }),
           onClick: () => handleDownload(DOWNLOAD_FORMATS.SVG),
         },
         { type: 'divider' },
         {
           key: 'pdf',
           icon: <TOOLBAR_ICONS.FORMATS.PDF />,
-          label: 'PDF Document',
+          label: intl.formatMessage({ id: 'download.pdf', defaultMessage: 'PDF Document' }),
           onClick: () => handleDownload('pdf'),
         },
       );
@@ -113,7 +129,7 @@ export const DownloadMenu: React.FC<DownloadMenuProps> = memo(({
         {
           key: 'pdf-report',
           icon: <TOOLBAR_ICONS.FORMATS.PDF />,
-          label: 'PDF Report',
+          label: intl.formatMessage({ id: 'download.pdf.report', defaultMessage: 'PDF Report' }),
           onClick: () => handleDownload('pdf-report'),
         },
       );
@@ -134,10 +150,11 @@ export const DownloadMenu: React.FC<DownloadMenuProps> = memo(({
       <Button
         icon={loading ? <LoadingOutlined /> : <DownloadOutlined />}
         loading={loading}
-        aria-label="Download options"
+        disabled={disabled}
+        aria-label={intl.formatMessage({ id: 'toolbar.action.download', defaultMessage: 'Download' })}
         data-testid="download-menu"
       >
-        {TOOLBAR_LABELS.ACTIONS.DOWNLOAD}
+        <FormattedMessage id="toolbar.action.download" defaultMessage="Download" />
       </Button>
     </Dropdown>
   );

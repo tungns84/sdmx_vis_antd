@@ -4,8 +4,8 @@
  */
 
 import React, { memo, useState } from 'react';
-import { Card, Space, Button, Typography, message, Tabs, Input, Select, Tag } from 'antd';
-import { CopyOutlined, CloseOutlined, ApiOutlined, CodeOutlined } from '@ant-design/icons';
+import { Card, Space, Button, Typography, notification, Tabs, Input, Select, Tag } from 'antd';
+import { CopyOutlined, CloseOutlined, ApiOutlined, CodeOutlined, CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
 
 const { Title, Text, Paragraph } = Typography;
 const { TextArea } = Input;
@@ -43,8 +43,24 @@ export const ApiPanel: React.FC<ApiPanelProps> = memo(({
   // Copy to clipboard handler
   const handleCopy = (text: string) => {
     navigator.clipboard.writeText(text)
-      .then(() => message.success('Copied to clipboard'))
-      .catch(() => message.error('Failed to copy'));
+      .then(() => {
+        notification.success({
+          message: 'Copied!',
+          description: 'API query copied to clipboard',
+          placement: 'bottomRight',
+          duration: 2,
+          icon: <CheckCircleOutlined style={{ color: '#52c41a' }} />
+        });
+      })
+      .catch(() => {
+        notification.error({
+          message: 'Copy Failed',
+          description: 'Failed to copy to clipboard',
+          placement: 'bottomRight',
+          duration: 3,
+          icon: <CloseCircleOutlined style={{ color: '#ff4d4f' }} />
+        });
+      });
   };
 
   // Example code snippets

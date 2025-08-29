@@ -4,8 +4,9 @@
  */
 
 import React, { useState, useCallback, useMemo, memo } from 'react';
-import { Modal, Button, Badge, message, Row, Col, Statistic } from 'antd';
-import { FilterOutlined, ClearOutlined } from '@ant-design/icons';
+import { Modal, Button, Badge, notification, Row, Col, Statistic } from 'antd';
+import { FilterOutlined, ClearOutlined, CheckCircleOutlined, InfoCircleOutlined } from '@ant-design/icons';
+import { useIntl, FormattedMessage } from 'react-intl';
 import FilterPanel from './FilterPanel';
 import UsedFilters from './UsedFilters';
 import type { SDMXDimension as Dimension, SDMXObservation as Observation } from '../../types';
@@ -67,6 +68,7 @@ export const FilterModal: React.FC<FilterModalProps> = memo(({
   onClose,
   layoutDimensions = []
 }) => {
+  const intl = useIntl();
   const [visible, setVisible] = useState(true);
   const [tempFilters, setTempFilters] = useState(activeFilters);
   
@@ -160,13 +162,25 @@ export const FilterModal: React.FC<FilterModalProps> = memo(({
     onFiltersChange(tempFilters);
     const activeCount = Object.values(tempFilters).filter(v => v.length > 0).length;
     if (activeCount > 0) {
-      message.success(`Applied ${activeCount} filter${activeCount > 1 ? 's' : ''}`);
+      notification.success({
+        message: intl.formatMessage({ id: 'message.success', defaultMessage: 'Success' }),
+        description: intl.formatMessage({ id: 'message.filtersApplied', defaultMessage: 'Filters applied' }),
+        placement: 'bottomRight',
+        duration: 3,
+        icon: <CheckCircleOutlined style={{ color: '#52c41a' }} />
+      });
     } else {
-      message.info('All filters cleared');
+      notification.info({
+        message: intl.formatMessage({ id: 'filter.clearAll', defaultMessage: 'Clear All' }),
+        description: intl.formatMessage({ id: 'filter.cleared', defaultMessage: 'All filters have been cleared' }),
+        placement: 'bottomRight',
+        duration: 3,
+        icon: <InfoCircleOutlined style={{ color: '#1890ff' }} />
+      });
     }
     setVisible(false);
     onClose();
-  }, [tempFilters, onFiltersChange, onClose]);
+  }, [tempFilters, onFiltersChange, onClose, intl]);
 
   // Cancel changes
   const handleCancel = useCallback(() => {
@@ -177,8 +191,14 @@ export const FilterModal: React.FC<FilterModalProps> = memo(({
   // Reset filters to original
   const handleReset = useCallback(() => {
     setTempFilters(activeFilters);
-    message.info('Filters reset to original state');
-  }, [activeFilters]);
+    notification.info({
+      message: intl.formatMessage({ id: 'filter.reset', defaultMessage: 'Reset' }),
+      description: intl.formatMessage({ id: 'filter.resetMessage', defaultMessage: 'Filters reset to original state' }),
+      placement: 'bottomRight',
+      duration: 2,
+      icon: <InfoCircleOutlined style={{ color: '#1890ff' }} />
+    });
+  }, [activeFilters, intl]);
 
   // Count total active filters
   const totalFilterCount = Object.values(tempFilters)
@@ -189,7 +209,7 @@ export const FilterModal: React.FC<FilterModalProps> = memo(({
       title={
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <FilterOutlined />
-          <span>Filters</span>
+          <FormattedMessage id="filter.title" defaultMessage="Filters" />
           {totalFilterCount > 0 && (
             <Badge count={totalFilterCount} style={{ marginLeft: 8 }} />
           )}
@@ -203,16 +223,16 @@ export const FilterModal: React.FC<FilterModalProps> = memo(({
       bodyStyle={{ maxHeight: 'calc(100vh - 200px)', overflowY: 'auto' }}
       footer={[
         <Button key="clear" icon={<ClearOutlined />} onClick={clearAllFilters}>
-          Clear All
+          <FormattedMessage id="filter.clearAll" defaultMessage="Clear All" />
         </Button>,
         <Button key="reset" onClick={handleReset}>
-          Reset
+          <FormattedMessage id="filter.reset" defaultMessage="Reset" />
         </Button>,
         <Button key="cancel" onClick={handleCancel}>
-          Cancel
+          <FormattedMessage id="filter.cancel" defaultMessage="Cancel" />
         </Button>,
         <Button key="apply" type="primary" onClick={handleApply}>
-          Apply Filters
+          <FormattedMessage id="filter.apply" defaultMessage="Apply" />
         </Button>,
       ]}
     >

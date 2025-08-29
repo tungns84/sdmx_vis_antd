@@ -4,7 +4,9 @@
  */
 
 import React, { memo, useState, useCallback } from 'react';
-import { message, Modal } from 'antd';
+import { notification, Modal } from 'antd';
+import { CheckCircleOutlined } from '@ant-design/icons';
+import { useIntl } from 'react-intl';
 import { TableLayoutSimple } from '../../layout/TableLayoutSimple';
 import { TablePreview } from '../../table/TablePreview';
 import { TableLayout } from '../../../types';
@@ -27,6 +29,7 @@ export const LayoutPanel: React.FC<LayoutPanelProps> = memo(({
   onLayoutChange,
   onClose,
 }) => {
+  const intl = useIntl();
   const [tempLayout, setTempLayout] = useState<TableLayout>(currentLayout);
   const [visible, setVisible] = useState(true);
 
@@ -46,10 +49,16 @@ export const LayoutPanel: React.FC<LayoutPanelProps> = memo(({
   // Apply changes
   const handleApply = useCallback(() => {
     onLayoutChange(tempLayout);
-    message.success('Layout updated successfully');
+    notification.success({
+      message: intl.formatMessage({ id: 'message.success', defaultMessage: 'Success' }),
+      description: intl.formatMessage({ id: 'message.layoutUpdated', defaultMessage: 'Layout updated' }),
+      placement: 'bottomRight',
+      duration: 3,
+      icon: <CheckCircleOutlined style={{ color: '#52c41a' }} />
+    });
     setVisible(false);
     onClose();
-  }, [tempLayout, onLayoutChange, onClose]);
+  }, [tempLayout, onLayoutChange, onClose, intl]);
 
   // Cancel changes
   const handleCancel = useCallback(() => {
@@ -69,7 +78,7 @@ export const LayoutPanel: React.FC<LayoutPanelProps> = memo(({
 
   return (
     <Modal
-      title="Table Layout Configuration"
+      title={intl.formatMessage({ id: 'layout.title', defaultMessage: 'Table Layout' })}
       open={visible}
       onCancel={handleCancel}
       footer={null}

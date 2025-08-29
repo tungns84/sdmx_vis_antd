@@ -4,8 +4,9 @@
  */
 
 import React, { useState, useCallback, useEffect, useMemo } from 'react';
-import { message, Spin, Alert, Row, Col, Card, Statistic, Space } from 'antd';
-import { GlobalOutlined } from '@ant-design/icons';
+import { notification, Spin, Alert, Row, Col, Card, Statistic, Space } from 'antd';
+import { GlobalOutlined, CheckCircleOutlined, CloseCircleOutlined, InfoCircleOutlined } from '@ant-design/icons';
+import { IntlProvider } from 'react-intl';
 import SDMXTableAutoFreeze from '../lib/dotstatsuite-antd/components/table/SDMXTableAutoFreeze';
 import { SDMXData, TableLayout } from '../lib/dotstatsuite-antd/types';
 import TableToolbar from '../lib/dotstatsuite-antd/components/toolbar/TableToolbar';
@@ -15,7 +16,10 @@ import { filterObservations } from '../lib/dotstatsuite-antd/components/filters'
 import { getDefaultLayout } from '../lib/dotstatsuite-antd/utils/sdmx-json-parser';
 import { parseSDMX, SDMXVersion } from '../lib/dotstatsuite-antd/utils/sdmx-parser-factory';
 import LanguageSelector from '../lib/dotstatsuite-antd/components/LanguageSelector';
+import { messages } from '../lib/dotstatsuite-antd/i18n/messages';
 import sampleData from '../../sampleData.json';
+
+type LocaleType = 'en' | 'vi' | 'fr';
 
 const CleanDemo: React.FC = () => {
   const [data, setData] = useState<SDMXData | null>(null);
@@ -30,7 +34,16 @@ const CleanDemo: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [activeFilters, setActiveFilters] = useState<Record<string, string[]>>({});
-  const [locale, setLocale] = useState<string>('en');
+  const [locale, setLocale] = useState<LocaleType>('en');
+
+  // Configure notification globally for consistency
+  React.useEffect(() => {
+    notification.config({
+      placement: 'bottomRight',
+      duration: 3,
+      maxCount: 3,
+    });
+  }, []);
 
   // Load and parse SDMX data
   useEffect(() => {
@@ -55,19 +68,34 @@ const CleanDemo: React.FC = () => {
       console.log('Default layout:', defaultLayout);
       setLayout(defaultLayout);
       
-      message.success(`SDMX data loaded successfully (${locale})`);
+      notification.success({
+        message: 'Data Loaded',
+        description: `SDMX data loaded successfully (${locale.toUpperCase()})`,
+        placement: 'bottomRight',
+        icon: <CheckCircleOutlined style={{ color: '#52c41a' }} />
+      });
       setLoading(false);
     } catch (err) {
       console.error('Error parsing SDMX data:', err);
       setError(err instanceof Error ? err.message : 'Failed to parse SDMX data');
       setLoading(false);
-      message.error('Failed to load SDMX data');
+      notification.error({
+        message: 'Load Failed',
+        description: 'Failed to load SDMX data',
+        placement: 'bottomRight',
+        icon: <CloseCircleOutlined style={{ color: '#ff4d4f' }} />
+      });
     }
   }, [locale]); // Re-parse when locale changes
 
   const handleLayoutChange = useCallback((newLayout: TableLayout) => {
     setLayout(newLayout);
-    message.success('Layout updated');
+    notification.success({
+      message: 'Layout Updated',
+      description: 'Table layout has been updated successfully',
+      placement: 'bottomRight',
+      duration: 3
+    });
   }, []);
 
   // Filter data based on active filters
@@ -98,10 +126,14 @@ const CleanDemo: React.FC = () => {
     };
   }, [data, filteredData, activeFilters]);
 
+  // Get current messages based on locale
+  const currentMessages = messages[locale] || messages.en;
+
   return (
-    <div style={{ minHeight: '100vh', background: '#f5f5f5' }}>
-      {/* Toolbar with Language Selector */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: '#fff', borderBottom: '1px solid #e0e0e0' }}>
+    <IntlProvider locale={locale} messages={currentMessages} key={locale}>
+      <div style={{ minHeight: '100vh', background: '#f5f5f5' }}>
+        {/* Toolbar with Language Selector */}
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: '#fff', borderBottom: '1px solid #e0e0e0' }}>
         <TableToolbar
           viewerId={activeView as any}
           availableCharts={['line', 'bar', 'column']}
@@ -116,7 +148,13 @@ const CleanDemo: React.FC = () => {
           onDisplayModeChange={setDisplayMode}
           onActionChange={setActionId}
           onFullscreenToggle={() => {
-            message.info('Fullscreen coming soon');
+            notification.info({
+              message: 'Coming Soon',
+              description: 'Fullscreen mode will be available soon',
+              placement: 'bottomRight',
+              duration: 2,
+              icon: <InfoCircleOutlined style={{ color: '#1890ff' }} />
+            });
           }}
           onFilterToggle={() => {
             setActionId(actionId === 'filter' ? null : 'filter');
@@ -133,9 +171,20 @@ const CleanDemo: React.FC = () => {
             <LanguageSelector
               value={locale}
               onChange={(newLocale) => {
-                setLocale(newLocale);
-                message.info(`Switching to ${newLocale.toUpperCase()}`);
+                setLocale(newLocale as LocaleType);
+                notification.info({
+                  message: 'Language Changed',
+                  description: `Switching to ${newLocale.toUpperCase()}`,
+                  placement: 'bottomRight',
+                  duration: 2,
+                  icon: <GlobalOutlined style={{ color: '#1890ff' }} />
+                });
               }}
+              languages={[
+                { code: 'en', name: 'English', flag: '🇬🇧' },
+                { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
+                { code: 'fr', name: 'Français', flag: '🇫🇷' }
+              ]}
               showFlag={true}
               style={{ minWidth: 120 }}
             />
@@ -236,8 +285,9 @@ const CleanDemo: React.FC = () => {
               showIcon
             />
           )}
+        </div>
       </div>
-    </div>
+    </IntlProvider>
   );
 };
 

@@ -112,6 +112,19 @@ const run = async () => {
   // Use 'en' as default locale if not specified
   const finalLocale = locale || 'en';
   initializeI18n(i18n, finalLocale);
+  
+  // Load locale messages dynamically
+  let localeMessages = {};
+  try {
+    if (finalLocale === 'vi') {
+      localeMessages = await import('./i18n/vi.json');
+    } else {
+      localeMessages = await import('./i18n/en.json');
+    }
+  } catch (err) {
+    console.warn(`Failed to load messages for locale ${finalLocale}, using default`, err);
+    localeMessages = window.I18N || {};
+  }
 
   const container = document.getElementById('root');
   const root = createRoot(container);
@@ -132,7 +145,7 @@ const run = async () => {
             {/* OidcProvider disabled */}
               <StyledEngineProvider injectFirst>
                 <ThemeProvider theme={theme}>
-                  <I18nProvider messages={window.I18N || {}} locale={finalLocale}>
+                  <I18nProvider messages={localeMessages.default || localeMessages || window.I18N || {}} locale={finalLocale}>
                     <ErrorBoundary>
                       <Helmet />
                       {/* MUI CssBaseline removed; AntD reset is imported globally */}

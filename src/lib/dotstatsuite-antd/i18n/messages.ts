@@ -6,9 +6,12 @@ export interface TableMessages {
   // Toolbar
   'toolbar.viewer.table': string;
   'toolbar.viewer.chart': string;
+  'toolbar.viewer.overview': string;
+  'toolbar.viewer.microdata': string;
   'toolbar.display.id': string;
   'toolbar.display.name': string;
   'toolbar.display.both': string;
+  'toolbar.action.labels': string;
   'toolbar.action.config': string;
   'toolbar.action.share': string;
   'toolbar.action.api': string;
@@ -71,10 +74,24 @@ export interface TableMessages {
   'message.layoutUpdated': string;
   'message.filtersApplied': string;
   'message.downloadStarted': string;
+  'message.downloadFailed': string;
   'message.error': string;
   'message.success': string;
   'message.loading': string;
   'message.switchingLanguage': string;
+  'filter.cleared': string;
+  'filter.resetMessage': string;
+  
+  // Download Options
+  'download.excel.selection': string;
+  'download.excel.all': string;
+  'download.csv.selection': string;
+  'download.csv.all': string;
+  'download.json': string;
+  'download.png': string;
+  'download.svg': string;
+  'download.pdf': string;
+  'download.pdf.report': string;
 }
 
 // English messages
@@ -82,9 +99,12 @@ export const enMessages: TableMessages = {
   // Toolbar
   'toolbar.viewer.table': 'Table',
   'toolbar.viewer.chart': 'Chart',
+  'toolbar.viewer.overview': 'Overview',
+  'toolbar.viewer.microdata': 'Microdata',
   'toolbar.display.id': 'ID',
   'toolbar.display.name': 'Name',
   'toolbar.display.both': 'Both',
+  'toolbar.action.labels': 'Labels',
   'toolbar.action.config': 'Configure',
   'toolbar.action.share': 'Share',
   'toolbar.action.api': 'API',
@@ -147,10 +167,24 @@ export const enMessages: TableMessages = {
   'message.layoutUpdated': 'Layout updated',
   'message.filtersApplied': 'Filters applied',
   'message.downloadStarted': 'Download started',
+  'message.downloadFailed': 'Download failed. Please try again.',
   'message.error': 'An error occurred',
   'message.success': 'Operation successful',
   'message.loading': 'Loading...',
   'message.switchingLanguage': 'Switching language...',
+  'filter.cleared': 'All filters have been cleared',
+  'filter.resetMessage': 'Filters reset to original state',
+  
+  // Download Options
+  'download.excel.selection': 'Excel (Selection)',
+  'download.excel.all': 'Excel (All Data)',
+  'download.csv.selection': 'CSV (Selection)',
+  'download.csv.all': 'CSV (All Data)',
+  'download.json': 'JSON',
+  'download.png': 'Image (PNG)',
+  'download.svg': 'Image (SVG)',
+  'download.pdf': 'PDF Document',
+  'download.pdf.report': 'PDF Report',
 };
 
 // Vietnamese messages
@@ -158,9 +192,12 @@ export const viMessages: TableMessages = {
   // Toolbar
   'toolbar.viewer.table': 'Bảng',
   'toolbar.viewer.chart': 'Biểu đồ',
+  'toolbar.viewer.overview': 'Tổng quan',
+  'toolbar.viewer.microdata': 'Dữ liệu chi tiết',
   'toolbar.display.id': 'Mã',
   'toolbar.display.name': 'Tên',
   'toolbar.display.both': 'Cả hai',
+  'toolbar.action.labels': 'Nhãn',
   'toolbar.action.config': 'Cấu hình',
   'toolbar.action.share': 'Chia sẻ',
   'toolbar.action.api': 'API',
@@ -223,10 +260,24 @@ export const viMessages: TableMessages = {
   'message.layoutUpdated': 'Đã cập nhật bố cục',
   'message.filtersApplied': 'Đã áp dụng bộ lọc',
   'message.downloadStarted': 'Đã bắt đầu tải xuống',
+  'message.downloadFailed': 'Tải xuống thất bại. Vui lòng thử lại.',
   'message.error': 'Đã xảy ra lỗi',
   'message.success': 'Thành công',
   'message.loading': 'Đang tải...',
   'message.switchingLanguage': 'Đang chuyển ngôn ngữ...',
+  'filter.cleared': 'Đã xóa tất cả bộ lọc',
+  'filter.resetMessage': 'Đã đặt lại bộ lọc về trạng thái ban đầu',
+  
+  // Download Options
+  'download.excel.selection': 'Excel (Phần chọn)',
+  'download.excel.all': 'Excel (Toàn bộ dữ liệu)',
+  'download.csv.selection': 'CSV (Phần chọn)',
+  'download.csv.all': 'CSV (Toàn bộ dữ liệu)',
+  'download.json': 'JSON',
+  'download.png': 'Hình ảnh (PNG)',
+  'download.svg': 'Hình ảnh (SVG)',
+  'download.pdf': 'Tài liệu PDF',
+  'download.pdf.report': 'Báo cáo PDF',
 };
 
 // French messages
@@ -234,9 +285,12 @@ export const frMessages: TableMessages = {
   // Toolbar
   'toolbar.viewer.table': 'Tableau',
   'toolbar.viewer.chart': 'Graphique',
+  'toolbar.viewer.overview': 'Aperçu',
+  'toolbar.viewer.microdata': 'Microdonnées',
   'toolbar.display.id': 'ID',
   'toolbar.display.name': 'Nom',
   'toolbar.display.both': 'Les deux',
+  'toolbar.action.labels': 'Étiquettes',
   'toolbar.action.config': 'Configurer',
   'toolbar.action.share': 'Partager',
   'toolbar.action.api': 'API',
@@ -299,10 +353,24 @@ export const frMessages: TableMessages = {
   'message.layoutUpdated': 'Disposition mise à jour',
   'message.filtersApplied': 'Filtres appliqués',
   'message.downloadStarted': 'Téléchargement commencé',
+  'message.downloadFailed': 'Échec du téléchargement. Veuillez réessayer.',
   'message.error': 'Une erreur s\'est produite',
   'message.success': 'Opération réussie',
   'message.loading': 'Chargement...',
   'message.switchingLanguage': 'Changement de langue...',
+  'filter.cleared': 'Tous les filtres ont été effacés',
+  'filter.resetMessage': 'Filtres réinitialisés à l\'état d\'origine',
+  
+  // Download Options
+  'download.excel.selection': 'Excel (Sélection)',
+  'download.excel.all': 'Excel (Toutes les données)',
+  'download.csv.selection': 'CSV (Sélection)',
+  'download.csv.all': 'CSV (Toutes les données)',
+  'download.json': 'JSON',
+  'download.png': 'Image (PNG)',
+  'download.svg': 'Image (SVG)',
+  'download.pdf': 'Document PDF',
+  'download.pdf.report': 'Rapport PDF',
 };
 
 // Export all messages by locale
